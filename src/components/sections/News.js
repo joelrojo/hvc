@@ -19,7 +19,7 @@ class News extends React.Component {
     const {
       className,
       topOuterDivider,
-      bottomOuterDivider,      
+      bottomOuterDivider,
       topDivider,
       bottomDivider,
       hasBgColor,
@@ -49,8 +49,8 @@ class News extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'Product news and updates',
-      paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consequat.'
+      title: 'Latest news and updates',
+      paragraph: ''
     };
 
     return (
@@ -75,14 +75,14 @@ class News extends React.Component {
                   <div className="news-item-content">
                     <div className="news-item-body">
                       <h3 className="news-item-title h4 mt-0 mb-8">
-                        <a href="https://cruip.com">How to build anything</a>
+                        <a href="#">Blog post title</a>
                       </h3>
                       <p className="mb-16 text-sm">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
                       </p>
                     </div>
                     <div className="news-item-more text-xs mb-8">
-                      <a href="https://cruip.com">Read more</a>
+                      <a href="#">Read more</a>
                     </div>
                   </div>
                 </div>
@@ -100,14 +100,14 @@ class News extends React.Component {
                   <div className="news-item-content">
                     <div className="news-item-body">
                       <h3 className="news-item-title h4 mt-0 mb-8">
-                        <a href="https://cruip.com">How to build anything</a>
+                        <a href="#">Blog post title</a>
                       </h3>
                       <p className="mb-16 text-sm">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
                       </p>
                     </div>
                     <div className="news-item-more text-xs mb-8">
-                      <a href="https://cruip.com">Read more</a>
+                      <a href="#">Read more</a>
                     </div>
                   </div>
                 </div>
@@ -125,14 +125,14 @@ class News extends React.Component {
                   <div className="news-item-content">
                     <div className="news-item-body">
                       <h3 className="news-item-title h4 mt-0 mb-8">
-                        <a href="https://cruip.com">How to build anything</a>
+                        <a href="#">Blog post title</a>
                       </h3>
                       <p className="mb-16 text-sm">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
                       </p>
                     </div>
                     <div className="news-item-more text-xs mb-8">
-                      <a href="https://cruip.com">Read more</a>
+                      <a href="#">Read more</a>
                     </div>
                   </div>
                 </div>
