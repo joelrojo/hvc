@@ -121,17 +121,21 @@ class Header extends React.Component {
                         navPosition && `header-nav-${navPosition}`
                       )}>
                       <li>
-                        <Link to="/secondary/" onClick={this.closeMenu}>Secondary page</Link>
+                        <Link to="/" onClick={this.closeMenu}>Why We're Different</Link>
+                      </li>
+                      <li>
+                        <Link to="/" onClick={this.closeMenu}>Our Investors</Link>
+                      </li>
+                      <li>
+                        <Link to="/" onClick={this.closeMenu}>Companies</Link>
+                      </li>
+                      <li>
+                        <Link to="/" onClick={this.closeMenu}>Team</Link>
+                      </li>
+                      <li>
+                        <Link to="/" onClick={this.closeMenu}>News</Link>
                       </li>
                     </ul>
-                    {!hideSignin &&
-                      <ul
-                        className="list-reset header-nav-right"
-                      >
-                        <li>
-                          <Link to="/signup/" className="button button-primary button-wide-mobile button-sm" onClick={this.closeMenu}>Sign up</Link>
-                        </li>
-                      </ul>}
                   </div>
                 </nav>
               </React.Fragment>}
