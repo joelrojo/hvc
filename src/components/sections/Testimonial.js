@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
+import { AiOutlineLineChart, AiOutlineDeploymentUnit, AiOutlineUsergroupAdd, AiOutlineDollar } from 'react-icons/ai';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -65,6 +66,7 @@ class Testimonial extends React.Component {
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="400">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
+                    <AiOutlineLineChart />
                     <h4>We’re also operators.</h4>
                   </div>
                   <div className="testimonial-item-content">
@@ -78,6 +80,7 @@ class Testimonial extends React.Component {
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="600">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
+                    <AiOutlineDeploymentUnit />
                     <h4>We have the network.</h4>
                   </div>
                   <div className="testimonial-item-content">
@@ -91,6 +94,7 @@ class Testimonial extends React.Component {
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="800">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
+                    <AiOutlineUsergroupAdd />
                     <h4>We help build teams.</h4>
                   </div>
                   <div className="testimonial-item-content">
@@ -104,6 +108,7 @@ class Testimonial extends React.Component {
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="1000">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
+                    <AiOutlineDollar />
                     <h4>We help drive revenue.</h4>
                   </div>
                   <div className="testimonial-item-content">

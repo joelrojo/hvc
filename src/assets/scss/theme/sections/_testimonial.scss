@@ -21,6 +21,11 @@
 
 
 .testimonial-item-header {
+  svg {
+    color: get-color(primary, 1);
+    font-size: 44px;
+    margin-bottom: 13px;
+  }
   h4 {
     @include font-family(heading);
     margin: 5px 0;
