@@ -47,8 +47,8 @@ class Footer extends React.Component {
               <FooterSocial />
             </div>
             <div className="footer-bottom space-between text-xxs invert-order-desktop">
-              <FooterNav />
-              <div className="footer-copyright">&copy; 2020 Tidy, all rights reserved</div>
+              <small>Logos on this site include Health Velocity Capital investments, prior operating companies and investments from predecessor firms.</small>
+              <div className="footer-copyright">&copy; 2020 Health Velocity Capital.</div>
             </div>
           </div>
         </div>

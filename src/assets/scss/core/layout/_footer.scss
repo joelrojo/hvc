@@ -23,6 +23,11 @@
 
 .footer-bottom {
 	padding-top: $footer-inner--padding-v / 2;
+
+	small {
+		display: block;
+		font-size: 11px;
+	}
 }
 
 .footer-blocks {
