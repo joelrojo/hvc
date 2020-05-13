@@ -22,6 +22,7 @@
 // Testimonials illustration
 .illustration-section-02::after {
 	@include illustration('illustration-section-02.svg', 100%, 224px, top, null, 293px);
+	// @include illustration('illustration-section-01.svg', 100%, 104px, bottom, null, 212px);
 }
 
 // Behind hero image

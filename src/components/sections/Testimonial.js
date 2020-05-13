@@ -19,7 +19,7 @@ class Testimonial extends React.Component {
     const {
       className,
       topOuterDivider,
-      bottomOuterDivider,      
+      bottomOuterDivider,
       topDivider,
       bottomDivider,
       hasBgColor,
@@ -49,8 +49,8 @@ class Testimonial extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'Engage Your Visitors with a beautiful template',
-      paragraph: ''
+      title: <span>We’re on a mission to build<br />a better healthcare system</span>,
+      paragraph: <span>One that's more <strong>affordable</strong>, <strong>sustainable,</strong> and <strong>consumer-friendly</strong>.</span>
     };
 
     return (
@@ -60,89 +60,57 @@ class Testimonial extends React.Component {
       >
         <div className="container">
           <div className={innerClasses}>
-            <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color" />
+            <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color reveal-from-top" />
             <div className={tilesClasses}>
 
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
-                    <div className="testimonial-item-image">
-                      <Image
-                        src={require('./../../assets/images/testimonial-image-01.jpg')}
-                        alt="Testimonial 01"
-                        width={48}
-                        height={48} />
-                    </div>
+                    <h4>We’re also operators.</h4>
                   </div>
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat culpa qui officia deserunt mollit anim id est laborum.
+                      We’ve been building healthcare software and services for 25+ years.
                     </p>
-                  </div>
-                  <div className="testimonial-item-footer text-xs fw-500 mt-32 mb-0 has-top-divider">
-                    <span className="testimonial-item-name">
-                      Kendra Kinson
-                    </span>
-                    <span className="text-color-low"> / </span>
-                    <span className="testimonial-item-link fw-600">
-                      <a href="#0">AppName</a>
-                    </span>
                   </div>
                 </div>
               </div>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="200">
+              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
-                    <div className="testimonial-item-image">
-                      <Image
-                        src={require('./../../assets/images/testimonial-image-02.jpg')}
-                        alt="Testimonial 02"
-                        width={48}
-                        height={48} />
-                    </div>
+                    <h4>We have the network.</h4>
                   </div>
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat culpa qui officia deserunt mollit anim id est laborum.
+                      Our unique investors and friends represent the US healthcare system.
                     </p>
-                  </div>
-                  <div className="testimonial-item-footer text-xs fw-500 mt-32 mb-0 has-top-divider">
-                    <span className="testimonial-item-name">
-                      Emilia Jovic
-                    </span>
-                    <span className="text-color-low"> / </span>
-                    <span className="testimonial-item-link fw-600">
-                      <a href="#0">AppName</a>
-                    </span>
                   </div>
                 </div>
               </div>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="400">
+              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
-                    <div className="testimonial-item-image">
-                      <Image
-                        src={require('./../../assets/images/testimonial-image-03.jpg')}
-                        alt="Testimonial 03"
-                        width={48}
-                        height={48} />
-                    </div>
+                    <h4>We help build teams.</h4>
                   </div>
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat culpa qui officia deserunt mollit anim id est laborum.
+                      Over 50 executive introductions hired by our porftolio companies.
                     </p>
                   </div>
-                  <div className="testimonial-item-footer text-xs fw-500 mt-32 mb-0 has-top-divider">
-                    <span className="testimonial-item-name">
-                      Mark Walker
-                    </span>
-                    <span className="text-color-low"> / </span>
-                    <span className="testimonial-item-link fw-600">
-                      <a href="#0">AppName</a>
-                    </span>
+                </div>
+              </div>
+
+              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap">
+                <div className="tiles-item-inner has-shadow">
+                  <div className="testimonial-item-header mb-16">
+                    <h4>We help drive revenue.</h4>
+                  </div>
+                  <div className="testimonial-item-content">
+                    <p className="text-sm mb-0">
+                      Over 100 introductions that facilitated or helped maintain revenue.
+                    </p>
                   </div>
                 </div>
               </div>

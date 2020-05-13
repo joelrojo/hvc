@@ -1,23 +1,15 @@
 import React from 'react';
-import HeroSplit from '../components/sections/HeroSplit';
-import FeaturesTiles from '../components/sections/FeaturesTiles';
-import FeaturesTabs from '../components/sections/FeaturesTabs';
+import Testimonial from '../components/sections/Testimonial';
+import Clients from '../components/sections/Clients';
 import News from '../components/sections/News';
-import Roadmap from '../components/sections/Roadmap';
-import Pricing from '../components/sections/Pricing';
-import Cta from '../components/sections/Cta';
 
 const Home = () => {
 
   return (
     <>
-      <HeroSplit hasBgColor invertColor />
-      <FeaturesTiles />
-      <FeaturesTabs topDivider bottomOuterDivider />
+      <Testimonial className="has-bg-color-cut illustration-section-02" />
+      <Clients topDivider bottomDivider />
       <News className="illustration-section-01" />
-      <Roadmap topOuterDivider />
-      <Pricing hasBgColor pricingSlider />
-      <Cta hasBgColor invertColor split />
     </>
   );
 }

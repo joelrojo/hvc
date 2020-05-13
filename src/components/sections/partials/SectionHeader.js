@@ -31,7 +31,7 @@ class SectionHeader extends React.Component {
     const classes = classNames(
       'section-header',
       className
-    );    
+    );
 
     const Component = tag;
 
@@ -42,7 +42,7 @@ class SectionHeader extends React.Component {
             {...props}
             className={classes}
           >
-            <div className="container-xs">
+            <div className="container-sm">
               {children}
               {data.title &&
                 <Component className={

@@ -4,7 +4,7 @@
 		position: relative;
 		background-color: transparent;
         z-index: auto;
-        
+
 		&::before {
 			content: '';
 			width: 100%;
@@ -19,6 +19,13 @@
     }
 }
 
+
+.testimonial-item-header {
+  h4 {
+    @include font-family(heading);
+    margin: 5px 0;
+  }
+}
 
 .testimonial-item-image {
 
