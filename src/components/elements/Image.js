@@ -1,11 +1,8 @@
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 const propTypes = {
-  src: PropTypes.oneOfType([
-    PropTypes.object,
-    PropTypes.string
-  ]).isRequired,
+  src: PropTypes.string.isRequired,
   width: PropTypes.number,
   height: PropTypes.number,
   alt: PropTypes.string
@@ -18,31 +15,27 @@ const defaultProps = {
   alt: undefined
 }
 
-const Image = ({
-  className,
-  src,
-  width,
-  height,
-  alt,
-  ...props
-}) => {
+class Image extends React.Component {
 
-  const image = useRef(null);
+  state = {
+    isLoaded: false,
+  };
 
-  useEffect(() => {
+  image = React.createRef();
+
+  componentDidMount() {
     const placeholderImage = document.createElement('img');
-    handlePlaceholder(image.current, placeholderImage);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-  
-  const placeholderSrc = (w, h) => {
+    this.handlePlaceholder(this.image.current, placeholderImage);
+  }
+
+  placeholderSrc = (w, h) => {
     return `data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}"%3E%3C/svg%3E`;
   }
 
-  const handlePlaceholder = (img, placeholder) => {
+  handlePlaceholder = (img, placeholder) => {
     img.style.display = 'none';
     img.before(placeholder);
-    placeholder.src = placeholderSrc(
+    placeholder.src = this.placeholderSrc(
       img.getAttribute('width') || 0,
       img.getAttribute('height') || 0
     );
@@ -54,19 +47,34 @@ const Image = ({
     img.addEventListener('load', () => {
       placeholder.remove();
       img.style.display = '';
+      this.setState({
+        isLoaded: true
+      })
     });
-  }  
+  }
 
-  return (
-    <img
-      {...props}
-      ref={image}
-      className={className}
-      src={src}
-      width={width}
-      height={height}
-      alt={alt} />
-  );
+  render() {
+
+    const {
+      className,
+      src,
+      width,
+      height,
+      alt,
+      ...props
+    } = this.props;
+
+    return (
+      <img
+        {...props}
+        ref={this.image}
+        className={className}
+        src={src}
+        width={width}
+        height={height}
+        alt={alt} />
+    );
+  }
 }
 
 Image.propTypes = propTypes;

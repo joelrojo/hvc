@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from '../components/layout/Header';
-import Footer from '../components/layout/Footer';
+import Footer from '../components/layout/Footer02';
 
-const LayoutDefault = ({ children }) => (
+const LayoutAlternative = ({ children }) => (
   <React.Fragment>
     <Header className="invert-color" navPosition="right" />
     <main className="site-content">
@@ -12,4 +12,4 @@ const LayoutDefault = ({ children }) => (
   </React.Fragment>
 );
 
-export default LayoutDefault;
+export default LayoutAlternative;  

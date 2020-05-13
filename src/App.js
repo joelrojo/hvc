@@ -6,6 +6,7 @@ import ReactGA from 'react-ga';
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
+import LayoutAlternative from './layouts/LayoutAlternative';
 
 // Views
 import Home from './views/Home';
@@ -38,7 +39,7 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path='/' component={Home} layout={LayoutDefault} />
-          <AppRoute exact path='/companies' component={Companies} layout={LayoutDefault} />
+          <AppRoute exact path='/secondary' component={Companies} layout={LayoutAlternative} />
         </Switch>
       )} />
   );
