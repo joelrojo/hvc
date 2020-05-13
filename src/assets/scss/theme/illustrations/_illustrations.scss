@@ -14,12 +14,17 @@
 	z-index: -2;
 }
 
-// Hero illustration
+// News illustration
 .illustration-section-01::after {
-	@include illustration('illustration-section-01.svg', 100%, 286px, top);
+	@include illustration('illustration-section-01.svg', 100%, 104px, bottom, null, 212px);
 }
 
-// Features illustration 02
+// Testimonials illustration
 .illustration-section-02::after {
-	@include illustration('illustration-section-02.svg', 100%, 253px, null, null, 30px);
+	@include illustration('illustration-section-02.svg', 100%, 224px, top, null, 293px);
+}
+
+// Behind hero image
+.illustration-element-01::after {
+	@include illustration('illustration-element-01.svg', 200%, 200%);
 }
