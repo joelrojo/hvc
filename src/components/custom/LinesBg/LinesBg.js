@@ -4,7 +4,7 @@ import './LinesBg.scss';
 
 const LinesBg = () => {
   return (
-    <svg preserveAspectRatio="none" className="enable-background" version="1.1" id="home-anim" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1820 600">
+    <svg preserveAspectRatio="xMidYMid slice" className="enable-background" version="1.1" id="home-anim" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1820 600">
 
       <g id="home">
       	<defs>

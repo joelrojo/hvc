@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
+import LinesBg from '../custom/LinesBg/LinesBg';
 import { AiOutlineLineChart, AiOutlineDeploymentUnit, AiOutlineUsergroupAdd, AiOutlineDollar } from 'react-icons/ai';
 
 const propTypes = {
@@ -58,6 +59,7 @@ class Testimonial extends React.Component {
         {...props}
         className={outerClasses}
       >
+        <LinesBg />
         <div className="container">
           <div className={innerClasses}>
             <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color reveal-from-top" data-reveal-delay="600" />
