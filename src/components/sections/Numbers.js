@@ -55,56 +55,64 @@ class Numbers extends React.Component {
             <div className="numbersList">
               <div className="listItem">
                 <p>Insure more than</p>
-                <h2>
+                <p className="number">
                   <CountUp
+                    useEasing={false}
                     end={140}
                     suffix="M"
                   />
-                </h2>
+                </p>
                 <p>Americans</p>
               </div>
 
               <div className="listItem">
                 <p>Operate</p>
-                <h2>
+                <p className="number">
                   <CountUp
+                    useEasing={false}
                     end={500}
+                    suffix="+"
                   />
-                </h2>
+                </p>
                 <p>Hospitals</p>
               </div>
 
               <div className="listItem">
                 <p>Provide PMB services to</p>
-                <h2>
+                <p className="number">
                   <CountUp
+                    useEasing={false}
                     end={75}
                     suffix="%"
                   />
-                </h2>
+                </p>
                 <p>of the nation</p>
               </div>
 
               <div className="listItem">
                 <p>Employ</p>
-                <h2>
+                <p className="number">
                   <CountUp
+                    useEasing={false}
+                    decimals={1}
                     end={3.5}
                     suffix="M"
                   />
-                </h2>
+                </p>
                 <p>Americans</p>
               </div>
 
               <div className="listItem">
                 <p>Generate</p>
-                <h2>
+                <p className="number">
                   <CountUp
                     prefix="$"
+                    useEasing={false}
+                    decimals={1}
                     end={1.7}
                     suffix="T"
                   />
-                </h2>
+                </p>
                 <p>in revenue</p>
               </div>
 

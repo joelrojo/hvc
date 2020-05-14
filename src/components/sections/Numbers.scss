@@ -8,5 +8,30 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    .listItem {
+      width: 100%;
+      text-align: center;
+      p {
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: 600;
+        &.number {
+          font-size: 44px;
+          color: #e3e3e3;
+          font-weight: 800;
+          margin: 10px auto 15px;
+        }
+        &:last-child {
+          font-size: 17px;
+          font-weight: 600;
+        }
+      }
+
+      h2 {
+        margin: 0;
+      }
+    }
   }
 }
