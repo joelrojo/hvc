@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
+import Logo from './partials/Logo';
 import LogoInvert from './partials/LogoInvert';
 
 const propTypes = {
@@ -10,7 +11,9 @@ const propTypes = {
   hideNav: PropTypes.bool,
   hideSignin: PropTypes.bool,
   bottomOuterDivider: PropTypes.bool,
-  bottomDivider: PropTypes.bool
+  bottomDivider: PropTypes.bool,
+  fixed: PropTypes.bool,
+  showHeader: PropTypes.bool,
 }
 
 const defaultProps = {
@@ -19,7 +22,9 @@ const defaultProps = {
   hideNav: false,
   hideSignin: false,
   bottomOuterDivider: false,
-  bottomDivider: false
+  bottomDivider: false,
+  fixed: false,
+  showHeader: false,
 }
 
 class Header extends React.Component {
@@ -74,11 +79,13 @@ class Header extends React.Component {
       hideSignin,
       bottomOuterDivider,
       bottomDivider,
+      fixed,
+      showHeader,
       ...props
     } = this.props;
 
     const classes = classNames(
-      'site-header',
+      `site-header ${fixed ? "fixed": ""} ${showHeader ? "show" : ""}`,
       bottomOuterDivider && 'has-bottom-divider',
       className
     );
@@ -94,7 +101,10 @@ class Header extends React.Component {
               'site-header-inner',
               bottomDivider && 'has-bottom-divider'
             )}>
-            <LogoInvert />
+            {fixed
+              ? <Logo />
+              : <LogoInvert />
+            }
             {!hideNav &&
               <React.Fragment>
                 <button
