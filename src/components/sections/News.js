@@ -49,8 +49,8 @@ class News extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'Latest news and updates',
-      paragraph: ''
+      title: 'We love what we do',
+      paragraph: 'And we have fun along the way'
     };
 
     return (

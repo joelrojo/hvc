@@ -50,7 +50,7 @@ class Testimonial extends React.Component {
 
     const sectionHeader = {
       title: <span>We’re on a mission to build<br />a better healthcare system</span>,
-      paragraph: <span>One that's more <strong>affordable</strong>, <strong>sustainable,</strong> and <strong>consumer-friendly</strong>.</span>
+      paragraph: <span>Let's reimagine a more <strong>affordable</strong>, <strong>sustainable,</strong> and <strong>consumer-friendly</strong> future together</span>
     };
 
     return (
@@ -66,12 +66,12 @@ class Testimonial extends React.Component {
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="1000">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
-                    <AiOutlineLineChart />
-                    <h4>We’re also operators.</h4>
+                    <AiOutlineUsergroupAdd />
+                    <h4>We help build teams.</h4>
                   </div>
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      We’ve been building healthcare software and services for 25+ years.
+                      Over 50 executive introductions hired by our porftolio companies.
                     </p>
                   </div>
                 </div>
@@ -94,12 +94,12 @@ class Testimonial extends React.Component {
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="1400">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
-                    <AiOutlineUsergroupAdd />
-                    <h4>We help build teams.</h4>
+                    <AiOutlineLineChart />
+                    <h4>We’re also operators.</h4>
                   </div>
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      Over 50 executive introductions hired by our porftolio companies.
+                      We’ve been building healthcare software and services for 25+ years.
                     </p>
                   </div>
                 </div>

@@ -18,7 +18,7 @@ const defaultProps = {
 }
 
 const sectionHeader = {
-  title: <div style={{ fontWeight: "300", fontSize: "36px", lineHeight: "46px" }}>We invest on behalf of the <span style={{ fontWeight: "900", fontStyle: "italic" }}>largest</span> and <span style={{ fontWeight: "900", fontStyle: "italic" }}>most influential</span> healthcare organizations in the country.</div>,
+  title: <div style={{ fontWeight: "300", fontSize: "36px", lineHeight: "46px" }}>We invest on behalf of the <span style={{ fontWeight: "900", fontStyle: "italic" }}>largest</span> and <span style={{ fontWeight: "900", fontStyle: "italic" }}>most influential</span> healthcare organizations in the country</div>,
   paragraph: <span style={{ maxWidth: "800px", margin: "30px auto", display: "block" }}>Collectively, these investors, including senior healthcare executives and an outstanding group of global, financial institutions, represent organizations that:</span>
 };
 

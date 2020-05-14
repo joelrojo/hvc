@@ -68,8 +68,8 @@ class Clients extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'We invest in companies that create entirely new markets',
-      paragraph: 'Our principals have financed and help build more industry “firsts” than almost any investor in the country.'
+      title: 'We partner with companies that create entirely new markets',
+      paragraph: 'Our principals have financed and help build more industry “firsts” than almost any investor in the country'
     };
 
     return (
