@@ -122,7 +122,7 @@ class Numbers extends React.Component {
                         </div>
                       </>
                     )
-                    : <div>{isVisible ? "true" : "false"}</div>
+                    : null
                   }
                 </div>
               )}
