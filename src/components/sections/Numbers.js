@@ -4,6 +4,7 @@ import classNames from 'classnames';
 import SectionHeader from './partials/SectionHeader';
 import LinesBg from '../custom/LinesBg/LinesBg';
 import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
 
 import './Numbers.scss';
 
@@ -51,72 +52,81 @@ class Numbers extends React.Component {
               topDivider && 'has-top-divider'
             )}>
             <SectionHeader data={sectionHeader} className="center-content invert-color reveal-from-top" />
+            <VisibilitySensor partialVisibility>
+              {({isVisible}) => (
+                <div className="numbersList">
+                  {isVisible
+                    ? (
+                      <>
+                        <div className="listItem">
+                          <p>Insure more than</p>
+                          <p className="number">
+                            <CountUp
+                              useEasing={false}
+                              end={140}
+                              suffix="M"
+                            />
+                          </p>
+                          <p>Americans</p>
+                        </div>
 
-            <div className="numbersList">
-              <div className="listItem">
-                <p>Insure more than</p>
-                <p className="number">
-                  <CountUp
-                    useEasing={false}
-                    end={140}
-                    suffix="M"
-                  />
-                </p>
-                <p>Americans</p>
-              </div>
+                        <div className="listItem">
+                          <p>Operate</p>
+                          <p className="number">
+                            <CountUp
+                              useEasing={false}
+                              end={500}
+                              suffix="+"
+                            />
+                          </p>
+                          <p>Hospitals</p>
+                        </div>
 
-              <div className="listItem">
-                <p>Operate</p>
-                <p className="number">
-                  <CountUp
-                    useEasing={false}
-                    end={500}
-                    suffix="+"
-                  />
-                </p>
-                <p>Hospitals</p>
-              </div>
+                        <div className="listItem">
+                          <p>Provide PMB services to</p>
+                          <p className="number">
+                            <CountUp
+                              useEasing={false}
+                              end={75}
+                              suffix="%"
+                            />
+                          </p>
+                          <p>of the nation</p>
+                        </div>
 
-              <div className="listItem">
-                <p>Provide PMB services to</p>
-                <p className="number">
-                  <CountUp
-                    useEasing={false}
-                    end={75}
-                    suffix="%"
-                  />
-                </p>
-                <p>of the nation</p>
-              </div>
+                        <div className="listItem">
+                          <p>Employ</p>
+                          <p className="number">
+                            <CountUp
+                              useEasing={false}
+                              decimals={1}
+                              end={3.5}
+                              suffix="M"
+                            />
+                          </p>
+                          <p>Americans</p>
+                        </div>
 
-              <div className="listItem">
-                <p>Employ</p>
-                <p className="number">
-                  <CountUp
-                    useEasing={false}
-                    decimals={1}
-                    end={3.5}
-                    suffix="M"
-                  />
-                </p>
-                <p>Americans</p>
-              </div>
-
-              <div className="listItem">
-                <p>Generate</p>
-                <p className="number">
-                  <CountUp
-                    prefix="$"
-                    useEasing={false}
-                    decimals={1}
-                    end={1.7}
-                    suffix="T"
-                  />
-                </p>
-                <p>in revenue</p>
-              </div>
-
-            </div>
+                        <div className="listItem">
+                          <p>Generate</p>
+                          <p className="number">
+                            <CountUp
+                              prefix="$"
+                              useEasing={false}
+                              decimals={1}
+                              end={1.7}
+                              suffix="T"
+                            />
+                          </p>
+                          <p>in revenue</p>
+                        </div>
+                      </>
+                    )
+                    : <div>{isVisible ? "true" : "false"}</div>
+                  }
+                </div>
+              )}
+            </VisibilitySensor>
           </div>
         </div>
       </div>
