@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import SectionHeader from './partials/SectionHeader';
 import LinesBg from '../custom/LinesBg/LinesBg';
+import CountUp from 'react-countup';
 
 import './Numbers.scss';
 
@@ -50,6 +51,64 @@ class Numbers extends React.Component {
               topDivider && 'has-top-divider'
             )}>
             <SectionHeader data={sectionHeader} className="center-content invert-color reveal-from-top" />
+
+            <div className="numbersList">
+              <div className="listItem">
+                <p>Insure more than</p>
+                <h2>
+                  <CountUp
+                    end={140}
+                    suffix="M"
+                  />
+                </h2>
+                <p>Americans</p>
+              </div>
+
+              <div className="listItem">
+                <p>Operate</p>
+                <h2>
+                  <CountUp
+                    end={500}
+                  />
+                </h2>
+                <p>Hospitals</p>
+              </div>
+
+              <div className="listItem">
+                <p>Provide PMB services to</p>
+                <h2>
+                  <CountUp
+                    end={75}
+                    suffix="%"
+                  />
+                </h2>
+                <p>of the nation</p>
+              </div>
+
+              <div className="listItem">
+                <p>Employ</p>
+                <h2>
+                  <CountUp
+                    end={3.5}
+                    suffix="M"
+                  />
+                </h2>
+                <p>Americans</p>
+              </div>
+
+              <div className="listItem">
+                <p>Generate</p>
+                <h2>
+                  <CountUp
+                    prefix="$"
+                    end={1.7}
+                    suffix="T"
+                  />
+                </h2>
+                <p>in revenue</p>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>

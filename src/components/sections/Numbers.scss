@@ -3,4 +3,10 @@
   .section-header {
     padding-bottom: 30px;
   }
+
+  .numbersList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
