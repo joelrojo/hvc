@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <LinesBg />
       <Testimonial className="has-bg-color-cut" />
-      <Clients topDivider bottomDivider />
+      <Clients />
       <News className="illustration-section-01" />
     </>
   );

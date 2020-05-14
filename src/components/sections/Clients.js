@@ -1,7 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import classNames from 'classnames';
+import SectionHeader from './partials/SectionHeader';
 import { SectionProps } from '../../utils/SectionProps';
-import Image from '../elements/Image';
+import Slider from "react-slick";
+import Button from '../elements/Button';
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+import './Clients.scss';
 
 const propTypes = {
   ...SectionProps.types
@@ -25,6 +33,25 @@ class Clients extends React.Component {
       ...props
     } = this.props;
 
+    const settings = {
+      dots: true,
+      autoplay: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 5,
+      slidesToScroll: 5,
+      initialSlide: 0,
+      responsive: [
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        }
+      ]
+    };
+
     const outerClasses = classNames(
       'clients section reveal-fade',
       topOuterDivider && 'has-top-divider',
@@ -35,57 +62,75 @@ class Clients extends React.Component {
     );
 
     const innerClasses = classNames(
-      'clients-inner section-inner',
+      'reveal-from-bottom clients-inner section-inner',
       topDivider && 'has-top-divider',
       bottomDivider && 'has-bottom-divider'
     );
+
+    const sectionHeader = {
+      title: 'We invest in companies that create entirely new markets',
+      paragraph: 'Our principals have financed and help build more industry “firsts” than almost any investor in the country.'
+    };
 
     return (
       <section
         {...props}
         className={outerClasses}
       >
-        <div className="container">
+        <div className="container clients center-content">
           <div
             className={innerClasses}
           >
-            <ul className="list-reset">
-              <li className="reveal-from-bottom">
-                <Image
-                  src={require('./../../assets/images/clients-01.svg')}
-                  alt="Client 01"
-                  width={124}
-                  height={24} />
-              </li>
-              <li className="reveal-from-bottom" data-reveal-delay="150">
-                <Image
-                  src={require('./../../assets/images/clients-02.svg')}
-                  alt="Client 02"
-                  width={83}
-                  height={30} />
-              </li>
-              <li className="reveal-from-bottom" data-reveal-delay="300">
-                <Image
-                  src={require('./../../assets/images/clients-03.svg')}
-                  alt="Client 03"
-                  width={125}
-                  height={39} />
-              </li>
-              <li className="reveal-from-bottom" data-reveal-delay="450">
-                <Image
-                  src={require('./../../assets/images/clients-04.svg')}
-                  alt="Client 04"
-                  width={150}
-                  height={31} />
-              </li>
-              <li className="reveal-from-bottom" data-reveal-delay="600">
-                <Image
-                  src={require('./../../assets/images/clients-05.svg')}
-                  alt="Client 05"
-                  width={113}
-                  height={30} />
-              </li>
-            </ul>
+            <SectionHeader data={sectionHeader} className="reveal-from-bottom" />
+            <Slider {...settings}>
+              <div className="reveal-from-bottom" data-reveal-delay="200">
+                <img src={require('./../../assets/images/companies/healthjoy.png')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="400">
+                <img src={require('./../../assets/images/companies/ginger.png')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="600">
+                <img src={require('./../../assets/images/companies/well.png')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="800">
+                <img src={require('./../../assets/images/companies/threeoaks.png')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="1000">
+                <img src={require('./../../assets/images/companies/zipari.png')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="200">
+                <img src={require('./../../assets/images/companies/jvion.png')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="400">
+                <img src={require('./../../assets/images/companies/mdlive.png')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="600">
+                <img src={require('./../../assets/images/companies/contessa.png')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="800">
+                <img src={require('./../../assets/images/companies/ivx_health.jpg')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="1000">
+                <img src={require('./../../assets/images/companies/sperohealth.jpeg')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="200">
+                <img src={require('./../../assets/images/companies/circulation.png')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="400">
+                <img src={require('./../../assets/images/companies/aspire.png')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="600">
+                <img src={require('./../../assets/images/companies/teledoc.png')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="800">
+                <img src={require('./../../assets/images/companies/change.png')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="1000">
+                <img src={require('./../../assets/images/companies/cleardata.png')} />
+              </div>
+            </Slider>
+
+            <Link to="/" className="bottom reveal-from-bottom"><Button wideMobile>View All Companies</Button></Link>
           </div>
         </div>
       </section>
