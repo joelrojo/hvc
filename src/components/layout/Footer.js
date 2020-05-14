@@ -38,7 +38,7 @@ class Footer extends React.Component {
         <div className="container">
           <div className={
             classNames(
-              'site-footer-inner',
+              'reveal-from-bottom site-footer-inner',
               topDivider && 'has-top-divider'
             )}>
             <div className="footer-top space-between text-xxs">

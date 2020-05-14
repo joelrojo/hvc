@@ -85,7 +85,7 @@ class Header extends React.Component {
     } = this.props;
 
     const classes = classNames(
-      `site-header ${fixed ? "fixed": ""} ${showHeader ? "show" : ""}`,
+      `site-header ${fixed ? "fixed": "reveal-from-top"} ${showHeader ? "show" : ""}`,
       bottomOuterDivider && 'has-bottom-divider',
       className
     );
