@@ -115,7 +115,7 @@ class Testimonial extends React.Component {
                   </div>
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      Over 50 executive introductions hired by our porftolio companies.
+                      Over 50 executive introductions hired by our portfolio companies.
                     </p>
                   </div>
                 </div>
