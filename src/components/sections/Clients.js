@@ -84,49 +84,49 @@ class Clients extends React.Component {
             <SectionHeader data={sectionHeader} className="reveal-from-bottom" />
             <Slider {...settings}>
               <div className="reveal-from-bottom" data-reveal-delay="200">
-                <img src={require('./../../assets/images/companies/healthjoy.png')} />
+                <img src={require('./../../assets/images/companies/aspire.png')} />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="400">
-                <img src={require('./../../assets/images/companies/ginger.png')} />
+                <img src={require('./../../assets/images/companies/change.png')} />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="600">
-                <img src={require('./../../assets/images/companies/well.png')} />
-              </div>
-              <div className="reveal-from-bottom" data-reveal-delay="800">
-                <img src={require('./../../assets/images/companies/threeoaks.png')} />
-              </div>
-              <div className="reveal-from-bottom" data-reveal-delay="1000">
-                <img src={require('./../../assets/images/companies/zipari.png')} />
-              </div>
-              <div className="reveal-from-bottom" data-reveal-delay="200">
-                <img src={require('./../../assets/images/companies/jvion.png')} />
-              </div>
-              <div className="reveal-from-bottom" data-reveal-delay="400">
-                <img src={require('./../../assets/images/companies/mdlive.png')} />
-              </div>
-              <div className="reveal-from-bottom" data-reveal-delay="600">
-                <img src={require('./../../assets/images/companies/contessa.png')} />
-              </div>
-              <div className="reveal-from-bottom" data-reveal-delay="800">
-                <img src={require('./../../assets/images/companies/ivx_health.jpg')} />
-              </div>
-              <div className="reveal-from-bottom" data-reveal-delay="1000">
-                <img src={require('./../../assets/images/companies/sperohealth.jpeg')} />
-              </div>
-              <div className="reveal-from-bottom" data-reveal-delay="200">
                 <img src={require('./../../assets/images/companies/circulation.png')} />
               </div>
+              <div className="reveal-from-bottom" data-reveal-delay="800">
+                <img src={require('./../../assets/images/companies/cleardata.png')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="1000">
+                <img src={require('./../../assets/images/companies/contessa.png')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="200">
+                <img src={require('./../../assets/images/companies/ginger.png')} />
+              </div>
               <div className="reveal-from-bottom" data-reveal-delay="400">
-                <img src={require('./../../assets/images/companies/aspire.png')} />
+                <img src={require('./../../assets/images/companies/healthjoy.png')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="600">
+                <img src={require('./../../assets/images/companies/ivx_health.jpg')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="800">
+                <img src={require('./../../assets/images/companies/jvion.png')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="1000">
+                <img src={require('./../../assets/images/companies/mdlive.png')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="200">
+                <img src={require('./../../assets/images/companies/sperohealth.jpeg')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="400">
+                <img src={require('./../../assets/images/companies/threeoaks.png')} />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <img src={require('./../../assets/images/companies/teledoc.png')} />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="800">
-                <img src={require('./../../assets/images/companies/change.png')} />
+                <img src={require('./../../assets/images/companies/well.png')} />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="1000">
-                <img src={require('./../../assets/images/companies/cleardata.png')} />
+                <img src={require('./../../assets/images/companies/zipari.png')} />
               </div>
             </Slider>
 
