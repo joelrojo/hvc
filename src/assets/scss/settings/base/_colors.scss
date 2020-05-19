@@ -79,7 +79,7 @@ $bg--color: (
 	body-shadow:	0 20px 48px rgba(get-color(dark, 1), .1),	// body shadow when a boxed layout is used (set to null if don't want a shadow)
 	body-outer:		get-color(light, 2),						// outer bg color when a boxed layout is used
 	bg-color: 		get-color(dark, 1),							// .has-bg-color helper class
-	shadow: 		0 4px 16px rgba(get-color(dark, 1), .08),	// .has-shadow helper class
+	shadow: 		0 4px 16px rgba(get-color(dark, 1), .31),	// .has-shadow helper class
 	code: 			get-color(light, 2),
 	code-inverse:	darken(get-color(dark, 1), 3%)
 );
