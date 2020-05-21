@@ -5,6 +5,8 @@ import SectionHeader from './partials/SectionHeader';
 import LinesBg from '../custom/LinesBg/LinesBg';
 import { AiOutlineLineChart, AiOutlineDeploymentUnit, AiOutlineUsergroupAdd, AiOutlineDollar } from 'react-icons/ai';
 
+import './Testimonial.scss';
+
 const propTypes = {
   ...SectionTilesProps.types
 }
@@ -69,11 +71,11 @@ class Testimonial extends React.Component {
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
                     <AiOutlineLineChart />
-                    <h4>We’re investors <i>and</i> operators.</h4>
+                    <h4>Sole Focus<br />on Healthcare</h4>
                   </div>
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      We’ve been investing and building healthcare software and services for 25+ years.
+                      Building and investing in healthcare software and services companies is all we do
                     </p>
                   </div>
                 </div>
@@ -83,11 +85,11 @@ class Testimonial extends React.Component {
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
                     <AiOutlineDeploymentUnit />
-                    <h4>We have a network.</h4>
+                    <h4>Long and Successful History</h4>
                   </div>
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      Our unique investors and friends represent the US healthcare system.
+                      Over 25 years dedicated to our mission investing through multiple market cycles
                     </p>
                   </div>
                 </div>
@@ -96,12 +98,12 @@ class Testimonial extends React.Component {
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="1600">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
-                    <AiOutlineDollar />
-                    <h4>We help drive revenue.</h4>
+                    <AiOutlineUsergroupAdd />
+                    <h4>Deep and Expansive Network</h4>
                   </div>
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      Over 100 introductions that facilitated or helped maintain revenue.
+                      Our unique investors and friends represent the US healthcare system
                     </p>
                   </div>
                 </div>
@@ -110,12 +112,12 @@ class Testimonial extends React.Component {
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="1000">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
-                    <AiOutlineUsergroupAdd />
-                    <h4>We help build teams.</h4>
+                    <AiOutlineDollar />
+                    <h4>Active<br />Approach</h4>
                   </div>
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      Over 50 executive introductions hired by our portfolio companies.
+                      We have helped drive revenue and/or helped build teams at 95% of our portfolio companies
                     </p>
                   </div>
                 </div>
