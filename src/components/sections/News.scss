@@ -1,0 +1,12 @@
+.news {
+  padding-bottom: 70px;
+  a.bottom {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+
+    .button {
+      transition: 0.21s ease-in-out all;
+    }
+  }
+}
