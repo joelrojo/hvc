@@ -111,21 +111,24 @@ class Clients extends React.Component {
                 <img src={require('./../../assets/images/companies/jvion.png')} />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="1000">
-                <img src={require('./../../assets/images/companies/mdlive.png')} />
+                <img src={require('./../../assets/images/companies/livongo.png')} />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="200">
-                <img src={require('./../../assets/images/companies/sperohealth.jpeg')} />
+                <img src={require('./../../assets/images/companies/mdlive.png')} />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="400">
-                <img src={require('./../../assets/images/companies/threeoaks.png')} />
+                <img src={require('./../../assets/images/companies/sperohealth.jpeg')} />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="600">
-                <img src={require('./../../assets/images/companies/teledoc.png')} />
+                <img src={require('./../../assets/images/companies/threeoaks.png')} />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="800">
-                <img src={require('./../../assets/images/companies/well.png')} />
+                <img src={require('./../../assets/images/companies/teledoc.png')} />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="1000">
+                <img src={require('./../../assets/images/companies/well.png')} />
+              </div>
+              <div className="reveal-from-bottom" data-reveal-delay="200">
                 <img src={require('./../../assets/images/companies/zipari.png')} />
               </div>
             </Slider>
