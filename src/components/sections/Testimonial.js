@@ -67,7 +67,7 @@ class Testimonial extends React.Component {
             <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color reveal-from-top" data-reveal-delay="600" />
             <div className={tilesClasses}>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="1400">
+              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="1000">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
                     <AiOutlineLineChart />
@@ -95,7 +95,7 @@ class Testimonial extends React.Component {
                 </div>
               </div>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="1600">
+              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="1400">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
                     <AiOutlineUsergroupAdd />
@@ -109,7 +109,7 @@ class Testimonial extends React.Component {
                 </div>
               </div>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="1000">
+              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="1600">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
                     <AiOutlineDollar />
