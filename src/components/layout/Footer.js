@@ -46,7 +46,7 @@ class Footer extends React.Component {
               <FooterSocial />
             </div>
             <div className="footer-bottom space-between text-xxs">
-              <div className="footer-copyright">&copy; 2020 Health Velocity Capital.</div>
+              <div className="footer-copyright">&copy; {(new Date().getFullYear())} Health Velocity Capital.</div>
               <small>Logos on this site include Health Velocity Capital investments, prior operating companies and investments from predecessor firms.</small>
             </div>
           </div>
