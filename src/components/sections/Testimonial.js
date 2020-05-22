@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import LinesBg from '../custom/LinesBg/LinesBg';
-import { AiOutlineLineChart, AiOutlineDeploymentUnit, AiOutlineUsergroupAdd, AiOutlineDollar } from 'react-icons/ai';
+import { AiOutlineMedicineBox, AiOutlineCarryOut, AiOutlineTeam, AiOutlineRise  } from 'react-icons/ai';
 
 import './Testimonial.scss';
 
@@ -70,7 +70,7 @@ class Testimonial extends React.Component {
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="1000">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
-                    <AiOutlineLineChart />
+                    <AiOutlineMedicineBox />
                     <h4>Sole Focus<br />on Healthcare</h4>
                   </div>
                   <div className="testimonial-item-content">
@@ -84,12 +84,12 @@ class Testimonial extends React.Component {
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="1200">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
-                    <AiOutlineDeploymentUnit />
+                    <AiOutlineCarryOut />
                     <h4>Long and Successful History</h4>
                   </div>
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      Over 25 years dedicated to our mission investing through multiple market cycles
+                      Over 25 years dedicated to our mission, investing through multiple market cycles
                     </p>
                   </div>
                 </div>
@@ -98,7 +98,7 @@ class Testimonial extends React.Component {
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="1400">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
-                    <AiOutlineUsergroupAdd />
+                    <AiOutlineTeam />
                     <h4>Deep and Expansive Network</h4>
                   </div>
                   <div className="testimonial-item-content">
@@ -112,7 +112,7 @@ class Testimonial extends React.Component {
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="1600">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
-                    <AiOutlineDollar />
+                    <AiOutlineRise  />
                     <h4>Active<br />Approach</h4>
                   </div>
                   <div className="testimonial-item-content">
