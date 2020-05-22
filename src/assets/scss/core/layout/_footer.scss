@@ -120,6 +120,7 @@
 		svg {
 			fill: color-icon(social);
 			transition: fill .15s ease;
+			font-size: 24px;
 
 			.invert-color & {
 				fill: color-icon(social-inverse);
