@@ -5,6 +5,8 @@ import SectionHeader from './partials/SectionHeader';
 import LinesBg from '../custom/LinesBg/LinesBg';
 import { AiOutlineMedicineBox, AiOutlineCarryOut, AiOutlineTeam, AiOutlineRise  } from 'react-icons/ai';
 
+import sf1 from '../../assets/videos/sf_1.mp4';
+
 import './Testimonial.scss';
 
 const propTypes = {
@@ -61,7 +63,11 @@ class Testimonial extends React.Component {
         {...props}
         className={outerClasses}
       >
-        <LinesBg />
+        <div className="videoWrapper">
+          <video muted loop autoPlay>
+            <source src={sf1} type="video/mp4" />
+          </video>
+        </div>
         <div className="container">
           <div className={innerClasses}>
             <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color reveal-from-top" data-reveal-delay="600" />
