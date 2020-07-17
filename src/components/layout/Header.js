@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
-import Logo from './partials/Logo';
 import LogoInvert from './partials/LogoInvert';
 
 const propTypes = {
@@ -103,7 +102,7 @@ class Header extends React.Component {
             )}>
 
             <LogoInvert />
-            
+
             {!hideNav &&
               <React.Fragment>
                 <button
