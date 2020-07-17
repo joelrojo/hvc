@@ -9,11 +9,11 @@ $palette: (
 	),
 	dark: (
 		1: #101D2D,
-		2: #627183,
-		3: #95A4B4
+		2: #3d4a58,
+		3: #d9d9d9
 	),
 	primary: (
-		1: #2174EA,
+		1: #203878,
 		2: #5091EE,
 		3: #135CC5,
 		4: #E2EEFF
@@ -61,7 +61,7 @@ $border--color: (
 $icon--color: (
 	hamburger:				get-color(dark, 2),			// hamburger icon
 	accordion:				get-color(primary, 1),		// accordion icon
-	social: 				get-color(primary, 1),		// social icons
+	social: 				get-color(primary, 4),		// social icons
 	social-hover: 			get-color(primary, 2),		// social icons (:hover)
 	modal:					get-color(dark, 3),			// modal icon
     modal-hover:			get-color(dark, 2),			// modal icon (:hover)

@@ -17,6 +17,13 @@
 			transform: translateY(0);
 	    -webkit-transform: translateY(0);
 		}
+		a:not(.button) {
+			color: get-color(primary, 1);
+
+			&:hover, &:active {
+				color: get-color(dark, 2);
+			}
+		}
 	}
 
 	+ .site-content {
