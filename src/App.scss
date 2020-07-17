@@ -1,4 +1,21 @@
-.logo {
-  height: 50px;
-  filter: brightness(1.5);
+.site-header {
+
+  .site-header-inner {
+    height: 100px;
+  }
+
+  .logo {
+    height: 66px;
+    filter: brightness(1.5);
+  }
+
+  &.fixed {
+    .site-header-inner {
+      height: 80px;
+    }
+
+    .logo {
+      height: 50px;
+    }
+  }
 }
