@@ -5,7 +5,7 @@
 	background: color-bg(header);
 
 	&.fixed {
-		background: #fff;
+		background: get-color(primary, 1);
 		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.075);
 		transform: translateY(-100%);
     -webkit-transform: translateY(-100%);
@@ -18,10 +18,10 @@
 	    -webkit-transform: translateY(0);
 		}
 		a:not(.button) {
-			color: get-color(primary, 1);
+			color: get-color(primary, 4);
 
 			&:hover, &:active {
-				color: get-color(dark, 2);
+				color: get-color(primary, 2);
 			}
 		}
 	}
