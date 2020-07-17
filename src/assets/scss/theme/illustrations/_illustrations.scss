@@ -19,6 +19,12 @@
 	@include illustration('illustration-section-01.svg', 100%, 104px, bottom, null, 212px);
 }
 
+// News illustration
+.illustration-section-01::before {
+	@include illustration('illustration-section-01.svg',100%, 104px, bottom, null, 212px);
+	transform: translate(-50%) rotateY(180deg);
+}
+
 // Testimonials illustration
 .illustration-section-02::after {
 	@include illustration('illustration-section-02.svg', 100%, 224px, top, null, 293px);
