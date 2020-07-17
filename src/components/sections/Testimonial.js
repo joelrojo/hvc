@@ -6,6 +6,9 @@ import LinesBg from '../custom/LinesBg/LinesBg';
 import { AiOutlineMedicineBox, AiOutlineCarryOut, AiOutlineTeam, AiOutlineRise  } from 'react-icons/ai';
 
 import sf1 from '../../assets/videos/sf_1.mp4';
+import sf2 from '../../assets/videos/sf_2.webm';
+import nv1 from '../../assets/videos/nv_1.webm';
+import nv2 from '../../assets/videos/nv_2.webm';
 
 import './Testimonial.scss';
 
@@ -17,7 +20,21 @@ const defaultProps = {
   ...SectionTilesProps.defaults
 }
 
+const videoBgs = [sf1, nv1, sf2, nv2]
+
 class Testimonial extends React.Component {
+
+  state = { videoIndex: 0 }
+
+  componentDidMount() {
+    setInterval(() => {
+      this.setState({
+        videoIndex: this.state.videoIndex === videoBgs.length - 1
+          ? 0
+          : this.state.videoIndex + 1
+      })
+    }, 4000);
+  }
 
   render() {
 
@@ -64,8 +81,8 @@ class Testimonial extends React.Component {
         className={outerClasses}
       >
         <div className="videoWrapper">
-          <video muted loop autoPlay>
-            <source src={sf1} type="video/mp4" />
+          <video key={videoBgs[this.state.videoIndex]} muted loop autoPlay>
+            <source src={videoBgs[this.state.videoIndex]} />
           </video>
         </div>
         <div className="container">
