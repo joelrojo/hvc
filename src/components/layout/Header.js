@@ -142,9 +142,6 @@ class Header extends React.Component {
                       <li>
                         <Link to="/" onClick={this.closeMenu}>Team</Link>
                       </li>
-                      <li>
-                        <Link to="/" onClick={this.closeMenu}>News</Link>
-                      </li>
                     </ul>
                   </div>
                 </nav>
