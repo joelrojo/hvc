@@ -18,10 +18,10 @@
         text-transform: uppercase;
         font-size: 13px;
         font-weight: 600;
-        
+
         &.number {
           font-size: 44px;
-          color: #e3e3e3;
+          color: get-color(light, 1);
           font-weight: 800;
           margin: 10px auto 15px;
         }
