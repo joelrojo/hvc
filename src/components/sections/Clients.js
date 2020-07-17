@@ -130,7 +130,7 @@ class Clients extends React.Component {
               </div>
             </Slider>
 
-            <Link to="/" className="bottom reveal-from-bottom"><Button wideMobile>View All Companies</Button></Link>
+            <Link to="/" className="bottom reveal-from-bottom"><Button color="primary" wideMobile>View All Companies</Button></Link>
           </div>
         </div>
       </section>
