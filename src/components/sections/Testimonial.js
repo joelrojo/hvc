@@ -52,8 +52,8 @@ class Testimonial extends React.Component {
     );
 
     const sectionHeader = {
-      title: <span>We’re on a mission to build<br />a better healthcare system</span>,
-      paragraph: <span>Let's create a more <strong>affordable</strong>, <strong>sustainable,</strong> and <strong>consumer-friendly</strong> future together</span>
+      title: <span>We invest exclusively in innovative healthcare software and services businesses</span>,
+      paragraph: <span>Let's create a more <strong>affordable</strong>, <strong>sustainable,</strong> <strong>consumer-friendly</strong> future together</span>
     };
 
     return (
