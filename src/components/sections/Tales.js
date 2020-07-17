@@ -97,7 +97,7 @@ class Tales extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'We love what we do',
+      title: <span style={{ fontWeight: "300" }}>We <strong style={{ fontWeight: 900, fontStyle: 'italic', textDecoration: "underline" }}>love</strong> what we do</span>,
       paragraph: 'And we have fun along the way'
     };
 
