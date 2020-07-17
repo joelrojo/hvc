@@ -47,8 +47,8 @@ class Footer extends React.Component {
             </div>
 
             <div className="footer-bottom space-between text-xxs">
-              <small>San Francisco address</small>
-              <small>Nashville address</small>
+              <small>123 Main St, San Francisco, CA</small>
+              <small>123 Main St, Nashville, TN</small>
             </div>
 
             <div className="footer-bottom space-between text-xxs">
