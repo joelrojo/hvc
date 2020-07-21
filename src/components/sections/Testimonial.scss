@@ -48,4 +48,38 @@
     }
   }
 
+  .tiles-wrap {
+    a {
+      display: flex;
+      text-decoration: none;
+      margin: 12px;
+      cursor: pointer;
+      transition: 0.21s ease all;
+
+      &:hover {
+        transform: translateY(-7px);
+        filter: brightness(1.2);
+        .tiles-item .tiles-item-inner {
+          box-shadow: 0 21px 40px rgba(16, 29, 45, 0.88);
+        }
+      }
+
+      .tiles-item {
+        padding: 0;
+
+        .tiles-item-inner {
+          transition: 0.21s ease all;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          background: linear-gradient(180deg, #E2EEFF, #7f94aa);
+          box-shadow: 0 21px 40px rgba(16, 29, 45, 0.66);
+
+          h4 {
+            font-weight: 800;
+          }
+        }
+      }
+    }
+  }
 }
