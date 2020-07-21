@@ -22,10 +22,10 @@ const defaultProps = {
 const videoBgs = [sf1, nv1, sf2, nv2]
 
 const headers = [
-  'More Industry "Firsts" For Longer',
-  'More Value-Add Investors For Longer',
-  'Leveraged to Drive More Customer Relationships',
-  'Investing with a Mission',
+  <span>More <strong>Industry Firsts</strong> For Longer</span>,
+  <span>More <strong>Value-Add</strong> Investors For Longer</span>,
+  <span>Leveraged to Drive <strong>More Customer Relationships</strong></span>,
+  <span>Investing with a <strong>Mission</strong></span>,
 ]
 
 class Testimonial extends React.Component {
