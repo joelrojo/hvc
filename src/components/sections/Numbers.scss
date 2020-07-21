@@ -19,6 +19,14 @@
         font-size: 13px;
         font-weight: 600;
 
+        &:first-child {
+          line-height: 1.3em;
+          min-height: 35px;
+          align-items: center;
+          display: flex;
+          justify-content: center;
+        }
+
         &.number {
           font-size: 44px;
           color: #fff;

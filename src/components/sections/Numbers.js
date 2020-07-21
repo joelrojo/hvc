@@ -82,7 +82,7 @@ class Numbers extends React.Component {
                           </div>
 
                           <div className="listItem">
-                            <p>Provide PMB services to</p>
+                            <p>Provide Pharmacy &amp; PBM services to</p>
                             <p className="number">
                               <CountUp
                                 useEasing={false}
