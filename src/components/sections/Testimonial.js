@@ -2,7 +2,6 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-import LinesBg from '../custom/LinesBg/LinesBg';
 import { AiOutlineMedicineBox, AiOutlineCarryOut, AiOutlineTeam, AiOutlineRise  } from 'react-icons/ai';
 
 import sf1 from '../../assets/videos/sf_1.mp4';
@@ -28,11 +27,14 @@ class Testimonial extends React.Component {
 
   componentDidMount() {
     setInterval(() => {
+      const newVideoIndex = this.state.videoIndex === videoBgs.length - 1
+        ? 0
+        : this.state.videoIndex + 1
       this.setState({
-        videoIndex: this.state.videoIndex === videoBgs.length - 1
-          ? 0
-          : this.state.videoIndex + 1
+        videoIndex: newVideoIndex
       })
+
+      document.getElementById(`video-${newVideoIndex}`).load()
     }, 4000);
   }
 
@@ -81,9 +83,18 @@ class Testimonial extends React.Component {
         className={outerClasses}
       >
         <div className="videoWrapper">
-          <video key={videoBgs[this.state.videoIndex]} muted loop autoPlay>
-            <source src={videoBgs[this.state.videoIndex]} />
-          </video>
+          {videoBgs.map((video, index) =>
+            <video
+              id={`video-${index}`}
+              loop
+              muted
+              autoPlay
+              key={video}
+              style={{ opacity: index === this.state.videoIndex ? 1 : 0 }}
+            >
+              <source src={video} />
+            </video>
+          )}
         </div>
         <div className="container">
           <div className={innerClasses}>
