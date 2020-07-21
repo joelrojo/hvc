@@ -3,6 +3,7 @@ import Testimonial from '../components/sections/Testimonial';
 import Clients from '../components/sections/Clients';
 import Numbers from '../components/sections/Numbers';
 import Numbers2 from '../components/sections/Numbers2';
+import Mission from '../components/sections/Mission';
 import Tales from '../components/sections/Tales';
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Clients />
       <Numbers />
       <Numbers2 />
+      <Mission invertColor />
       <Tales className="illustration-section-01" />
     </>
   );

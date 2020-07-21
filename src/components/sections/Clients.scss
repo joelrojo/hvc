@@ -1,3 +1,7 @@
+.clients.invert-color {
+  background: #203878;
+  background: radial-gradient(circle, rgba(32,56,120,0.6755077030812324) 0%, rgba(32,56,120,1) 71%);
+}
 .container.clients {
   padding: 50px 0;
 
@@ -76,7 +80,7 @@
     margin: 70px auto 50px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
 
     a:first-child {
       margin-right: 20px;
