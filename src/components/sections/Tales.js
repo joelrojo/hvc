@@ -114,7 +114,7 @@ class Tales extends React.Component {
             <Slider {...settings}>
               {shuffleArray(images).map((image, index) =>
                 <div key={image} className="reveal-from-bottom" data-reveal-delay={index*200+200}>
-                  <img src={image} />
+                  <img src={image} alt='Health Velocity Capital Tales from the Road' />
                 </div>
               )}
             </Slider>

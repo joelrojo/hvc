@@ -11,7 +11,7 @@ const LayoutDefault = ({ children }) => {
   useEffect(() => {
     window.addEventListener('scroll', listenToScroll);
     return () => window.removeEventListener('scroll', listenToScroll);
-  }, [showHeader])
+  })
 
   const listenToScroll = () => {
     const winScroll =

@@ -84,49 +84,49 @@ class Clients extends React.Component {
             <SectionHeader data={sectionHeader} className="reveal-from-bottom" />
             <Slider {...settings}>
               <div className="reveal-from-bottom" data-reveal-delay="200">
-                <img src={require('./../../assets/images/companies/aspire.png')} />
+                <img src={require('./../../assets/images/companies/aspire.png')} alt='Aspire' />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="400">
-                <img src={require('./../../assets/images/companies/change.png')} />
+                <img src={require('./../../assets/images/companies/change.png')} alt='Change' />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="600">
-                <img src={require('./../../assets/images/companies/circulation.png')} />
+                <img src={require('./../../assets/images/companies/circulation.png')} alt='Circulation' />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="800">
-                <img src={require('./../../assets/images/companies/contessa.png')} />
+                <img src={require('./../../assets/images/companies/contessa.png')} alt='Contessa' />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="1000">
-                <img src={require('./../../assets/images/companies/ginger.png')} />
+                <img src={require('./../../assets/images/companies/ginger.png')} alt='Ginger' />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="200">
-                <img src={require('./../../assets/images/companies/healthjoy.png')} />
+                <img src={require('./../../assets/images/companies/healthjoy.png')} alt='HealthJoy' />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="400">
-                <img src={require('./../../assets/images/companies/ivx_health.jpg')} />
+                <img src={require('./../../assets/images/companies/ivx_health.jpg')} alt="Ivx Health" />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="600">
-                <img src={require('./../../assets/images/companies/jvion.png')} />
+                <img src={require('./../../assets/images/companies/jvion.png')} alt="Jvion" />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="800">
-                <img src={require('./../../assets/images/companies/livongo.png')} />
+                <img src={require('./../../assets/images/companies/livongo.png')} alt="Livongo" />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="1000">
-                <img src={require('./../../assets/images/companies/mdlive.png')} />
+                <img src={require('./../../assets/images/companies/mdlive.png')} alt="MD Live" />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="200">
-                <img src={require('./../../assets/images/companies/sperohealth.jpeg')} />
+                <img src={require('./../../assets/images/companies/sperohealth.jpeg')} alt='Spero Health' />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="400">
-                <img src={require('./../../assets/images/companies/threeoaks.png')} />
+                <img src={require('./../../assets/images/companies/threeoaks.png')} alt='Three Oaks' />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="600">
-                <img src={require('./../../assets/images/companies/teledoc.png')} />
+                <img src={require('./../../assets/images/companies/teledoc.png')} alt='Teledoc' />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="800">
-                <img src={require('./../../assets/images/companies/well.png')} />
+                <img src={require('./../../assets/images/companies/well.png')} alt='Well' />
               </div>
               <div className="reveal-from-bottom" data-reveal-delay="1000">
-                <img src={require('./../../assets/images/companies/zipari.png')} />
+                <img src={require('./../../assets/images/companies/zipari.png')} alt='Zipari' />
               </div>
             </Slider>
 
