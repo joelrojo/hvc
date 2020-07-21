@@ -7,13 +7,13 @@
 
   &.has-bg-color-cut {
     &::before {
-      height: calc(100% - 200px) !important;
+      height: calc(100% - 140px) !important;
       background-color: #203878bb !important;
     }
     &::after {
       content: '';
       width: 100%;
-      height: calc(100% - 200px);
+      height: calc(100% - 140px);
       position: absolute;
       left: 0;
       top: 0;
@@ -30,7 +30,7 @@
 
   .videoWrapper {
     width: 100%;
-    height: calc(100% - 200px);
+    height: calc(100% - 140px);
     position: absolute;
     top: 0;
 

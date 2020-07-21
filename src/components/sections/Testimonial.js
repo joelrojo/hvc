@@ -112,7 +112,7 @@ class Testimonial extends React.Component {
             <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color reveal-from-top" data-reveal-delay="600" />
             <div className={tilesClasses}>
               {headers.map((header, index) =>
-                <Scroll.Link key={header} to={`${index}`} spy smooth offset={-100} duration={700}>
+                <Scroll.Link key={header} to={`${index}`} spy smooth duration={700}>
                   <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay={`${1200 + (index * 200)}`}>
                     <div className="tiles-item-inner has-shadow">
                       <div className="testimonial-item-header mb-16">
@@ -125,10 +125,6 @@ class Testimonial extends React.Component {
             </div>
           </div>
         </div>
-
-        <Scroll.Element name="0">
-          <h1>Scroll</h1>
-        </Scroll.Element>
       </section>
     );
   }
