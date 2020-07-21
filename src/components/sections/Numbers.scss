@@ -4,6 +4,47 @@
     padding-bottom: 30px;
   }
 
+  &.invert-color {
+    .numbersList {
+      .listItem {
+        p {
+          &.number {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  &:not(.invert-color) {
+    background: #fff;
+    h2 {
+      color: #101D2D;
+    }
+    p {
+      color: #3d4a58;
+    }
+
+    .numbersList {
+      align-items: baseline;
+      .listItem {
+        p {
+          &:first-child {
+            max-height: unset;
+          }
+
+          &.number {
+            margin: 0;
+          }
+
+          &:last-child {
+
+          }
+        }
+      }
+    }
+  }
+
   .numbersList {
     min-height: 115px;
     display: flex;
@@ -29,7 +70,6 @@
 
         &.number {
           font-size: 44px;
-          color: #fff;
           font-weight: 800;
           margin: 10px auto 15px;
         }
