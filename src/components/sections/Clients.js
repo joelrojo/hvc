@@ -70,7 +70,7 @@ class Clients extends React.Component {
 
     const sectionHeader = {
       title: 'We partner with companies that create entirely new markets',
-      paragraph: 'Our principals have financed and help build more industry “firsts” than almost any investor in the country'
+      paragraph: <span>For more than 25 years, our Principals have financed and helped build <strong>more successful</strong> healthcare industry <strong>firsts</strong> and companies that became <strong>market leaders</strong>, longer than almost any other investor in the country</span>
     };
 
     return (
