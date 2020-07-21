@@ -110,7 +110,7 @@ class Clients extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'We partner with companies that create entirely new markets',
+      title: <span>We partner with companies that create entirely new markets</span>,
       paragraph: <span>For more than 25 years, our Principals have financed and helped build <strong>more successful</strong> healthcare industry <strong>firsts</strong> and companies that became <strong>market leaders</strong>, longer than almost any other investor in the country</span>
     };
 
