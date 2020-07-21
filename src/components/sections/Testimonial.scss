@@ -7,7 +7,20 @@
 
   &.has-bg-color-cut {
     &::before {
+      height: calc(100% - 200px) !important;
       background-color: #203878bb !important;
+    }
+    &::after {
+      content: '';
+      width: 100%;
+      height: calc(100% - 200px);
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -11;
+      background: #203878;
+      -webkit-clip-path: polygon(0 0, 5760px 0, 5760px calc(100% - 352px), 0 100%);
+      clip-path: polygon(0 0, 5760px 0, 5760px calc(100% - 352px), 0 100%);
     }
   }
 
@@ -17,7 +30,7 @@
 
   .videoWrapper {
     width: 100%;
-    height: calc(100% - 140px);
+    height: calc(100% - 200px);
     position: absolute;
     top: 0;
 
