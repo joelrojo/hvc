@@ -4,11 +4,7 @@ import classNames from 'classnames';
 import * as Scroll from 'react-scroll';
 import SectionHeader from './partials/SectionHeader';
 import { SectionProps } from '../../utils/SectionProps';
-import Slider from "react-slick";
 import Button from '../elements/Button';
-
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 import './Clients.scss';
 
@@ -19,6 +15,70 @@ const propTypes = {
 const defaultProps = {
   ...SectionProps.defaults
 }
+
+const companies = [
+  {
+    src: require('./../../assets/images/companies/teledoc.png'),
+    alt: 'Teledoc',
+    caption: 'Telemedicine',
+  },
+  {
+    src: require('./../../assets/images/companies/change.png'),
+    alt: 'Change Healthcare',
+    caption: 'Cost Transparency',
+  },
+  {
+    src: require('./../../assets/images/companies/livongo.png'),
+    alt: 'Livongo',
+    caption: 'Digital Health Management',
+  },
+  {
+    src: require('./../../assets/images/companies/aspire.png'),
+    alt: 'Aspire',
+    caption: 'End of Life Care Management',
+  },
+  {
+    src: require('./../../assets/images/companies/aperio.jpeg'),
+    alt: 'Aperio',
+    caption: 'Digital Pathology',
+  },
+  {
+    src: require('./../../assets/images/companies/us_renal_care.jpeg'),
+    alt: 'US Renal Care',
+    caption: 'Chronic Disease Management',
+  },
+  {
+    src: require('./../../assets/images/companies/ivx_health.jpg'),
+    alt: 'IVX Health',
+    caption: 'Specialty Biologics Cost Reduction and Consumer Experience',
+  },
+
+  {
+    src: require('./../../assets/images/companies/mdlive.png'),
+    alt: 'MDLive',
+    caption: 'Telemedicine',
+  },
+  {
+    src: require('./../../assets/images/companies/zipari.png'),
+    alt: 'Zipari',
+    caption: 'CRM for Health Plans',
+  },
+  {
+    src: require('./../../assets/images/companies/ginger.png'),
+    alt: 'Ginger',
+    caption: 'Text and Video based Behavioral Healthcare',
+  },
+  {
+    src: require('./../../assets/images/companies/onshift.png'),
+    alt: 'OnShift',
+    caption: 'Post-Acute Software',
+  },
+  {
+    src: require('./../../assets/images/companies/contessa.png'),
+    alt: 'Contessa',
+    caption: 'In-patient hospital care ',
+  },
+]
 
 class Clients extends React.Component {
 
@@ -33,25 +93,6 @@ class Clients extends React.Component {
       invertColor,
       ...props
     } = this.props;
-
-    const settings = {
-      dots: true,
-      autoplay: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 5,
-      slidesToScroll: 5,
-      initialSlide: 0,
-      responsive: [
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
-          }
-        }
-      ]
-    };
 
     const outerClasses = classNames(
       'clients section reveal-fade',
@@ -81,53 +122,13 @@ class Clients extends React.Component {
               className={innerClasses}
             >
               <SectionHeader data={sectionHeader} className="reveal-from-bottom" />
-              <Slider {...settings}>
-                <div className="reveal-from-bottom" data-reveal-delay="200">
-                  <img src={require('./../../assets/images/companies/aspire.png')} alt='Aspire' />
-                </div>
-                <div className="reveal-from-bottom" data-reveal-delay="400">
-                  <img src={require('./../../assets/images/companies/change.png')} alt='Change' />
-                </div>
-                <div className="reveal-from-bottom" data-reveal-delay="600">
-                  <img src={require('./../../assets/images/companies/circulation.png')} alt='Circulation' />
-                </div>
-                <div className="reveal-from-bottom" data-reveal-delay="800">
-                  <img src={require('./../../assets/images/companies/contessa.png')} alt='Contessa' />
-                </div>
-                <div className="reveal-from-bottom" data-reveal-delay="1000">
-                  <img src={require('./../../assets/images/companies/ginger.png')} alt='Ginger' />
-                </div>
-                <div className="reveal-from-bottom" data-reveal-delay="200">
-                  <img src={require('./../../assets/images/companies/healthjoy.png')} alt='HealthJoy' />
-                </div>
-                <div className="reveal-from-bottom" data-reveal-delay="400">
-                  <img src={require('./../../assets/images/companies/ivx_health.jpg')} alt="Ivx Health" />
-                </div>
-                <div className="reveal-from-bottom" data-reveal-delay="600">
-                  <img src={require('./../../assets/images/companies/jvion.png')} alt="Jvion" />
-                </div>
-                <div className="reveal-from-bottom" data-reveal-delay="800">
-                  <img src={require('./../../assets/images/companies/livongo.png')} alt="Livongo" />
-                </div>
-                <div className="reveal-from-bottom" data-reveal-delay="1000">
-                  <img src={require('./../../assets/images/companies/mdlive.png')} alt="MD Live" />
-                </div>
-                <div className="reveal-from-bottom" data-reveal-delay="200">
-                  <img src={require('./../../assets/images/companies/sperohealth.jpeg')} alt='Spero Health' />
-                </div>
-                <div className="reveal-from-bottom" data-reveal-delay="400">
-                  <img src={require('./../../assets/images/companies/threeoaks.png')} alt='Three Oaks' />
-                </div>
-                <div className="reveal-from-bottom" data-reveal-delay="600">
-                  <img src={require('./../../assets/images/companies/teledoc.png')} alt='Teledoc' />
-                </div>
-                <div className="reveal-from-bottom" data-reveal-delay="800">
-                  <img src={require('./../../assets/images/companies/well.png')} alt='Well' />
-                </div>
-                <div className="reveal-from-bottom" data-reveal-delay="1000">
-                  <img src={require('./../../assets/images/companies/zipari.png')} alt='Zipari' />
-                </div>
-              </Slider>
+
+                {companies.map((c, index) =>
+                  <div className="reveal-from-bottom" data-reveal-delay={index*200+200}>
+                    <img src={c.src} alt={c.alt} />
+                    <h4>{c.caption}</h4>
+                  </div>
+                )}
 
               <Link to="/" className="bottom reveal-from-bottom"><Button color="primary" wideMobile>View All Companies</Button></Link>
             </div>
