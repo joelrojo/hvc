@@ -1,8 +1,8 @@
 import React from 'react';
+import * as Scroll from 'react-scroll';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-import { AiOutlineMedicineBox, AiOutlineCarryOut, AiOutlineTeam, AiOutlineRise  } from 'react-icons/ai';
 
 import sf1 from '../../assets/videos/sf_1.mp4';
 import sf2 from '../../assets/videos/sf_2.webm';
@@ -20,6 +20,13 @@ const defaultProps = {
 }
 
 const videoBgs = [sf1, nv1, sf2, nv2]
+
+const headers = [
+  'More Industry "Firsts" For Longer',
+  'More Value-Add Investors For Longer',
+  'Leveraged to Drive More Customer Relationships',
+  'Investing with a Mission',
+]
 
 class Testimonial extends React.Component {
 
@@ -100,66 +107,24 @@ class Testimonial extends React.Component {
           <div className={innerClasses}>
             <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color reveal-from-top" data-reveal-delay="600" />
             <div className={tilesClasses}>
-
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="1000">
-                <div className="tiles-item-inner has-shadow">
-                  <div className="testimonial-item-header mb-16">
-                    <AiOutlineMedicineBox />
-                    <h4>Sole Focus<br />on Healthcare</h4>
+              {headers.map((header, index) =>
+                <Scroll.Link key={header} to={`${index}`} spy smooth offset={-100} duration={700}>
+                  <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay={`${1200 + (index * 200)}`}>
+                    <div className="tiles-item-inner has-shadow">
+                      <div className="testimonial-item-header mb-16">
+                        <h4>{header}</h4>
+                      </div>
+                    </div>
                   </div>
-                  <div className="testimonial-item-content">
-                    <p className="text-sm mb-0">
-                      Building and investing in healthcare software and services companies is all we do
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="1200">
-                <div className="tiles-item-inner has-shadow">
-                  <div className="testimonial-item-header mb-16">
-                    <AiOutlineCarryOut />
-                    <h4>Long and Successful History</h4>
-                  </div>
-                  <div className="testimonial-item-content">
-                    <p className="text-sm mb-0">
-                      Over 25 years dedicated to our mission, investing through multiple market cycles
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="1400">
-                <div className="tiles-item-inner has-shadow">
-                  <div className="testimonial-item-header mb-16">
-                    <AiOutlineTeam />
-                    <h4>Deep and Expansive Network</h4>
-                  </div>
-                  <div className="testimonial-item-content">
-                    <p className="text-sm mb-0">
-                      Our unique investors and friends represent the US healthcare system
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="1600">
-                <div className="tiles-item-inner has-shadow">
-                  <div className="testimonial-item-header mb-16">
-                    <AiOutlineRise  />
-                    <h4>Active<br />Approach</h4>
-                  </div>
-                  <div className="testimonial-item-content">
-                    <p className="text-sm mb-0">
-                      We have helped drive revenue and/or helped build teams at 95% of our portfolio companies
-                    </p>
-                  </div>
-                </div>
-              </div>
-
+                </Scroll.Link>
+              )}
             </div>
           </div>
         </div>
+
+        <Scroll.Element name="0">
+          <h1>Scroll</h1>
+        </Scroll.Element>
       </section>
     );
   }
