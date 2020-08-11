@@ -3,7 +3,7 @@
   background: radial-gradient(circle, rgba(32,56,120,0.6755077030812324) 0%, rgba(32,56,120,1) 71%);
 }
 .container.clients {
-  padding: 50px 0;
+  padding: 0;
 
   div {
     &:focus {
@@ -44,11 +44,16 @@
       margin: 5px;
       width: calc(100% * (1/6) - 10px - 1px);
       flex-grow: 1;
+      cursor: pointer;
 
       &:hover {
         h4 {
           opacity: 1;
           transform: scale(1.1) translateY(10px);
+        }
+        img {
+          opacity: 1;
+          transform: scale(1.1);
         }
       }
 
@@ -62,20 +67,13 @@
       }
 
       img {
-        cursor: pointer;
+        opacity: 0.8;
         padding: 10px;
         height: 90px;
         object-fit: contain;
         width: 100%;
         display: block;
         transition: 0.21s ease-in-out all;
-        -webkit-filter: url(#monochrome);
-        filter:  url(#monochrome);
-
-        &:hover {
-          filter: none;
-          transform: scale(1.1);
-        }
       }
 
     }

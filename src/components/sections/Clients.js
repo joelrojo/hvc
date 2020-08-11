@@ -124,17 +124,6 @@ class Clients extends React.Component {
               <SectionHeader data={sectionHeader} className="reveal-from-bottom" />
 
                 <div className="companiesList">
-                  <svg class="defs-only">
-                    <filter id="monochrome" color-interpolation-filters="sRGB"
-                            x="0" y="0" height="100%" width="100%">
-                      <feColorMatrix type="matrix"
-                        values="1 0 0 0 0
-                                0.85 0 0 0 0.15
-                                0.50 0 0 0 0.50
-                                0    0 0 1 0" />
-                    </filter>
-                  </svg>
-
                   {companies.map((c, index) =>
                     <div className="reveal-from-bottom companyContainer" data-reveal-delay={index*200+200}>
                       <img src={c.src} alt={c.alt} />
@@ -146,7 +135,7 @@ class Clients extends React.Component {
               <div className='buttons'>
                 <Link to="/" className="bottom reveal-from-bottom"><Button color="primary" wideMobile>View All Companies</Button></Link>
 
-                <Link to="/" className="bottom reveal-from-bottom"><Button wideMobile>News</Button></Link>
+                <Link to="/" className="bottom reveal-from-bottom"><Button color="primary" wideMobile>News</Button></Link>
               </div>
             </div>
           </div>
