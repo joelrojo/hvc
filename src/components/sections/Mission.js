@@ -46,7 +46,7 @@ class Mission extends React.Component {
     );
 
     const sectionHeader = {
-      title: <span>We’re an investment firm that is driven by purpose, a clear <span style={{ fontWeight: 800, textDecoration: "underline" }}>mission</span>, and an important set of core values</span>,
+      title: <span>We’re an investment firm that is driven by purpose, a clear <span style={{ fontWeight: 800, fontStyle: 'italic' }}>mission</span>, and an important set of core values</span>,
       paragraph: <span>Simply put, we seek to generate outstanding financial returns while being the preferred innovation partner of entrepreneurs and investors working toward a more affordable, sustainable, consumer-friendly healthcare system</span>
     };
 

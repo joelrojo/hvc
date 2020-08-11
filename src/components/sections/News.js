@@ -96,7 +96,7 @@ class News extends React.Component {
 
             </div>
           </div>
-          <Link to="/" className="bottom"><Button color="primary" wideMobile>Click Here for More Tales From the Road</Button></Link>
+          <Link to="/" className="bottom"><Button color="primary" wideMobile>Tales From the Road</Button></Link>
         </div>
       </section>
     );
