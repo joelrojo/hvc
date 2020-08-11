@@ -47,13 +47,13 @@ class Footer extends React.Component {
             </div>
 
             <div className="footer-bottom space-between text-xxs">
-              <small>123 Main St, San Francisco, CA</small>
-              <small>123 Main St, Nashville, TN</small>
+              <small>12 Cadillac Drive, Suite 280, Brentwood, TN 37027</small>
+              <small>50 California Street, Suite 3650, San Francisco, CA 94111</small>
             </div>
 
             <div className="footer-bottom space-between text-xxs">
-              <div className="footer-copyright">&copy; {(new Date().getFullYear())} Health Velocity Capital.</div>
-              <small>Logos on this site include Health Velocity Capital investments, prior operating companies and investments from predecessor firms.</small>
+              <small className="footer-copyright">&copy; {(new Date().getFullYear())} Health Velocity Capital.</small>
+              <small>Logos on this site include Health Velocity Capital investments, prior operating companies and investments from predecessor firms.<br />Commercial relationships and executives placed include introductions from Principals’ prior roles at other organizations.</small>
             </div>
           </div>
         </div>
