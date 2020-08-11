@@ -22,7 +22,7 @@ const defaultProps = {
 const videoBgs = [sf1, nv1, sf2, nv2]
 
 const headers = [
-  <span>More <strong>Industry Firsts</strong> For Longer</span>,
+  <span>More <strong>Industry "Firsts"</strong> For Longer</span>,
   <span>More <strong>Value-Add</strong> Investors For Longer</span>,
   <span>Leveraged to Drive <strong>More Customer Relationships</strong></span>,
   <span>Investing with a <strong>Mission</strong></span>,
@@ -84,7 +84,7 @@ class Testimonial extends React.Component {
     );
 
     const sectionHeader = {
-      title: <span style={{ fontWeight: "300" }}>We invest exclusively in <strong style={{ fontWeight: 900, fontStyle: 'italic', textDecoration: "underline" }}>innovative</strong> healthcare software and services businesses</span>,
+      title: <span style={{ fontWeight: "300" }}>We invest exclusively in <strong style={{ fontWeight: 900, fontStyle: 'italic', fontStyle: 'italic' }}>innovative</strong> healthcare software and services businesses</span>,
       paragraph: <span>Let's create a more <strong>affordable</strong>, <strong>sustainable,</strong> <strong>consumer-friendly</strong> future together</span>
     };
 

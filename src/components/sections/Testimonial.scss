@@ -19,9 +19,14 @@
       top: 0;
       z-index: -11;
       background: #203878;
-      -webkit-clip-path: polygon(0 0, 5760px 0, 5760px calc(100% - 352px), 0 100%);
-      clip-path: polygon(0 0, 5760px 0, 5760px calc(100% - 352px), 0 100%);
+      // -webkit-clip-path: polygon(0 0, 5760px 0, 5760px calc(100% - 352px), 0 100%);
+      // clip-path: polygon(0 0, 5760px 0, 5760px calc(100% - 352px), 0 100%);
     }
+  }
+
+  h1 {
+    font-size: 44px;
+    line-height: 1.2em;
   }
 
   h4 {
@@ -43,8 +48,8 @@
       transition: all 1.5s ease-in-out;
       object-fit: cover;
       z-index: -10;
-      -webkit-clip-path: polygon(0 0, 5760px 0, 5760px calc(100% - 352px), 0 100%);
-      clip-path: polygon(0 0, 5760px 0, 5760px calc(100% - 352px), 0 100%);
+      // -webkit-clip-path: polygon(0 0, 5760px 0, 5760px calc(100% - 352px), 0 100%);
+      // clip-path: polygon(0 0, 5760px 0, 5760px calc(100% - 352px), 0 100%);
     }
   }
 
@@ -80,7 +85,7 @@
             font-weight: 300;
             strong {
               font-weight: 900;
-              text-decoration: underline;
+              font-style: italic;
             }
           }
         }

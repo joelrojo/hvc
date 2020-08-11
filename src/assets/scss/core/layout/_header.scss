@@ -79,9 +79,12 @@
 		text-transform: $link-header--transform;
         padding: 0 $header-nav--padding-h;
 
-		.invert-color & {
-			@include anchor-aspect(header, inverse);
-		}
+			.invert-color & {
+				@include anchor-aspect(header, inverse);
+				&:hover {
+					color: #5091EE;
+				}
+			}
     }
 
 	a.button {
