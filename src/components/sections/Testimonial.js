@@ -9,6 +9,8 @@ import sf2 from '../../assets/videos/sf_2.webm';
 import nv1 from '../../assets/videos/nv_1.webm';
 import nv2 from '../../assets/videos/nv_2.webm';
 
+import { IoIosArrowDown } from "react-icons/io";
+
 import './Testimonial.scss';
 
 const propTypes = {
@@ -25,7 +27,7 @@ const headers = [
   <span>More <strong>Industry "Firsts"</strong> For Longer</span>,
   <span>More <strong>Value-Add</strong> Investors For Longer</span>,
   <span>Leveraged to Drive <strong>More Customer Relationships</strong></span>,
-  <span>Investing with a <strong>Mission</strong></span>,
+  <span>Investing with a<br /><strong>Mission</strong></span>,
 ]
 
 class Testimonial extends React.Component {
@@ -114,9 +116,13 @@ class Testimonial extends React.Component {
               {headers.map((header, index) =>
                 <Scroll.Link key={header} to={`${index}`} spy smooth duration={700}>
                   <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay={`${1200 + (index * 200)}`}>
-                    <div className="tiles-item-inner has-shadow">
-                      <div className="testimonial-item-header mb-16">
+                    <div className="tiles-item-inner">
+                      <div className="testimonial-item-header">
                         <h4>{header}</h4>
+                        <div className='readMore'>
+                          Read More
+                          <IoIosArrowDown />
+                        </div>
                       </div>
                     </div>
                   </div>

@@ -60,13 +60,13 @@
       margin: 12px;
       cursor: pointer;
       transition: 0.21s ease all;
+      flex-basis: 244px;
+      max-width: 244px;
 
       &:hover {
         transform: translateY(-7px);
         filter: brightness(1.2);
-        .tiles-item .tiles-item-inner {
-          box-shadow: 0 21px 40px rgba(16, 29, 45, 0.88);
-        }
+
       }
 
       .tiles-item {
@@ -75,17 +75,37 @@
         .tiles-item-inner {
           border-radius: 7px;
           transition: 0.21s ease all;
-          align-items: center;
-          justify-content: center;
           flex-direction: column;
-          background: linear-gradient(180deg, #E2EEFF, #7f94aa);
-          box-shadow: 0 21px 40px rgba(16, 29, 45, 0.66);
+          padding: 25px;
+          background: linear-gradient(180deg, #007DA9, #203878);
 
           h4 {
+            color: #F3F5F8;
+            text-align: left;
+            font-size: 16px;
             font-weight: 300;
+            line-height: 1.5em;
+            font-family: "Inter", sans-serif;
             strong {
-              font-weight: 900;
-              font-style: italic;
+              font-weight: 600;
+            }
+          }
+
+          .readMore {
+            font-size: 10px;
+            text-transform: uppercase;
+            color: #ccc;
+            letter-spacing: 1px;
+            line-height: 1em;
+            display: flex;
+            align-items: center;
+            text-align: left;
+            margin: 20px 0 0;
+
+            svg {
+              color: #ccc;
+              font-size: 16px;
+              margin: 0;
             }
           }
         }
