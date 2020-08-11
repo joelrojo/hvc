@@ -19,8 +19,8 @@ const defaultProps = {
 }
 
 const sectionHeader = {
-  title: <div style={{ maxWidth: "800px", fontWeight: "300", fontSize: "36px", lineHeight: "46px" }}>We leverage these relationships to <span style={{ fontWeight: "900", textDecoration: "underline" }}>help drive revenue</span> and build teams</div>,
-  paragraph: <span style={{ maxWidth: "800px", margin: "30px auto", display: "block" }}>In a highly process-driven and symbiotic manner, our Principals have used their networks to <span style={{ fontWeight: "900", fontVariant: "italic", color: "#101D2D" }}>tangibily create equity value at more than 95%</span> of the companies with whom we have partnered</span>
+  title: <div style={{ fontWeight: "300", fontSize: "36px", lineHeight: "46px" }}>We leverage these relationships to <span style={{ fontWeight: "900", fontStyle: 'italic' }}>help drive revenue</span> and build teams</div>,
+  paragraph: <span style={{ margin: "30px auto", display: "block", fontSize: "18px" }}>In a highly process-driven and symbiotic manner, our Principals have used their networks to <span style={{ fontWeight: "900", color: "#101D2D" }}>tangibily create equity value at more than 95%</span> of the companies with whom we have partnered</span>
 };
 
 class Numbers2 extends React.Component {
@@ -62,7 +62,7 @@ class Numbers2 extends React.Component {
                                 end={20}
                               />
                             </p>
-                            <p>conversations with our strategic investors over the past year</p>
+                            <p>conversations with strategic investors</p>
                           </div>
 
                           <div className="listItem">
@@ -72,17 +72,19 @@ class Numbers2 extends React.Component {
                                 end={500}
                               />
                             </p>
-                            <p>companies discussed</p>
+                            <p>companies<br />discussed</p>
                           </div>
 
                           <div className="listItem">
                             <p className="number">
                               <CountUp
+                                prefix="$"
                                 useEasing={false}
-                                end={75}
+                                end={20}
+                                suffix="+"
                               />
                             </p>
-                            <p>company introductions</p>
+                            <p>equity value<br />creation</p>
                           </div>
 
                           <div className="listItem">
@@ -102,7 +104,7 @@ class Numbers2 extends React.Component {
                                 end={40}
                               />
                             </p>
-                            <p>executives placed</p>
+                            <p>executives<br />placed</p>
                           </div>
                         </>
                       )
