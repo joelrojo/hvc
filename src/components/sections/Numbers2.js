@@ -19,8 +19,8 @@ const defaultProps = {
 }
 
 const sectionHeader = {
-  title: <div style={{ fontWeight: "300", fontSize: "36px", lineHeight: "46px" }}>We leverage these relationships to <span style={{ fontWeight: "900", fontStyle: 'italic' }}>help drive revenue</span> and build teams</div>,
-  paragraph: <span style={{ margin: "30px auto", display: "block", fontSize: "18px" }}>In a highly process-driven and symbiotic manner, our Principals have used their networks to <span style={{ fontWeight: "900", color: "#101D2D" }}>tangibily create equity value at more than 95%</span> of the companies with whom we have partnered</span>
+  title: <div style={{ fontWeight: "300", fontSize: "36px", lineHeight: "46px", maxWidth: "600px", margin: "0 auto" }}>We leverage these relationships to <span style={{ fontWeight: "900" }}>help drive revenue</span> and build teams</div>,
+  paragraph: <span style={{ margin: "30px auto", display: "block", fontSize: "18px" }}>In a highly process-driven and symbiotic manner, our Principals have used their networks to <span style={{ fontWeight: "900", color: "#101D2D" }}>tangibily create equity value at more than <span style={{ fontStyle: 'italic' }}>95%</span></span> of the companies with whom we have partnered</span>
 };
 
 class Numbers2 extends React.Component {
@@ -81,7 +81,7 @@ class Numbers2 extends React.Component {
                                 prefix="$"
                                 useEasing={false}
                                 end={20}
-                                suffix="+"
+                                suffix="B+"
                               />
                             </p>
                             <p>equity value<br />creation</p>
