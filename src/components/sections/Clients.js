@@ -30,7 +30,7 @@ const companies = [
   {
     src: require('./../../assets/images/companies/livongo.png'),
     alt: 'Livongo',
-    caption: 'Digital Health Management',
+    caption: 'Virtual Chronic Care Management',
   },
   {
     src: require('./../../assets/images/companies/aspire.png'),
@@ -43,20 +43,19 @@ const companies = [
     caption: 'Digital Pathology',
   },
   {
-    src: require('./../../assets/images/companies/us_renal_care.jpeg'),
-    alt: 'US Renal Care',
-    caption: 'Chronic Disease Management',
+    src: require('./../../assets/images/companies/mdlive.png'),
+    alt: 'MDLive',
+    caption: 'Telemedicine',
   },
   {
     src: require('./../../assets/images/companies/ivx_health.jpg'),
     alt: 'IVX Health',
     caption: 'Specialty Biologics Cost Reduction and Consumer Experience',
   },
-
   {
-    src: require('./../../assets/images/companies/mdlive.png'),
-    alt: 'MDLive',
-    caption: 'Telemedicine',
+    src: require('./../../assets/images/companies/us_renal_care.jpeg'),
+    alt: 'US Renal Care',
+    caption: 'Kidney Care Management',
   },
   {
     src: require('./../../assets/images/companies/zipari.png'),
@@ -66,7 +65,7 @@ const companies = [
   {
     src: require('./../../assets/images/companies/ginger.png'),
     alt: 'Ginger',
-    caption: 'Text and Video based Behavioral Healthcare',
+    caption: 'On-Demand Virtual Mental Health',
   },
   {
     src: require('./../../assets/images/companies/onshift.png'),
@@ -76,7 +75,7 @@ const companies = [
   {
     src: require('./../../assets/images/companies/contessa.png'),
     alt: 'Contessa',
-    caption: 'In-patient hospital care ',
+    caption: 'Hospital at Home',
   },
 ]
 
@@ -111,7 +110,7 @@ class Clients extends React.Component {
 
     const sectionHeader = {
       title: <span>We partner with companies that create entirely new markets</span>,
-      paragraph: <span>For more than 25 years, our Principals have financed and helped build <strong>more successful</strong> healthcare industry <strong>firsts</strong> and companies that became <strong>market leaders</strong>, longer than almost any other investor in the country</span>
+      paragraph: <span>For more than 25 years, our Principals have financed and helped build <strong>more successful</strong> healthcare industry <strong>"firsts"</strong> and companies that became <strong>market leaders</strong>, longer than almost any other investor in the country</span>
     };
 
     return (
