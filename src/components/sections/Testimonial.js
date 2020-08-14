@@ -110,7 +110,7 @@ class Testimonial extends React.Component {
           )}
         </div>
         <div className="container">
-          <div className={innerClasses}>
+          <div className={innerClasses} style={{ paddingBottom: 0 }}>
             <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color reveal-from-top" data-reveal-delay="600" />
             <div className={tilesClasses}>
               {headers.map((header, index) =>
