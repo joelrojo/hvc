@@ -86,7 +86,7 @@ class Testimonial extends React.Component {
     );
 
     const sectionHeader = {
-      title: <span style={{ fontWeight: "300" }}>We invest exclusively in <strong style={{ fontWeight: 900, fontStyle: 'italic', fontStyle: 'italic' }}>innovative</strong> healthcare software and services businesses</span>,
+      title: <span style={{ fontWeight: "300" }}>We invest exclusively in <strong style={{ fontWeight: 900 }}>innovative</strong> healthcare software and services businesses</span>,
       paragraph: <span>Let's create a more <strong>affordable</strong>, <strong>sustainable,</strong> <strong>consumer-friendly</strong> future together</span>
     };
 

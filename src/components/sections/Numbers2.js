@@ -19,7 +19,7 @@ const defaultProps = {
 }
 
 const sectionHeader = {
-  title: <div style={{ fontWeight: "300", fontSize: "36px", lineHeight: "46px", maxWidth: "600px", margin: "0 auto" }}>We leverage these relationships to <span style={{ fontWeight: "900" }}>help drive revenue</span> and build teams</div>,
+  title: <div style={{ fontWeight: "300", fontSize: "36px", lineHeight: "46px", maxWidth: "600px", margin: "0 auto" }}>We leverage these relationships to help drive revenue and build teams</div>,
   paragraph: <span style={{ margin: "30px auto", display: "block", fontSize: "18px" }}>In a highly process-driven and symbiotic manner, our Principals have used their networks to <span style={{ fontWeight: "900", color: "#101D2D" }}>tangibily create equity value at more than <span style={{ fontStyle: 'italic' }}>95%</span></span> of the companies with whom we have partnered</span>
 };
 
@@ -59,7 +59,7 @@ class Numbers2 extends React.Component {
                             <p className="number">
                               <CountUp
                                 useEasing={false}
-                                end={20}
+                                end={700}
                               />
                             </p>
                             <p>conversations with strategic investors</p>
@@ -69,7 +69,7 @@ class Numbers2 extends React.Component {
                             <p className="number">
                               <CountUp
                                 useEasing={false}
-                                end={500}
+                                end={600}
                               />
                             </p>
                             <p>companies<br />discussed</p>
@@ -80,7 +80,7 @@ class Numbers2 extends React.Component {
                               <CountUp
                                 prefix="$"
                                 useEasing={false}
-                                end={20}
+                                end={40}
                                 suffix="B+"
                               />
                             </p>
@@ -101,7 +101,7 @@ class Numbers2 extends React.Component {
                             <p className="number">
                               <CountUp
                                 useEasing={false}
-                                end={40}
+                                end={55}
                               />
                             </p>
                             <p>executives<br />placed</p>
