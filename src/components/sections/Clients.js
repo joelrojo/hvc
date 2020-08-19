@@ -50,7 +50,7 @@ const companies = [
   {
     src: require('./../../assets/images/companies/ivx_health.jpg'),
     alt: 'IVX Health',
-    caption: 'Specialty Biologics Cost Reduction and Consumer Experience',
+    caption: 'Specialty Biologics Cost Reduction',
   },
   {
     src: require('./../../assets/images/companies/us_renal_care.jpeg'),

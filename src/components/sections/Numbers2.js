@@ -60,6 +60,7 @@ class Numbers2 extends React.Component {
                               <CountUp
                                 useEasing={false}
                                 end={700}
+                                suffix="+"
                               />
                             </p>
                             <p>conversations with strategic investors</p>
@@ -70,6 +71,7 @@ class Numbers2 extends React.Component {
                               <CountUp
                                 useEasing={false}
                                 end={600}
+                                suffix="+"
                               />
                             </p>
                             <p>companies<br />discussed</p>
@@ -91,20 +93,22 @@ class Numbers2 extends React.Component {
                             <p className="number">
                               <CountUp
                                 useEasing={false}
-                                end={100}
+                                end={55}
+                                suffix="+"
                               />
                             </p>
-                            <p>commercial relationships</p>
+                            <p>executives<br />placed</p>
                           </div>
-
+                          
                           <div className="listItem">
                             <p className="number">
                               <CountUp
                                 useEasing={false}
-                                end={55}
+                                end={100}
+                                suffix="+"
                               />
                             </p>
-                            <p>executives<br />placed</p>
+                            <p>commercial relationships facilitated</p>
                           </div>
                         </>
                       )
