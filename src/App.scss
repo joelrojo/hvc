@@ -31,3 +31,11 @@
     line-height: 46px;
   }
 }
+
+@media (max-width: 767px) {
+  .site-header {
+    .logo {
+      height: 50px;
+    }
+  }
+}
