@@ -135,10 +135,10 @@ class Header extends React.Component {
                         <Link to="/" onClick={this.closeMenu}>Our Investors</Link>
                       </li>
                       <li>
-                        <Link to="/" onClick={this.closeMenu}>Companies</Link>
+                        <Link to="/companies" onClick={this.closeMenu}>Companies</Link>
                       </li>
                       <li>
-                        <Link to="/" onClick={this.closeMenu}>Team</Link>
+                        <Link to="/team" onClick={this.closeMenu}>Team</Link>
                       </li>
                     </ul>
                   </div>
