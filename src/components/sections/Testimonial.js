@@ -32,14 +32,18 @@ const headers = [
 
 class Testimonial extends React.Component {
 
-  state = { videoIndex: -1 }
+  state = {
+    videoIndex: -1,
+    interval: null
+  }
 
   componentDidMount() {
     this.setState({ videoIndex: 0 })
 
-    document.getElementById('video-0').load()
+    const video = document.getElementById('video-0')
+    if (video) video.load()
 
-    setInterval(() => {
+    this.setState({ interval: setInterval(() => {
       const newVideoIndex = this.state.videoIndex === videoBgs.length - 1
         ? 0
         : this.state.videoIndex + 1
@@ -47,8 +51,15 @@ class Testimonial extends React.Component {
         videoIndex: newVideoIndex
       })
 
-      document.getElementById(`video-${newVideoIndex}`).load()
-    }, 4000);
+      const video = document.getElementById(`video-${newVideoIndex}`)
+      if (video) video.load()
+    }, 4000)})
+  }
+
+  componentWillUnmount() {
+    if (this.state.interval) {
+      clearInterval(this.state.interval)
+    }
   }
 
   render() {
