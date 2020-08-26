@@ -1,4 +1,5 @@
 import React from 'react';
+import { ReactTitle } from 'react-meta-tags';
 import Testimonial from '../components/sections/Testimonial';
 import Clients from '../components/sections/Clients';
 import Numbers from '../components/sections/Numbers';
@@ -10,6 +11,7 @@ const Home = () => {
 
   return (
     <>
+      <ReactTitle title="Health Velocity Capital"/>
       <Testimonial className="has-bg-color-cut" />
       <Clients />
       <Numbers />

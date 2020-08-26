@@ -45,8 +45,8 @@ const Companies = ({
   );
 
   const sectionHeader = {
-    title: <span style={{ fontWeight: "300" }}>Our Portfolio</span>,
-    paragraph: <span>Let's create a more <strong>affordable</strong>, <strong>sustainable,</strong> <strong>consumer-friendly</strong> future together</span>
+    title: <span style={{ fontWeight: "300" }}>Our Companies</span>,
+    paragraph: <span style={{ display: "block", maxWidth: "700px", margin: "0 auto" }}>For more than 25 years, our Principals have financed and helped build <strong>more successful</strong> healthcare industry <strong>"firsts"</strong> and companies that became <strong>market leaders</strong>, longer than almost any other investor in the country</span>
   };
 
 
