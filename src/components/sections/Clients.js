@@ -6,6 +6,7 @@ import SectionHeader from './partials/SectionHeader';
 import { SectionProps } from '../../utils/SectionProps';
 import Button from '../elements/Button';
 import { companies } from '../../data/companies'
+import slugify from '../../utils/slugify';
 
 import './Clients.scss';
 
@@ -63,8 +64,10 @@ class Clients extends React.Component {
                 <div className="companiesList">
                   {companies.map((c, index) =>
                     <div className="reveal-from-bottom companyContainer" data-reveal-delay={index*200+200}>
-                      <img src={c.src} alt={c.alt} />
-                      <h4>{c.caption}</h4>
+                      <Link to={`/companies/${slugify(c.alt)}`}>
+                        <img src={c.src} alt={c.alt} />
+                        <h4>{c.caption}</h4>
+                      </Link>
                     </div>
                   )}
                 </div>

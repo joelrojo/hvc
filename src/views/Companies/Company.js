@@ -11,12 +11,7 @@ const Company = ({ company, index, show }) => {
 
   const handleCancel = () => {
     setClicked(false)
-    console.log(history.length)
-    if (history.length <= 2) {
-      history.push('/companies')
-    } else {
-      history.goBack()
-    }
+    history.push('/companies')
   }
 
   useEffect(() => {
