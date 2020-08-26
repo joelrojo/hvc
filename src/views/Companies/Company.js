@@ -1,11 +1,18 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import { ReactTitle } from 'react-meta-tags';
 import slugify from '../../utils/slugify';
+import { Modal } from 'antd';
 
 const Company = ({ company, index }) => {
 
   const [clicked, setClicked] = useState(false)
+  const history = useHistory();
+
+  const handleCancel = () => {
+    setClicked(false)
+    history.goBack();
+  }
 
   return (
     <>
@@ -18,6 +25,18 @@ const Company = ({ company, index }) => {
         </div>
       </Link>
       {clicked && <ReactTitle title={`${company.alt} | Health Velocity Capital`} />}
+
+      <Modal
+        title={null}
+        visible={clicked}
+        footer={null}
+        title={null}
+        onCancel={handleCancel}
+      >
+        <h2>{company.alt}</h2>
+        <p>{company.description}</p>
+        <img src={company.src} alt={company.alt} />
+      </Modal>
     </>
   )
 }

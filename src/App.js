@@ -12,6 +12,7 @@ import Home from './views/Home';
 import Companies from './views/Companies/Companies';
 
 import './App.scss';
+import "antd/dist/antd.css";
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
