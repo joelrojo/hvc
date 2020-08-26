@@ -32,14 +32,15 @@ const Company = ({ company, index, show }) => {
 
       <Modal
         title={null}
-        visible={clicked}
         footer={null}
-        title={null}
+        centered
+        visible={clicked}
         onCancel={handleCancel}
+        className='companyModal'
       >
-        <h2>{company.alt}</h2>
-        <p>{company.description}</p>
         <img src={company.src} alt={company.alt} />
+        <h2>{company.caption}</h2>
+        <p>{company.description}</p>
       </Modal>
     </>
   )
