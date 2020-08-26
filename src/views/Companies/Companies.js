@@ -1,9 +1,11 @@
 import React from 'react';
 import { companies } from '../../data/companies'
+import { useParams } from 'react-router-dom'
 import classNames from 'classnames';
 import { ReactTitle } from 'react-meta-tags';
 import SectionHeader from '../../components/sections/partials/SectionHeader';
 import Company from './Company';
+import slugify from '../../utils/slugify';
 
 import './Companies.scss';
 
@@ -18,6 +20,8 @@ const Companies = ({
   pushLeft,
   ...props
 }) => {
+
+  const { slug } = useParams()
 
   const outerClasses = classNames(
     'companies section',
@@ -44,6 +48,7 @@ const Companies = ({
     paragraph: <span style={{ display: "block", maxWidth: "700px", margin: "0 auto" }}>For more than 25 years, our Principals have financed and helped build <strong>more successful</strong> healthcare industry <strong>"firsts"</strong> and companies that became <strong>market leaders</strong>, longer than almost any other investor in the country</span>
   };
 
+  console.log(slug)
 
   return (
     <section
@@ -59,7 +64,7 @@ const Companies = ({
           <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color reveal-from-top" data-reveal-delay="600" />
           <div className={tilesClasses}>
             {companies.map((c, index) =>
-              <Company key={c.alt} company={c} index={index} />
+              <Company key={c.alt} company={c} index={index} show={slug && slugify(slug) === slugify(c.alt)}/>
             )}
           </div>
         </div>

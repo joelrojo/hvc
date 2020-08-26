@@ -1,18 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { ReactTitle } from 'react-meta-tags';
 import slugify from '../../utils/slugify';
 import { Modal } from 'antd';
 
-const Company = ({ company, index }) => {
+const Company = ({ company, index, show }) => {
 
   const [clicked, setClicked] = useState(false)
   const history = useHistory();
 
   const handleCancel = () => {
     setClicked(false)
-    history.goBack();
+    console.log(history.length)
+    if (history.length <= 2) {
+      history.push('/companies')
+    } else {
+      history.goBack()
+    }
   }
+
+  useEffect(() => {
+    setClicked(show)
+  }, [show])
 
   return (
     <>

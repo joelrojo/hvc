@@ -41,6 +41,7 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path='/' component={Home} layout={LayoutDefault} />
+          <AppRoute path='/companies/:slug' component={Companies} layout={LayoutDefault} />
           <AppRoute path='/companies' component={Companies} layout={LayoutDefault} />
         </Switch>
       )} />
