@@ -71,4 +71,106 @@ export const companies = [
     caption: 'Hospital at Home',
     description: "Contessa Health is a highly innovative, market leading provider of hospital at home services. The company couples home hospitalist telemedicine capabilities with specialized home care services to treat hundreds of medical inpatient DRGs and, when appropriate, divert these patients from the inpatient hospital setting into the home. Contessa’s programs result in significant savings to payers, savings and increased profits to their hospital partners, and high quality outcomes for patients."
   },
+  {
+    src: require('./../assets/images/companies/healthjoy.png'),
+    alt: 'Healthjoy',
+    caption: 'Employee Healthcare Navigation Platform',
+    description: "Healthjoy offers an employee healthcare navigation platform, largely sold through brokers, that provides digital, chat-based, and telephonic advocacy services through a unified, single-view, single-sign-on benefits wallet; free, capitated telehealth services; and concierges that facilitate services such as helping to find an in-network provider, making an appointment, and providing cost estimates; drug review services to find lower cost alternatives, drug discount coupons, and lower cost pharmacies; and medical bill review and negotiations."
+  },
+  {
+    src: require('./../assets/images/companies/well.png'),
+    alt: 'Well Health',
+    caption: 'Patient Relationship Management Software',
+    description: "Well Health provides a unified communications platform for providers and health systems to facilitate an enhanced digital patient experience. By converting a significant portion of administrative and clinical interactions to text through their own applications and integrated applications, the company’s SaaS and ML software reduces phone call volume and the associated patient and staff frustration, costs, lost visits, and sub-optimal care that can result from phone friction."
+  },
+  {
+    src: require('./../assets/images/companies/threeoaks.png'),
+    alt: 'Three Oaks Hospice',
+    caption: 'Hospice & Palliative Care',
+    description: "Three Oaks Hospice is a Texas-based hospice and palliative care provider."
+  },
+  {
+    src: require('./../assets/images/companies/jvion.png'),
+    alt: 'Jvion',
+    caption: 'AI-Enabled Prescriptive Analytics',
+    description: "Jvion helps healthcare systems prevent harm and lower costs, using AI-enabled prescriptive analytics for preventable harm that identifies specific patients on a risk trajectory, determines if that trajectory can be changed, and if so, recommends patient-specific interventions."
+  },
+  {
+    src: require('./../assets/images/companies/sperohealth.jpeg'),
+    alt: 'Spero Health',
+    caption: 'Outpatient Medication Assisted Treatment',
+    description: "Spero Health is a leading provider of outpatient medication assisted treatment (MAT) centers providing therapy to individuals suffering from opiate substance use disorder."
+  },
+  {
+    src: require('./../assets/images/companies/accordant.png'),
+    alt: 'Accordant Health Services',
+    caption: 'Specialty Biologic Cost Containment & Disease Management',
+    description: "Accordant Health Services was acquired by AdvancePCS in 2002 and was the nation’s first specialty biologic disease management and cost containment solution."
+  },
+  {
+    src: require('./../assets/images/companies/circulation.png'),
+    alt: 'Circulation Health',
+    caption: 'On-Demand Ride Ordering',
+    description: "Circulation Health was acquired by Logisticare in 2018 and is an on-demand ride ordering solution for clinics and payers to offer rides to medical appointments for patients."
+  },
+  {
+    src: require('./../assets/images/companies/cleardata.png'),
+    alt: 'ClearData Networks',
+    caption: 'Cloud Migration & Security',
+    description: "ClearDATA Networks provides technology and services to enable healthcare organizations to cost-effectively and securely transition and manage their data and infrastructure to the cloud in a HIPAA compliant, HiTrust certified environment."
+  },
+  {
+    src: require('./../assets/images/companies/d2hawkeye.jpeg'),
+    alt: 'D2Hawkeye',
+    caption: 'Predictive Analytics',
+    description: "D2Hawkeye was acquired by Verisk Analytics in 2009 and was one of the nation’s first, successful, independent healthcare predictive analytics companies."
+  },
+  {
+    src: require('./../assets/images/companies/iasis.jpeg'),
+    alt: 'IASIS Healthcare',
+    caption: 'Acute-Care Hospitals',
+    description: "IASIS Healthcare was acquired by Texas Pacific Group in 2004, and was a newly-formed owner and operator of 15 acute-care hospitals."
+  },
+  {
+    src: require('./../assets/images/companies/itriage.png'),
+    alt: 'iTriage',
+    caption: 'Consumerism',
+    description: "iTriage was acquired by Aetna in 2011 and was the nation’s first and leading healthcare mobile member engagement solution provided by health plans and self-insured employers."
+  },
+  {
+    src: require('./../assets/images/companies/national_surgical_care.png'),
+    alt: 'National Surgical Care',
+    caption: 'Cost Reduction',
+    description: "National Surgical Care was acquired by Amsurg in 2011 and was an operator of outpatient surgery centers."
+  },
+  {
+    src: require('./../assets/images/companies/national_surgical_care.png'),
+    alt: 'NovoLogix',
+    caption: 'Specialty Biologic Cost Containment',
+    description: "NovoLogix was acquired by CVS Health in 2013 and was one of the nation's first and leading solution providers addressing the management of high cost specialty drugs."
+  },
+  {
+    src: require('./../assets/images/companies/payerpath.jpeg'),
+    alt: 'PayerPath',
+    caption: 'Revenue Cycle Management',
+    description: "PayerPath was acquired by AllScripts/Misys in 2006 and, at the time, was a rapidly growing provider of revenue cycle management solutions to physician practices."
+  },
+  {
+    src: require('./../assets/images/companies/titan.jpeg'),
+    alt: 'Titan Health',
+    caption: 'Cost Reduction',
+    description: "Titan Health was acquired by United Surgical Partners in 2011 and, at the time, was one of the leading developers of low cost outpatient surgery centers in the United States."
+  },
+  {
+    src: require('./../assets/images/companies/vantage_oncology.png'),
+    alt: 'Vantage Oncology',
+    caption: 'Oncology',
+    description: "Vantage Oncology was acquired by McKesson in 2016.  At the time, it was the second largest operator of freestanding radiation treatment centers for cancer patients in the United States."
+  },
+  {
+    src: require('./../assets/images/companies/vericare.jpeg'),
+    alt: 'VeriCare',
+    caption: 'Integrated Behavioral Care Services',
+    description: "VeriCare was acquired by MedOptions in 2016. VeriCare was one of the nation's largest providers of integrated behavioral care services to patients in nursing homes."
+  },
 ]

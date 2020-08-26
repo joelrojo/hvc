@@ -62,7 +62,7 @@ class Clients extends React.Component {
               <SectionHeader data={sectionHeader} className="reveal-from-bottom" />
 
                 <div className="companiesList">
-                  {companies.map((c, index) =>
+                  {companies.slice(0, 12).map((c, index) =>
                     <div className="reveal-from-bottom companyContainer" data-reveal-delay={index*200+200}>
                       <Link to={`/companies/${slugify(c.alt)}`}>
                         <img src={c.src} alt={c.alt} />
