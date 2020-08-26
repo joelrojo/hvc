@@ -39,10 +39,12 @@ const Member = ({ member, index, show }) => {
         onCancel={handleCancel}
         className='teamModal'
       >
+        <div className='info'>
+          <h2>{member.name}</h2>
+          <h3>{member.title}</h3>
+          <p dangerouslySetInnerHTML={{ __html: member.bio }} />
+        </div>
         <img src={member.src} alt={member.name} />
-        <h2>{member.name}</h2>
-        <h3>{member.title}</h3>
-        <p>{member.bio}</p>
       </Modal>
     </>
   )
