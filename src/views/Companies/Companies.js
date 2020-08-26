@@ -1,16 +1,10 @@
 import React from 'react';
+import { companies } from '../../data/companies'
 import classNames from 'classnames';
 import { ReactTitle } from 'react-meta-tags';
 import SectionHeader from '../../components/sections/partials/SectionHeader';
 
 import './Companies.scss';
-
-const headers = [
-  <span>More <strong>Industry "Firsts"</strong> For Longer</span>,
-  <span>More <strong>Value-Add</strong> Investors For Longer</span>,
-  <span>Leveraged to Drive <strong>More Customer Relationships</strong></span>,
-  <span>Investing with a<br /><strong>Mission</strong></span>,
-]
 
 const Companies = ({
   className,
@@ -63,15 +57,11 @@ const Companies = ({
         <div className={innerClasses} style={{ paddingBottom: 0 }}>
           <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color reveal-from-top" data-reveal-delay="600" />
           <div className={tilesClasses}>
-            {headers.map((header, index) =>
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay={`${1200 + (index * 200)}`}>
+            {companies.map((c, index) =>
+              <div className="tiles-item reveal-from-bottom companyContainer" data-reveal-container=".tiles-wrap" data-reveal-delay={index*200+200}>
                 <div className="tiles-item-inner">
-                  <div className="testimonial-item-header">
-                    <h4>{header}</h4>
-                    <div className='readMore'>
-                      Read More
-                    </div>
-                  </div>
+                  <img src={c.src} alt={c.alt} />
+                  <h4>{c.caption}</h4>
                 </div>
               </div>
             )}

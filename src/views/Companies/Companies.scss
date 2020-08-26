@@ -21,4 +21,39 @@
       object-fit: cover;
     }
   }
+
+  .companyContainer {
+    cursor: pointer;
+    
+    &:hover {
+      h4 {
+        opacity: 1;
+        transform: scale(1.1) translateY(10px);
+      }
+      img {
+        opacity: 1;
+        transform: scale(1.1);
+      }
+    }
+
+    h4 {
+      transition: 0.21s ease-in-out all;
+      color: #203878;
+      font-size: 15px;
+      margin: 0;
+      line-height: 1.2em;
+      opacity: 0;
+      text-align: center;
+    }
+
+    img {
+      opacity: 0.9;
+      padding: 10px;
+      height: 90px;
+      object-fit: contain;
+      width: 100%;
+      display: block;
+      transition: 0.21s ease-in-out all;
+    }
+  }
 }
