@@ -3,6 +3,7 @@ import { companies } from '../../data/companies'
 import classNames from 'classnames';
 import { ReactTitle } from 'react-meta-tags';
 import SectionHeader from '../../components/sections/partials/SectionHeader';
+import Company from './Company';
 
 import './Companies.scss';
 
@@ -58,12 +59,7 @@ const Companies = ({
           <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color reveal-from-top" data-reveal-delay="600" />
           <div className={tilesClasses}>
             {companies.map((c, index) =>
-              <div className="tiles-item reveal-from-bottom companyContainer" data-reveal-container=".tiles-wrap" data-reveal-delay={index*200+200}>
-                <div className="tiles-item-inner">
-                  <img src={c.src} alt={c.alt} />
-                  <h4>{c.caption}</h4>
-                </div>
-              </div>
+              <Company key={c.alt} company={c} index={index} />
             )}
           </div>
         </div>
