@@ -48,8 +48,6 @@ const Companies = ({
     paragraph: <span style={{ display: "block", maxWidth: "700px", margin: "0 auto" }}>For more than 25 years, our Principals have financed and helped build <strong>more successful</strong> healthcare industry <strong>"firsts"</strong> and companies that became <strong>market leaders</strong>, longer than almost any other investor in the country</span>
   };
 
-  console.log(slug)
-
   return (
     <section
       {...props}
