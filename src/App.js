@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import { useLocation, Switch } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
+import ScrollToTop from './utils/ScrollToTop';
 import ReactGA from 'react-ga';
 
 // Layouts
@@ -40,14 +41,17 @@ const App = () => {
     <ScrollReveal
       ref={childRef}
       children={() => (
-        <Switch>
-          <AppRoute exact path='/' component={Home} layout={LayoutDefault} />
-          <AppRoute path='/companies/:slug' component={Companies} layout={LayoutDefault} />
-          <AppRoute path='/companies' component={Companies} layout={LayoutDefault} />
+        <>
+          <ScrollToTop />
+          <Switch>
+            <AppRoute exact path='/' component={Home} layout={LayoutDefault} />
+            <AppRoute path='/companies/:slug' component={Companies} layout={LayoutDefault} />
+            <AppRoute path='/companies' component={Companies} layout={LayoutDefault} />
 
-          <AppRoute path='/team/:slug' component={Team} layout={LayoutDefault} />
-          <AppRoute path='/team' component={Team} layout={LayoutDefault} />
-        </Switch>
+            <AppRoute path='/team/:slug' component={Team} layout={LayoutDefault} />
+            <AppRoute path='/team' component={Team} layout={LayoutDefault} />
+          </Switch>
+        </>
       )} />
   );
 }
