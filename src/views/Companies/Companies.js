@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
+import { ReactTitle } from 'react-meta-tags';
 import SectionHeader from '../../components/sections/partials/SectionHeader';
 
 import './Companies.scss';
@@ -54,6 +55,7 @@ const Companies = ({
       {...props}
       className={outerClasses}
     >
+      <ReactTitle title="Companies | Health Velocity Capital"/>
       <div className="bgImg">
         <img src={require('../../assets/images/bg@2x.png')} />
       </div>
