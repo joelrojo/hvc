@@ -1,0 +1,79 @@
+.companyTeam {
+  margin: 0;
+  padding: 20px 10px;
+
+  .bgImg {
+    width: 100%;
+    height: 100%;
+    max-height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      transition: all 1.5s ease-in-out;
+      object-fit: cover;
+    }
+  }
+
+  .tiles-wrap a {
+    text-decoration: none;
+  }
+
+  .teamContainer {
+    cursor: pointer;
+
+    .tiles-item-inner {
+      padding: 0;
+    }
+
+    h2 {
+      font-size: 21px;
+      font-weight: 300;
+      color: #222;
+      margin: 0;
+    }
+    h3 {
+      transition: 0.21s ease-in-out all;
+      color: #203878;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 14px;
+      margin: 0;
+      line-height: 1.2em;
+    }
+
+    img {
+      height: 500px;
+      object-fit: cover;
+      display: block;
+      transition: 0.21s ease-in-out all;
+    }
+  }
+}
+
+.teamModal {
+  text-align: center;
+
+  h2, p {
+    text-align: center;
+  }
+  h2 {
+    font-size: 28px;
+    margin: 35px auto 20px;
+    color: #203878;
+  }
+  img {
+    max-height: 60px;
+    max-width: 221px;
+    text-align: center;
+    margin: 0 auto;
+
+  }
+}

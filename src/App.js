@@ -10,6 +10,7 @@ import LayoutDefault from './layouts/LayoutDefault';
 // Views
 import Home from './views/Home';
 import Companies from './views/Companies/Companies';
+import Team from './views/Team/Team';
 
 import './App.scss';
 import "antd/dist/antd.css";
@@ -43,6 +44,9 @@ const App = () => {
           <AppRoute exact path='/' component={Home} layout={LayoutDefault} />
           <AppRoute path='/companies/:slug' component={Companies} layout={LayoutDefault} />
           <AppRoute path='/companies' component={Companies} layout={LayoutDefault} />
+
+          <AppRoute path='/team/:slug' component={Team} layout={LayoutDefault} />
+          <AppRoute path='/team' component={Team} layout={LayoutDefault} />
         </Switch>
       )} />
   );
