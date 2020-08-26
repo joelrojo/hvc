@@ -45,7 +45,7 @@ const Team = ({
 
   const sectionHeader = {
     title: <span style={{ fontWeight: "300" }}>Our Team</span>,
-    paragraph: <span style={{ display: "block", maxWidth: "700px", margin: "0 auto" }}>For more than 25 years, our Principals have financed and helped build <strong>more successful</strong> healthcare industry <strong>"firsts"</strong> and companies that became <strong>market leaders</strong>, longer than almost any other investor in the country</span>
+    paragraph: <span style={{ display: "block", maxWidth: "700px", margin: "0 auto" }}>Our Principals have worked with strategic investors longer than almost anyone in the industry.</span>
   };
 
   return (
@@ -55,7 +55,8 @@ const Team = ({
     >
       <ReactTitle title="Team | Health Velocity Capital"/>
       <div className="bgImg">
-        <img src={require('../../assets/images/bg@2x.png')} alt="Health Velocity Capital Team"/>
+        <div className='overlay' />
+        <img src={require('../../assets/images/team_bg.jpeg')} alt="Health Velocity Capital Team"/>
       </div>
       <div className="container">
         <div className={innerClasses} style={{ paddingBottom: 0 }}>
