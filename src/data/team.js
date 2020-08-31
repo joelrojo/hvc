@@ -34,7 +34,10 @@ export const team = [
     name: 'Julie Foster',
     title: 'Administrator',
     bio: "Julie is the administrator for Health Velocity Capital and is responsible for making our trains run on time.  She has been working in the venture capital industry since 1999 at firms including Salix Ventures, De Novo Ventures, and HLM Venture Partners."
-  },
+  }
+]
+
+export const advisors = [
   {
     src: require('./../assets/images/team/david.jpg'),
     name: 'David Felsenthal',

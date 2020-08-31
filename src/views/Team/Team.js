@@ -1,5 +1,5 @@
 import React from 'react';
-import { team } from '../../data/team'
+import { team, advisors } from '../../data/team'
 import { useParams } from 'react-router-dom'
 import classNames from 'classnames';
 import { ReactTitle } from 'react-meta-tags';
@@ -45,7 +45,7 @@ const Team = ({
 
   const sectionHeader = {
     title: <span style={{ fontWeight: "300" }}>Our Team</span>,
-    paragraph: <span style={{ display: "block", maxWidth: "700px", margin: "0 auto" }}>Our Principals have worked with strategic investors longer than almost anyone in the industry.</span>
+    paragraph: <span style={{ display: "block", maxWidth: "700px", margin: "0 auto" }}>We are investors and operators</span>
   };
 
   return (
@@ -63,6 +63,12 @@ const Team = ({
           <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color reveal-from-top" data-reveal-delay="600" />
           <div className={tilesClasses}>
             {team.map((m, index) =>
+              <Member key={m.name} member={m} index={index} show={slug && slugify(slug) === slugify(m.name)}/>
+            )}
+          </div>
+          <SectionHeader style={{ margin: '80px auto 0' }}data={{ title: 'Our Advisors' }} tag="h1" className="center-content reveal-from-top" data-reveal-delay="600" />
+          <div className={tilesClasses}>
+            {advisors.map((m, index) =>
               <Member key={m.name} member={m} index={index} show={slug && slugify(slug) === slugify(m.name)}/>
             )}
           </div>
