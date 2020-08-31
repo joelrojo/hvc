@@ -64,6 +64,7 @@ const Companies = ({
             {companies.map((c, index) =>
               <Company key={c.alt} company={c} index={index} show={slug && slugify(slug) === slugify(c.alt)}/>
             )}
+            <div className="tiles-item reveal-from-bottom companyContainer" data-reveal-container=".tiles-wrap"></div>
           </div>
         </div>
       </div>
