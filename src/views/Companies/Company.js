@@ -41,6 +41,7 @@ const Company = ({ company, index, show }) => {
         <img src={company.src} alt={company.alt} />
         <h2>{company.caption}</h2>
         <p>{company.description}</p>
+        <a className='button button-wide-mobile' href={company.url} alt={company.alt} target="_blank">Visit Homepage</a>
       </Modal>
     </>
   )
