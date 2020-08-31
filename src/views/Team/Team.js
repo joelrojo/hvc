@@ -66,7 +66,7 @@ const Team = ({
               <Member key={m.name} member={m} index={index} show={slug && slugify(slug) === slugify(m.name)}/>
             )}
           </div>
-          <SectionHeader style={{ margin: '80px auto 0' }}data={{ title: 'Our Advisors' }} tag="h1" className="center-content reveal-from-top" data-reveal-delay="600" />
+          <SectionHeader style={{ margin: '80px auto 0' }}data={{ title: 'Our Advisors' }} tag="h1" className="center-content reveal-from-top" data-reveal-delay="200" />
           <div className={tilesClasses}>
             {advisors.map((m, index) =>
               <Member key={m.name} member={m} index={index} show={slug && slugify(slug) === slugify(m.name)}/>

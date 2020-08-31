@@ -1,5 +1,5 @@
 import React from 'react';
-import { companies } from '../../data/companies'
+import { currentCompanies, pastCompanies } from '../../data/companies'
 import { useParams } from 'react-router-dom'
 import classNames from 'classnames';
 import { ReactTitle } from 'react-meta-tags';
@@ -48,6 +48,11 @@ const Companies = ({
     paragraph: <span style={{ display: "block", maxWidth: "700px", margin: "0 auto" }}>For more than 25 years, our Principals have financed and helped build <strong>more successful</strong> healthcare industry <strong>"firsts"</strong> and companies that became <strong>market leaders</strong>, longer than almost any other investor in the country</span>
   };
 
+  const section2Header = {
+    title: 'Prior History',
+    paragraph: 'Our principals made the following investments at predecessor firms and sourced, led, and served on the boards of these companies (with the exception of ClearData (co-led), iTriage, D2Hawkeye, and Iasis Healthcare)',
+  }
+
   return (
     <section
       {...props}
@@ -61,7 +66,14 @@ const Companies = ({
         <div className={innerClasses} style={{ paddingBottom: 0 }}>
           <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color reveal-from-top" data-reveal-delay="600" />
           <div className={tilesClasses}>
-            {companies.map((c, index) =>
+            {currentCompanies.map((c, index) =>
+              <Company key={c.alt} company={c} index={index} show={slug && slugify(slug) === slugify(c.alt)}/>
+            )}
+            <div className="tiles-item reveal-from-bottom companyContainer" data-reveal-container=".tiles-wrap"></div>
+          </div>
+          <SectionHeader style={{ margin: '80px auto 0' }} data={section2Header} tag="h1" className="center-content reveal-from-top" data-reveal-delay="200" />
+          <div className={tilesClasses}>
+            {pastCompanies.map((c, index) =>
               <Company key={c.alt} company={c} index={index} show={slug && slugify(slug) === slugify(c.alt)}/>
             )}
             <div className="tiles-item reveal-from-bottom companyContainer" data-reveal-container=".tiles-wrap"></div>
