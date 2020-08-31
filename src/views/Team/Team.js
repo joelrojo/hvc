@@ -56,7 +56,7 @@ const Team = ({
       <ReactTitle title="Team | Health Velocity Capital"/>
       <div className="bgImg">
         <div className='overlay' />
-        <img src={require('../../assets/images/team_bg.jpeg')} alt="Health Velocity Capital Team"/>
+        <img src={require('../../assets/images/team_bg3.jpg')} alt="Health Velocity Capital Team"/>
       </div>
       <div className="container">
         <div className={innerClasses} style={{ paddingBottom: 0 }}>
