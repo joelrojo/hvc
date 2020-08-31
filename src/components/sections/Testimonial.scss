@@ -80,27 +80,28 @@
           background: linear-gradient(180deg, #E2EEFF, #7f94aa);
 
           h4 {
-            color: #101D2D;
+            color: #010101;
             text-align: left;
             font-size: 16px;
-            font-weight: 300;
+            font-weight: 500;
             line-height: 1.5em;
             font-family: "Inter", sans-serif;
             strong {
-              font-weight: 600;
+              font-weight: 900;
             }
           }
 
           .readMore {
-            font-size: 10px;
+            font-size: 11px;
             text-transform: uppercase;
-            color: #101D2D;
-            letter-spacing: 1px;
+            color: #010101;
+            letter-spacing: 2 px;
             line-height: 1em;
             display: flex;
             align-items: center;
             text-align: left;
             margin: 20px 0 0;
+            font-weight: 500;
 
             svg {
               color: #101D2D;
