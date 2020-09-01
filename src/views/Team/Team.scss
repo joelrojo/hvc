@@ -45,6 +45,7 @@
 
   .teamContainer {
     cursor: pointer;
+    margin-bottom: 50px;
 
     &:hover {
       img {
@@ -63,6 +64,7 @@
       font-size: 21px;
       font-weight: 300;
       margin: 0;
+      text-align: center;
     }
     h3 {
       transition: 0.21s ease-in-out all;
@@ -72,6 +74,7 @@
       font-size: 14px;
       margin: 0;
       line-height: 1.2em;
+      text-align: center;
     }
 
     img {
@@ -81,6 +84,7 @@
       display: block;
       transition: 0.21s ease-in-out all;
       border-radius: 100%;
+      object-position: 0 -25px;
     }
   }
 }
