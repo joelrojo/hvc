@@ -128,7 +128,7 @@ export const companies = [
     url: 'https://google.com',
     src: require('./../assets/images/companies/circulation.png'),
     alt: 'Circulation Health',
-    caption: 'On-Demand Ride Ordering',
+    caption: 'On-Demand Healthcare Transportation',
     description: "Circulation Health was acquired by Logisticare in 2018 and is an on-demand ride ordering solution for clinics and payers to offer rides to medical appointments for patients."
   },
   {
@@ -154,14 +154,14 @@ export const companies = [
   {
     src: require('./../assets/images/companies/itriage.png'),
     alt: 'iTriage',
-    caption: 'Consumerism',
+    caption: 'Consumer Health Navigation',
     description: "iTriage was acquired by Aetna in 2011 and was the nation’s first and leading healthcare mobile member engagement solution provided by health plans and self-insured employers."
   },
   {
     url: 'https://google.com',
     src: require('./../assets/images/companies/national_surgical_care.png'),
     alt: 'National Surgical Care',
-    caption: 'Cost Reduction',
+    caption: 'Ambulatory Surgery Centers',
     description: "National Surgical Care was acquired by Amsurg in 2011 and was an operator of outpatient surgery centers."
   },
   {
@@ -182,14 +182,14 @@ export const companies = [
     url: 'https://google.com',
     src: require('./../assets/images/companies/titan.jpeg'),
     alt: 'Titan Health',
-    caption: 'Cost Reduction',
+    caption: 'Specialty Outpatient Surgery Centers',
     description: "Titan Health was acquired by United Surgical Partners in 2011 and, at the time, was one of the leading developers of low cost outpatient surgery centers in the United States."
   },
   {
     url: 'https://google.com',
     src: require('./../assets/images/companies/vantage_oncology.png'),
     alt: 'Vantage Oncology',
-    caption: 'Oncology',
+    caption: 'Oncology Cost Reduction',
     description: "Vantage Oncology was acquired by McKesson in 2016.  At the time, it was the second largest operator of freestanding radiation treatment centers for cancer patients in the United States."
   },
   {
@@ -254,7 +254,7 @@ export const pastCompanies = [
     url: 'https://google.com',
     src: require('./../assets/images/companies/circulation.png'),
     alt: 'Circulation Health',
-    caption: 'On-Demand Ride Ordering',
+    caption: 'On-Demand Healthcare Transportation',
     description: "Circulation Health was acquired by Logisticare in 2018 and is an on-demand ride ordering solution for clinics and payers to offer rides to medical appointments for patients."
   },
   {
@@ -282,14 +282,14 @@ export const pastCompanies = [
     url: 'https://google.com',
     src: require('./../assets/images/companies/itriage.png'),
     alt: 'iTriage',
-    caption: 'Consumerism',
+    caption: 'Consumer Health Navigation',
     description: "iTriage was acquired by Aetna in 2011 and was the nation’s first and leading healthcare mobile member engagement solution provided by health plans and self-insured employers."
   },
   {
     url: 'https://google.com',
     src: require('./../assets/images/companies/national_surgical_care.png'),
     alt: 'National Surgical Care',
-    caption: 'Cost Reduction',
+    caption: 'Ambulatory Surgery Centers',
     description: "National Surgical Care was acquired by Amsurg in 2011 and was an operator of outpatient surgery centers."
   },
   {
@@ -310,14 +310,14 @@ export const pastCompanies = [
     url: 'https://google.com',
     src: require('./../assets/images/companies/titan.jpeg'),
     alt: 'Titan Health',
-    caption: 'Cost Reduction',
+    caption: 'Specialty Outpatient Surgery Centers',
     description: "Titan Health was acquired by United Surgical Partners in 2011 and, at the time, was one of the leading developers of low cost outpatient surgery centers in the United States."
   },
   {
     url: 'https://google.com',
     src: require('./../assets/images/companies/vantage_oncology.png'),
     alt: 'Vantage Oncology',
-    caption: 'Oncology',
+    caption: 'Oncology Cost Reduction',
     description: "Vantage Oncology was acquired by McKesson in 2016.  At the time, it was the second largest operator of freestanding radiation treatment centers for cancer patients in the United States."
   },
   {
@@ -335,7 +335,7 @@ export const currentCompanies = [
     url: 'https://google.com',
     src: require('./../assets/images/companies/lemonaid.png'),
     alt: 'Lemonaid Health',
-    caption: 'Telemedicine Services',
+    caption: 'Virtual Pharmacy',
     description: "Lemonaid Health provides telemedicine services (via asynchronous, phone, or video technology) and medication delivery direct-to-consumer for a wide range of conditions using a proprietary clinical information system designed to improve the quality of care for the patients it serves and reduce clinical variation."
   },
   {
