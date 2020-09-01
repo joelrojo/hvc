@@ -112,7 +112,7 @@ export const companies = [
     description: "Jvion helps healthcare systems prevent harm and lower costs, using AI-enabled prescriptive analytics for preventable harm that identifies specific patients on a risk trajectory, determines if that trajectory can be changed, and if so, recommends patient-specific interventions."
   },
   {
-    src: require('./../assets/images/companies/sperohealth.jpeg'),
+    src: require('./../assets/images/companies/sperohealth.png'),
     alt: 'Spero Health',
     caption: 'Outpatient Medication Assisted Treatment',
     description: "Spero Health is a leading provider of outpatient medication assisted treatment (MAT) centers providing therapy to individuals suffering from opiate substance use disorder."
@@ -166,7 +166,7 @@ export const companies = [
   },
   {
     url: 'https://google.com',
-    src: require('./../assets/images/companies/novologix.jpg'),
+    src: require('./../assets/images/companies/novologix.png'),
     alt: 'NovoLogix',
     caption: 'Specialty Biologic Cost Containment',
     description: "NovoLogix was acquired by CVS Health in 2013 and was one of the nation's first and leading solution providers addressing the management of high cost specialty drugs."
@@ -194,7 +194,7 @@ export const companies = [
   },
   {
     url: 'https://google.com',
-    src: require('./../assets/images/companies/vericare.jpeg'),
+    src: require('./../assets/images/companies/vericare.png'),
     alt: 'VeriCare',
     caption: 'Integrated Behavioral Care Services',
     description: "VeriCare was acquired by MedOptions in 2016. VeriCare was one of the nation's largest providers of integrated behavioral care services to patients in nursing homes."
@@ -294,7 +294,7 @@ export const pastCompanies = [
   },
   {
     url: 'https://google.com',
-    src: require('./../assets/images/companies/novologix.jpg'),
+    src: require('./../assets/images/companies/novologix.png'),
     alt: 'NovoLogix',
     caption: 'Specialty Biologic Cost Containment',
     description: "NovoLogix was acquired by CVS Health in 2013 and was one of the nation's first and leading solution providers addressing the management of high cost specialty drugs."
@@ -322,7 +322,7 @@ export const pastCompanies = [
   },
   {
     url: 'https://google.com',
-    src: require('./../assets/images/companies/vericare.jpeg'),
+    src: require('./../assets/images/companies/vericare.png'),
     alt: 'VeriCare',
     caption: 'Integrated Behavioral Care Services',
     description: "VeriCare was acquired by MedOptions in 2016. VeriCare was one of the nation's largest providers of integrated behavioral care services to patients in nursing homes."
@@ -410,7 +410,7 @@ export const currentCompanies = [
   },
   {
     url: 'https://google.com',
-    src: require('./../assets/images/companies/sperohealth.jpeg'),
+    src: require('./../assets/images/companies/sperohealth.png'),
     alt: 'Spero Health',
     caption: 'Outpatient Medication Assisted Treatment',
     description: "Spero Health is a leading provider of outpatient medication assisted treatment (MAT) centers providing therapy to individuals suffering from opiate substance use disorder."

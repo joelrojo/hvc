@@ -29,7 +29,7 @@ const Company = ({ company, index, show }) => {
       >
         <div className="tiles-item reveal-from-bottom companyContainer" data-reveal-container=".tiles-wrap" data-reveal-delay={index*200+200}>
           <div className="tiles-item-inner">
-            <img src={company.src} alt={company.alt} />
+            <img src={company.src} alt={company.alt} className={company.alt === 'Spero Health' ? "top" : ""}/>
             <h4>{company.caption}</h4>
           </div>
         </div>
