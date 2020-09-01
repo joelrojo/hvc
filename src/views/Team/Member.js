@@ -20,7 +20,13 @@ const Member = ({ member, index, show }) => {
 
   return (
     <>
-      <Link to={`/team/${slugify(member.name)}`} onClick={() => setClicked(true)}>
+      <Link
+        to={{
+          pathname: `/team/${slugify(member.name)}`,
+          state: { modal: true }
+        }}
+        onClick={() => setClicked(true)}
+      >
         <div className="tiles-item reveal-from-bottom teamContainer" data-reveal-container=".tiles-wrap" data-reveal-delay={index*200+200}>
           <div className="tiles-item-inner">
             <img src={member.src} alt={member.name} />

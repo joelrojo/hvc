@@ -20,7 +20,13 @@ const Company = ({ company, index, show }) => {
 
   return (
     <>
-      <Link to={`/companies/${slugify(company.alt)}`} onClick={() => setClicked(true)}>
+      <Link
+        to={{
+          pathname: `/companies/${slugify(company.alt)}`,
+          state: { modal: true }
+        }}
+        onClick={() => setClicked(true)}
+      >
         <div className="tiles-item reveal-from-bottom companyContainer" data-reveal-container=".tiles-wrap" data-reveal-delay={index*200+200}>
           <div className="tiles-item-inner">
             <img src={company.src} alt={company.alt} />
