@@ -166,7 +166,7 @@ export const companies = [
   },
   {
     url: 'https://google.com',
-    src: require('./../assets/images/companies/national_surgical_care.png'),
+    src: require('./../assets/images/companies/novologix.jpg'),
     alt: 'NovoLogix',
     caption: 'Specialty Biologic Cost Containment',
     description: "NovoLogix was acquired by CVS Health in 2013 and was one of the nation's first and leading solution providers addressing the management of high cost specialty drugs."
@@ -294,7 +294,7 @@ export const pastCompanies = [
   },
   {
     url: 'https://google.com',
-    src: require('./../assets/images/companies/national_surgical_care.png'),
+    src: require('./../assets/images/companies/novologix.jpg'),
     alt: 'NovoLogix',
     caption: 'Specialty Biologic Cost Containment',
     description: "NovoLogix was acquired by CVS Health in 2013 and was one of the nation's first and leading solution providers addressing the management of high cost specialty drugs."
