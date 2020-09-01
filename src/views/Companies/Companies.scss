@@ -64,6 +64,9 @@
       width: 100%;
       display: block;
       transition: 0.21s ease-in-out all;
+      &.top {
+        margin-top: -17px;
+      }
     }
   }
 }
@@ -91,9 +94,5 @@
     max-width: 221px;
     text-align: center;
     margin: 0 auto;
-    
-    &.top {
-      margin-top: -17px;
-    }
   }
 }
