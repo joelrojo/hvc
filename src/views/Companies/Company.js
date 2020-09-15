@@ -47,7 +47,8 @@ const Company = ({ company, index, show }) => {
         <img src={company.src} alt={company.alt} />
         <h2>{company.caption}</h2>
         <p>{company.description}</p>
-        <a className='button button-wide-mobile' href={company.url} alt={company.alt} target="_blank" rel="noopener noreferrer">Visit Homepage</a>
+        {company.exit && <p className='exit'>Exit: {company.exit}</p> }
+        {company.url && <a className='button button-wide-mobile' href={company.url} alt={company.alt} target="_blank" rel="noopener noreferrer">Visit Homepage</a> }
       </Modal>
     </>
   )

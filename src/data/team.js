@@ -82,13 +82,13 @@ export const advisors = [
   },
   {
     src: require('./../assets/images/team/david_2.jpg'),
-    name: 'David Shulkin, M.d.',
+    name: 'David Shulkin, MD',
     title: 'Founding Advisory Board Member',
     bio: "Dr. David J. Shulkin was the Ninth Secretary of the US Department of Veterans Affairs having been appointed by President Trump.  Secretary Shulkin previously served as Under Secretary for Health, having been appointed by President Obama and confirmed twice unanimously by the US Senate.  As Secretary, Dr. Shulkin represented the 21 million American veterans and was responsible for the nation’s largest integrated health care system with over 1,200 sites of care, serving over 9 million Veterans. Prior to coming to VA, Secretary Shulkin was a widely respected healthcare executive having served as chief executive of leading hospitals and health systems including Beth Israel in New York City and Morristown Medical Center in Northern NJ. As an entrepreneur, Secretary Shulkin founded and served as the Chairman and CEO of DoctorQuality and has served on boards of managed care companies, technology companies, and health care organizations."
   },
   {
     src: require('./../assets/images/team/mark.jpg'),
-    name: 'Mark Smith',
+    name: 'Mark Smith, MD',
     title: 'Founding Advisory Board Member',
     bio: "Mark Smith, MD serves as Co-chair of the Health Care Payment Learning & Action Network’s Guiding Committee. He is Visiting Professor, University of California at Berkeley, and Clinical Professor of Medicine, University of California at San Francisco.  He was the Founding President and former Chief Executive Officer of the California HealthCare Foundation (CHCF).  Previously, Mark was Executive Vice President at the Henry J. Kaiser Family Foundation where he oversaw programs in HIV, reproductive health, and the health care marketplace. Prior to that, he was a faculty member at the Johns Hopkins Schools of Medicine and of Public Health. Dr. Smith was elected a member of the Institute of Medicine (IOM) in 2001 and chaired the IOM’s Committee on the Learning Healthcare System, which produced the 2012 report, Best Care at Lower Cost.  He has served on the board of the National Business Group on Health, the performance measurement committee of the National Committee for Quality Assurance, and the editorial board of the Annals of Internal Medicine."
   },
