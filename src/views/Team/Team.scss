@@ -96,8 +96,6 @@
   .ant-modal-body {
     display: flex;
   }
-
-
   .info {
     width: 50%;
     h2 {
@@ -109,9 +107,15 @@
       color: #203878;
       text-transform: uppercase;
       font-weight: 500;
-      margin: 0 0 50px 0;
+      margin: 0 0 35px 0;
       font-size: 18px;
       line-height: 1.2em;
+      display: flex;
+      align-items: center;
+      svg {
+        margin-left: 10px;
+        color: #2867B2;
+      }
     }
   }
   img {

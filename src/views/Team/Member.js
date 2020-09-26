@@ -3,6 +3,7 @@ import { Link, useHistory } from 'react-router-dom';
 import { ReactTitle } from 'react-meta-tags';
 import slugify from '../../utils/slugify';
 import { Modal } from 'antd';
+import { FaLinkedin } from 'react-icons/fa';
 
 import Accordion from '../../components/elements/Accordion';
 import AccordionItem from '../../components/elements/AccordionItem';
@@ -50,7 +51,7 @@ const Member = ({ member, index, show }) => {
       >
         <div className='info'>
           <h2>{member.name}</h2>
-          <h3>{member.title}</h3>
+          <h3>{member.title}{member.linkedin && <a href={`https://www.linkedin.com/in/${member.linkedin}`} target='_blank'><FaLinkedin /></a>}</h3>
           <p dangerouslySetInnerHTML={{ __html: member.bio }} />
           {member.investments && member.investments.length > 0 &&
             <Accordion>

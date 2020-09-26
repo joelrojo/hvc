@@ -2,8 +2,6 @@
 	margin-bottom: 0 !important;
 	li {
 		@include divider(before);
-
-
 		.invert-color & {
 
 			@include divider(before, inverse);
@@ -11,6 +9,12 @@
 			&:last-of-type {
 				@include divider(after, inverse);
 			}
+		}
+	}
+
+	&:last-child {
+		> li:last-of-type {
+			@include divider(after);
 		}
 	}
 }
