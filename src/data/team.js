@@ -86,7 +86,7 @@ export const team = [
       "OnShift",
       "Zipari",
     ],
-    education: 'BBA, Belmont University',
+    education: ['BBA, Belmont University'],
   },
   {
     src: require('./../assets/images/team/jenny.jpg'),

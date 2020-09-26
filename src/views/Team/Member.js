@@ -4,6 +4,9 @@ import { ReactTitle } from 'react-meta-tags';
 import slugify from '../../utils/slugify';
 import { Modal } from 'antd';
 
+import Accordion from '../../components/elements/Accordion';
+import AccordionItem from '../../components/elements/AccordionItem';
+
 const Member = ({ member, index, show }) => {
 
   const [clicked, setClicked] = useState(false)
@@ -49,6 +52,24 @@ const Member = ({ member, index, show }) => {
           <h2>{member.name}</h2>
           <h3>{member.title}</h3>
           <p dangerouslySetInnerHTML={{ __html: member.bio }} />
+          {member.investments && member.investments.length > 0 &&
+            <Accordion>
+              <AccordionItem title="Investments">
+                <ul>
+                  {member.investments.map(item => <li>{item}</li>)}
+                </ul>
+              </AccordionItem>
+            </Accordion>
+          }
+          {member.education && member.education.length > 0 &&
+            <Accordion>
+              <AccordionItem title="Education">
+                <ul>
+                  {member.education.map(item => <li>{item}</li>)}
+                </ul>
+              </AccordionItem>
+            </Accordion>
+          }
         </div>
         <img src={member.src} alt={member.name} />
       </Modal>

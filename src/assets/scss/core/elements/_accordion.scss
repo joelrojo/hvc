@@ -1,11 +1,8 @@
 .accordion {
-
+	margin-bottom: 0 !important;
 	li {
 		@include divider(before);
 
-		&:last-of-type {
-			@include divider(after);
-		}
 
 		.invert-color & {
 
@@ -36,6 +33,7 @@
 .accordion-content {
 	padding-left: $accordion-item--padding-h;
 	padding-right: $accordion-item--padding-h;
+	padding-bottom: $accordion-item--padding-h;
     max-height: 0;
     opacity: 0;
     overflow: hidden;
@@ -44,6 +42,17 @@
     .is-active & {
         opacity: 1;
     }
+
+		ul {
+			border: none;
+		}
+		li {
+			border: none;
+			line-height: 1.7em;
+			&::before {
+				content: none;
+			}
+		}
 
     p:last-child {
         margin-bottom: $accordion-item--padding-v;

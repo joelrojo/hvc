@@ -27,7 +27,8 @@ class AccordionItem extends React.Component {
   }
 
   openItem = () => {
-    this.content.current.style.maxHeight = this.content.current.scrollHeight + 'px';
+    this.content.current.style.height = this.content.current.scrollHeight + 25 + 'px';
+    this.content.current.style.maxHeight = this.content.current.scrollHeight + 25 + 'px';
     this.setState({ isActive: true });
   }
 
@@ -66,9 +67,7 @@ class AccordionItem extends React.Component {
           ref={this.content}
           className="accordion-content text-xs"
         >
-          <p>
-            {children}
-          </p>
+          {children}
         </div>
       </li>
     )
