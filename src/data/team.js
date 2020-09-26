@@ -3,31 +3,105 @@ export const team = [
     src: require('./../assets/images/team/marty.jpg'),
     name: 'Marty Felsenthal',
     title: 'Partner',
-    bio: "Marty has worked exclusively with innovative, disruptive, and rapidly growing healthcare software and services companies for the last 25 years and has led investments in companies such as Teladoc (NYSE: TDOC); Change Healthcare (acquired by Emdeon); Aperio (acquired by Leica Biosystems); Titan Health (acquired by United Surgical Partners); US Renal Care (acquired by Leonard Green);  Payerpath (acquired by Misys/Allscripts); Vantage Oncology (acquired by McKesson); NovoLogix (acquired by CVS Health); VeriCare (acquired by MedOptions); OnShift; ClearData Networks; IVX Health; MDLIVE; and Well Health.  Marty was previously a partner at two leading venture and growth capital firms focused on this sector - Salix Ventures and HLM Venture Partners - and also worked with Madison Dearborn Partners earlier in his career.  He also serves as an adviser to the California Healthcare Foundation Innovation Fund.  Marty received his AB from Princeton University and his MBA from the Stanford University Graduate School of Business."
+    bio: "Marty has worked exclusively with innovative, disruptive, and rapidly growing healthcare software and services companies for the last 25 years. Marty was previously a partner at two leading venture and growth capital firms focused on this sector - Salix Ventures and HLM Venture Partners - and also worked with Madison Dearborn Partners earlier in his career. He also serves as an adviser to the California Healthcare Foundation Innovation Fund.",
+    linkedin: 'martinfelsenthal',
+    investments: [
+      "OnShift (Board Director)",
+      "IVX Health (Board Director)",
+      "MDLIVE (Board Director)",
+      "Well Health (Board Director)",
+      "Three Oaks Hospice (Board Observer)",
+      "ClearDATA Networks",
+      "Teladoc (NYSE: TDOC)",
+      "Change Healthcare (acquired by Emdeon)",
+      "Aperio (acquired by Leica Biosystems)",
+      "Titan Health (acquired by United Surgical Partners)",
+      "US Renal Care (acquired by Leonard Green)",
+      "Payerpath (acquired by Misys/Allscripts)",
+      "Vantage Oncology (acquired by McKesson)",
+      "NovoLogix (acquired by CVS Health)",
+      "VeriCare (acquired by MedOptions)",
+    ],
+    education: [
+      "AB, Princeton University",
+      "MBA, Stanford University Graduate School of Business",
+    ],
   },
   {
     src: require('./../assets/images/team/bruce.jpg'),
     name: 'Bruce Crosby',
     title: 'Partner',
-    bio: "Bruce has spent 25 years as a healthcare executive, entrepreneur, and venture and growth stage investor. He has helped build and invested in a number of high growth, successful healthcare software and services companies with revenues ranging from $10 million to $700 million. Bruce's executive roles have all been focused on the growth of these businesses and included senior responsibility for Business Development, Corporate Development, Product Development, Strategy, Sales, and Marketing. He has served customers in many of the largest sectors within healthcare services. <br /><br /> Bruce's executive roles have been with Compassus, the nation's 3rd largest hospice and palliative care company; Healthways (NASDAQ: HWAY), the nation's largest independent disease and population health management company and largest Medicare Advantage consumer services benefit provider; and The Advisory Board Company (NASDAQ: ABCO), one of the nation's largest health system best-practice research and software businesses. At JPMorgan Partners, Bruce led investments in Accordant Health Services (acquired by AdvancePCS) and National Surgical Care (acquired by Amsurg), and played a key role in the buyout of the initial hospitals to form IASIS Healthcare (acquired by TPG Capital). At Healthways, he drove investments in D2Hawkeye (acquired by Verisk Analytics) and iTriage (acquired by Aetna).  Bruce serves on the boards of Spero Health and Contessa Health.  Bruce received his AB from Princeton University and his MBA from the Wharton School at The University of Pennsylvania."
+    bio: "Bruce has spent 25 years as a healthcare executive, entrepreneur, and venture and growth stage investor. He has helped build and invested in a number of high growth, successful healthcare software and services companies with revenues ranging from $10 million to $700 million. Bruce's executive roles have been with Compassus, the nation's 3rd largest hospice and palliative care company; Healthways (NASDAQ: HWAY), the nation's largest independent disease and population health management company and largest Medicare Advantage consumer services benefit provider; and The Advisory Board Company (NASDAQ: ABCO), one of the nation's largest health system best-practice research and software businesses.",
+    linkedin: 'bruce-crosby-58267b',
+    investments: [
+      "Spero Health (Board Director)",
+      "Contessa Health (Board Director)",
+      "Three Oaks Hospice (Board Director)",
+      "Healthjoy (Board Observer)",
+      "Accordant Health Services (acquired by AdvancePCS)",
+      "National Surgical Care (acquired by Amsurg)",
+      "IASIS Healthcare (acquired by TPG Capital)",
+      "D2Hawkeye (acquired by Verisk Analytics)",
+      "iTriage (acquired by Aetna)",
+    ],
+    education: [
+      "AB, Princeton University",
+      "MBA, The Wharton School at The University of Pennsylvania",
+    ],
   },
   {
     src: require('./../assets/images/team/saurabh.jpg'),
     name: 'Saurabh Bhansali',
     title: 'Partner',
-    bio: "Saurabh has spent his career working with innovative healthcare services and software companies.  Most recently, Saurabh helped build and lead investments for Humana Health Ventures, the venture capital arm at one of the nation’s leading healthcare companies and second largest Medicare Advantage insurer. At Humana (NYSE: HUM), Saurabh led investments in Aspire Health (acquired by Anthem), an important and leading provider of palliative and end-of-life care management, and Circulation Health (acquired by Logisticare), a patient-centric digital patient transportion platform, and was also actively involved with investments in Omada Health and Livongo Health, both first-movers in digital health management in the areas of pre-diabetes and Type II diabetes, respectively.  In addition to his formal investing responsibilities, he was also a key member in driving discovery and innovation efforts across Humana’s enterprise, developed best practices to drive the right innovative companies and themes throughout the company, and was recognized as a Rising Star by the Global Corporate Venturing organization in 2017.  Prior to Humana, Saurabh was on the investing team at HLM Venture Partners, where he was involved in investments in Binary Fountain, ClearDATA Networks, and AbleTo and served as a Board Observer at Vericare Management (acquired by MedOptions) and Imagine Health. He also held roles at Ferrer Freeman & Co. as part of the investing team, at Bank of America Merrill Lynch as an investment banker, and at Pfizer as part of the mergers, acquisitions and licensing team.  Saurabh serves as a board observer at Spero Health, Contessa Health, and Jvion.  He received his BA from Northwestern University and his MBA from The Wharton School at the University of Pennsylvania."
+    bio: "Saurabh has spent his career working with innovative healthcare services and software companies. Most recently, Saurabh helped build and lead investments for Humana Health Ventures, the venture capital arm at one of the nation’s leading healthcare companies and second largest Medicare Advantage insurer. Prior to Humana, Saurabh held roles on the investing teams at HLM Venture Partners and Ferrer Freeman & Co and worked at Pfizer as part of the mergers, acquisitions, and licensing team.",
+    linkedin: 's-bhansali',
+    investments: [
+      "HealthJoy (Board Director)",
+      "Zipari (Board Director)",
+      "Jvion (Board Director)",
+      "Ginger (Board Observer)",
+      "Spero Health (Board Observer)",
+      "Contessa Health (Board Observer)",
+      "Omada Health",
+      "Aspire Health (acquired by Anthem)",
+      "Circulation Health (acquired by Logisticare)",
+      "Livongo Health (NASDAQ: LVGO)"
+    ],
+    education: [
+      "AB, Northwestern University",
+      "MBA, The Wharton School at The University of Pennsylvania"
+    ],
   },
   {
     src: require('./../assets/images/team/grant.jpg'),
     name: 'Grant Blevins',
     title: 'Senior Associate',
-    bio: "Grant has spent his career investing exclusively into innovative healthcare companies.  Prior to joining Health Velocity Capital, Grant was an investor with FCA Venture Partners, one of Nashville’s most established healthcare venture capital firms.  During his time at FCA (and the seed fund of FCA, Dioko Ventures), he sourced investments in HealthiPASS, MediQuire, Vericred, RubiconMD, and QueueDr and was involved with notable investments in Saferide Health, One Medical Passport, ShiftWizard, Healthy Bytes, and others.  At FCA, Grant played a lead role in all deal sourcing and also led research efforts for the firm which helped to develop investment theses. Grant received his Bachelor of Business Administration in Entrepreneurship from Belmont University. "
+    bio: "Grant has spent his entire career investing exclusively in innovative healthcare companies. Prior to joining Health Velocity Capital, Grant was an investor with Clayton Associates, Nashville’s oldest venture capital firm, where he co-led deal sourcing for FCA Venture Partners.",
+    linkedin: 'grantblevins',
+    investments: [
+      "Lemonaid Health (Board Observer)",
+      "IVX Health (Board Observer)",
+      "Well Health (Board Observer)",
+      "MDLIVE",
+      "OnShift",
+      "Zipari",
+    ],
+    education: 'BBA, Belmont University',
   },
   {
     src: require('./../assets/images/team/jenny.jpg'),
     name: 'Jenny Guyton',
     title: 'Senior Associate',
-    bio: "Jenny has spent her career driving innovation in health care services and technology as an operator and investor.  Most recently, Jenny led various acquisitions and de novo new product development initiatives at The Advisory Board Company (NASDAQ:  ABCO), a market-leading health care research, consulting, and technology company.  While there, she was active in the acquisition of Clinovations, a highly successful EMR optimization consulting and services organization, and the development and launch of The Advisory Board’s self-service data analytics platform.  She later spearheaded The Advisory Board’s strategic partnership program and led special projects for the company’s technology business, including a strategic reorganization of the business.  Prior to The Advisory Board, Jenny worked in investment banking focused on mergers and acquisitions.  She has also held positions at Town Hall Ventures, Flare Capital as a Flare Capital Fellow, Bridgewater Associates, and Google (NASDAQ: GOOG).  Jenny received her BA in Ethics, Politics, and Economics from Yale University and her MBA from The Wharton School.  At Wharton, Jenny graduated from its Health Care Management program and received the Howard E. Mitchell Fellowship."
+    bio: "Jenny has spent her career driving innovation in health care services and technology as an operator and investor. Most recently, Jenny led various acquisitions and de novo new product development initiatives at The Advisory Board Company (NASDAQ: ABCO), a market-leading health care research, consulting, and technology company. Prior to The Advisory Board, Jenny worked in investment banking focused on mergers and acquisitions.",
+    investments: [
+      "Jvion",
+      "Ginger"
+    ],
+    education: [
+      'BA, Yale University',
+      'MBA, The Wharton School at The University of Pennsylvania',
+    ],
+    linkedin: 'jennyguyton'
   },
   {
     src: require('./../assets/images/team/julie.jpg'),
