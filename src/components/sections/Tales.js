@@ -119,7 +119,7 @@ class Tales extends React.Component {
               )}
             </Slider>
 
-            <Link to="/" className="bottom"><Button color="primary" wideMobile>Tales From the Road</Button></Link>
+            <Link to="/tales-from-the-road" className="bottom"><Button color="primary" wideMobile>Tales From the Road</Button></Link>
           </div>
         </div>
       </section>
