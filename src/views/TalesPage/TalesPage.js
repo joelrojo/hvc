@@ -1,8 +1,11 @@
-import React from 'react';
-import { photos } from '../../data/photos';
+import React, {useState, useCallback} from 'react';
+import photos from '../../data/photos';
 import classNames from 'classnames';
 import { ReactTitle } from 'react-meta-tags';
 import SectionHeader from '../../components/sections/partials/SectionHeader';
+
+import Gallery from "react-photo-gallery";
+import Carousel, { Modal, ModalGateway } from "react-images";
 
 import './TalesPage.scss';
 
@@ -43,6 +46,19 @@ const TalesPage = ({
     paragraph: <span style={{ display: "block", maxWidth: "700px", margin: "0 auto" }}>Health Velocity Capital has headquarters in both Nashville and San Francisco, which means we're on the road a lot. Check out some of our favorite memories, the fun we’ve had in our company’s journey, and the many friends who’ve helped us along the way</span>
   };
 
+  const [currentImage, setCurrentImage] = useState(0);
+  const [viewerIsOpen, setViewerIsOpen] = useState(false);
+
+  const openLightbox = useCallback((event, { photo, index }) => {
+    setCurrentImage(index);
+    setViewerIsOpen(true);
+  }, []);
+
+  const closeLightbox = () => {
+    setCurrentImage(0);
+    setViewerIsOpen(false);
+  };
+
   return (
     <section
       {...props}
@@ -56,8 +72,22 @@ const TalesPage = ({
       <div className="container">
         <div className={innerClasses} style={{ paddingBottom: 0 }}>
           <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color reveal-from-top" data-reveal-delay="600" />
-          <div className={tilesClasses}>
-
+          <div className='photoGallery'>
+            <Gallery photos={photos} onClick={openLightbox} />
+            <ModalGateway>
+              {viewerIsOpen ? (
+                <Modal onClose={closeLightbox}>
+                  <Carousel
+                    currentIndex={currentImage}
+                    views={photos.map(photo => ({
+                      ...photo,
+                      srcset: photo.srcSet,
+                      caption: photo.title
+                    }))}
+                  />
+                </Modal>
+              ) : null}
+            </ModalGateway>
           </div>
         </div>
       </div>

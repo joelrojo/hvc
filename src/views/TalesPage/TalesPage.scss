@@ -40,7 +40,51 @@
     }
   }
 
-  .tiles-wrap a {
-    text-decoration: none;
+  .photoGallery {
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .react-photo-gallery--gallery {
+    > div {
+      display: grid !important;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      grid-gap: 1rem;
+
+      img {
+        height: 250px;
+        width: 250px;
+        margin: auto !important;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+
+.react-images__view {
+  img {
+    max-height: 100vh;
+    max-width: 100vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .talesPage {
+    .bgImg {
+      max-height: 600px;
+
+      img {
+        object-position: center center;
+      }
+    }
+
+    .react-photo-gallery--gallery {
+      > div {
+        img {
+          width: 100vw;
+        }
+      }
+    }
   }
 }
