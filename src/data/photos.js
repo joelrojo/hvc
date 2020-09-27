@@ -1,3 +1,6 @@
-export const photos = [
-  require('./../assets/images/companies/teledoc.png')
-]
+let photos = [];
+for (let i = 1; i <= 45; i++) {
+  photos.push(require(`../assets/images/tales/${i}.jpg`))
+}
+
+export default photos;
