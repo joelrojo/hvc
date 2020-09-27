@@ -50,7 +50,8 @@ const TalesPage = ({
     >
       <ReactTitle title="Tales from the Road | Health Velocity Capital"/>
       <div className="bgImg">
-        <img src={require('../../assets/images/bg@2x.png')} alt="Health Velocity Capital Tales from the Road"/>
+        <div className='overlay' />
+        <img src={require('../../assets/images/tales/5.jpg')} alt="Health Velocity Capital Tales from the Road"/>
       </div>
       <div className="container">
         <div className={innerClasses} style={{ paddingBottom: 0 }}>
