@@ -76,7 +76,9 @@
         display: block;
         transition: 0.21s ease-in-out all;
       }
-
+      a, a:hover, a:active {
+        text-decoration: none;
+      }
     }
   }
   .buttons {
