@@ -51,7 +51,7 @@ const Member = ({ member, index, show }) => {
       >
         <div className='info'>
           <h2>{member.name}</h2>
-          <h3>{member.title}{member.linkedin && <a href={`https://www.linkedin.com/in/${member.linkedin}`} target='_blank'><FaLinkedin /></a>}</h3>
+          <h3>{member.title}{member.linkedin && <a href={`https://www.linkedin.com/in/${member.linkedin}`} target='_blank' rel="noopener noreferrer"><FaLinkedin /></a>}</h3>
           <p dangerouslySetInnerHTML={{ __html: member.bio }} />
           {member.investments && member.investments.length > 0 &&
             <Accordion>
