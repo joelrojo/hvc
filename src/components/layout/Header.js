@@ -129,7 +129,7 @@ class Header extends React.Component {
                         navPosition && `header-nav-${navPosition}`
                       )}>
                       <li>
-                        <Link to="/" onClick={this.closeMenu}>Why We're Different</Link>
+                        <Link to="/why-were-different" onClick={this.closeMenu}>Why We're Different</Link>
                       </li>
                       <li>
                         <Link to="/companies" onClick={this.closeMenu}>Companies</Link>

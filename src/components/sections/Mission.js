@@ -60,7 +60,7 @@ class Mission extends React.Component {
               <SectionHeader data={sectionHeader} className="reveal-from-bottom" />
 
               <div className='buttons'>
-                <Link to="/" className="bottom reveal-from-bottom"><Button wideMobile>Our Values</Button></Link>
+                <Link to="/why-were-different" className="bottom reveal-from-bottom"><Button wideMobile>Our Values</Button></Link>
               </div>
             </div>
           </div>

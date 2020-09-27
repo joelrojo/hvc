@@ -13,6 +13,7 @@ import Home from './views/Home';
 import Companies from './views/Companies/Companies';
 import Team from './views/Team/Team';
 import TalesPage from './views/TalesPage/TalesPage';
+import Different from './views/Different/Different';
 
 import './App.scss';
 import "antd/dist/antd.css";
@@ -52,6 +53,7 @@ const App = () => {
             <AppRoute path='/team/:slug' component={Team} layout={LayoutDefault} />
             <AppRoute path='/team' component={Team} layout={LayoutDefault} />
             <AppRoute path='/tales-from-the-road' component={TalesPage} layout={LayoutDefault} />
+            <AppRoute path='/why-were-different' component={Different} layout={LayoutDefault} />
           </Switch>
         </>
       )} />
