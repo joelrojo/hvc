@@ -1,8 +1,9 @@
-import React, {useState, useCallback} from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import photos from '../../data/photos';
 import classNames from 'classnames';
 import { ReactTitle } from 'react-meta-tags';
 import SectionHeader from '../../components/sections/partials/SectionHeader';
+import shuffleArray from '../../utils/shuffleArray';
 
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
@@ -43,6 +44,11 @@ const TalesPage = ({
 
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
+  const [images, setImages] = useState(null)
+
+  useEffect(() => {
+    setImages(shuffleArray(photos))
+  }, [])
 
   const openLightbox = useCallback((event, { photo, index }) => {
     setCurrentImage(index);
@@ -68,13 +74,13 @@ const TalesPage = ({
         <div className={innerClasses} style={{ paddingBottom: 0 }}>
           <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color reveal-from-top" data-reveal-delay="600" />
           <div className='photoGallery'>
-            <Gallery photos={photos} onClick={openLightbox} />
+            <Gallery photos={images} onClick={openLightbox} />
             <ModalGateway>
               {viewerIsOpen ? (
                 <Modal onClose={closeLightbox}>
                   <Carousel
                     currentIndex={currentImage}
-                    views={photos.map(photo => ({
+                    views={images.map(photo => ({
                       ...photo,
                       srcset: photo.srcSet,
                       caption: photo.title
