@@ -36,11 +36,6 @@ const TalesPage = ({
     bottomDivider && 'has-bottom-divider'
   );
 
-  const tilesClasses = classNames(
-    'tiles-wrap',
-    pushLeft && 'push-left'
-  );
-
   const sectionHeader = {
     title: <span style={{ fontWeight: "300" }}>Tales from the Road</span>,
     paragraph: <span style={{ display: "block", maxWidth: "700px", margin: "0 auto" }}>Health Velocity Capital has headquarters in both Nashville and San Francisco, which means we're on the road a lot. Check out some of our favorite memories, the fun we’ve had in our company’s journey, and the many friends who’ve helped us along the way</span>

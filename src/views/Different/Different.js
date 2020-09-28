@@ -32,11 +32,6 @@ const Different = ({
     bottomDivider && 'has-bottom-divider'
   );
 
-  const tilesClasses = classNames(
-    'tiles-wrap',
-    pushLeft && 'push-left'
-  );
-
   const sectionHeader = {
     title: <span style={{ fontWeight: "300" }}>Why We're Different</span>,
     paragraph: <span style={{ display: "block", maxWidth: "700px", margin: "0 auto" }}>Healthcare is all we've ever done...</span>
