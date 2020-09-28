@@ -96,7 +96,7 @@ const Different = ({
               <div className='center-content-mobile reveal-scale-up'
                 data-reveal-container=".feature-split"
                 data-reveal-delay="200">
-                Graphic
+                <img className='graphicImage' src={require('../../assets/images/graphic.png')} alt='HVC Numbers' />
               </div>
               <div className="center-content-mobile">
                 <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-container=".feature-split">
