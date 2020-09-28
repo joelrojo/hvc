@@ -38,7 +38,13 @@ const Different = ({
     paragraph: <span style={{ display: "block", maxWidth: "700px", margin: "0 auto" }}>Healthcare is all we've ever done...</span>
   };
 
+  const sectionHeaderMission = {
+    title: "And, Last But Not Least, We Are An Investment Firm With A Mission",
+    paragraph: "Our mission at Health Velocity Capital is to generate outstanding financial returns while being the preferred innovation partner of entrepreneurs and investors working toward a more affordable, sustainable, consumer-friendly healthcare system."
+  }
+
   return (
+    <>
     <section
       {...props}
       className={outerClasses}
@@ -114,6 +120,25 @@ const Different = ({
         </div>
       </div>
     </section>
+    <section className='invert-color mission'>
+      <div className='container'>
+        <SectionHeader data={sectionHeaderMission} className="reveal-from-bottom" />
+        <div className='container-sm'>
+          <h2 className="reveal-from-bottom" data-reveal-delay="200">We operate with a clear set of organizational values</h2>
+          <ul className="reveal-from-bottom" data-reveal-delay="300">
+            <li>Our team members are driven by a desire to excel for our entrepreneurs and our investors and to improve our nation’s healthcare system</li>
+            <li>We over-communicate and are transparent</li>
+            <li>We are responsive</li>
+            <li>We serve multiple customers, we work hard for all of them, and we are respectful of the needs of all entrepreneurs, our limited partners, our team, and our co-investors</li>
+            <li>We believe good process leads to good results</li>
+            <li>We believe the opinion of every team member matters a lot</li>
+            <li>We know we make mistakes and do our best to own up to them</li>
+            <li>We believe high performance organizations require leadership, accountability, clarity, decisiveness, and a strong and fun culture</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    </>
   );
 }
 

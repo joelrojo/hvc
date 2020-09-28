@@ -74,6 +74,21 @@
   }
 }
 
+.mission {
+  padding: 100px 10px;
+  background: #203878;
+  background: radial-gradient(circle, rgba(32, 56, 120, 0.675508) 0%, #203878 71%);
+
+  .section-header {
+    padding-bottom: 10px;
+  }
+
+  h2 {
+    font-weight: 300;
+    font-size: 33px;
+  }
+}
+
 @media (max-width: 767px) {
   .different {
     .feature-split-wrap {
