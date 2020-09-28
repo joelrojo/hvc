@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import classNames from 'classnames';
 import { ReactTitle } from 'react-meta-tags';
 import SectionHeader from '../../components/sections/partials/SectionHeader';
 import { AiOutlineCheckCircle } from "react-icons/ai";
+import { Carousel } from 'antd';
+
+import { testimonials } from '../../data/testimonials';
 
 import './Different.scss';
 
@@ -43,6 +46,9 @@ const Different = ({
     paragraph: "Our mission at Health Velocity Capital is to generate outstanding financial returns while being the preferred innovation partner of entrepreneurs and investors working toward a more affordable, sustainable, consumer-friendly healthcare system."
   }
 
+  const [quoteOneShow, setQuoteOneShow] = useState(false)
+  const [quoteTwoShow, setQuoteTwoShow] = useState(false)
+
   return (
     <>
     <section
@@ -69,7 +75,20 @@ const Different = ({
               <div className='center-content-mobile reveal-scale-up'
                 data-reveal-container=".feature-split"
                 data-reveal-delay="200">
-                Quotes
+                <Carousel autoplay>
+                  {testimonials.slice(0,3).map(t => (
+                    <div>
+                      <p
+                        className={quoteOneShow ? '' : "clipped"}
+                        onClick={() => setQuoteOneShow(!quoteOneShow)}
+                      >"{t.quote}"</p>
+                      <div className='user'>
+                        <img src={require(`../../assets/images/testimonials/${t.name.toLowerCase().replace(' ', '_')}.jpg`)} alt={t.name} />
+                        <h4>{t.name}, <span>{t.company}</span></h4>
+                      </div>
+                    </div>
+                  ))}
+                </Carousel>
               </div>
             </div>
 
@@ -113,7 +132,20 @@ const Different = ({
               <div className='center-content-mobile reveal-scale-up'
                 data-reveal-container=".feature-split"
                 data-reveal-delay="200">
-                Quotes
+                <Carousel autoplay>
+                  {testimonials.slice(3,6).map(t => (
+                    <div>
+                      <p
+                        className={quoteOneShow ? '' : "clipped"}
+                        onClick={() => setQuoteOneShow(!quoteOneShow)}
+                      >"{t.quote}"</p>
+                      <div className='user'>
+                        <img src={require(`../../assets/images/testimonials/${t.name.toLowerCase().replace(' ', '_').replace(' ', '_')}.jpg`)} alt={t.name} />
+                        <h4>{t.name}, <span>{t.company}</span></h4>
+                      </div>
+                    </div>
+                  ))}
+                </Carousel>
               </div>
             </div>
           </div>
