@@ -44,7 +44,7 @@ const TalesPage = ({
 
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
-  const [images, setImages] = useState(null)
+  const [images, setImages] = useState([])
 
   useEffect(() => {
     setImages(shuffleArray(photos))
