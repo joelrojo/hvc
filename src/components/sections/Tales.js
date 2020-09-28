@@ -5,6 +5,7 @@ import SectionHeader from './partials/SectionHeader';
 import { SectionProps } from '../../utils/SectionProps';
 import Slider from "react-slick";
 import Button from '../elements/Button';
+import shuffleArray from '../../utils/shuffleArray';
 
 import photos from '../../data/photos';
 
@@ -19,23 +20,6 @@ const propTypes = {
 
 const defaultProps = {
   ...SectionProps.defaults
-}
-
-const shuffleArray = arra1 => {
-    var ctr = arra1.length, temp, index;
-
-    // While there are elements in the array
-    while (ctr > 0) {
-        // Pick a random index
-        index = Math.floor(Math.random() * ctr);
-        // Decrease ctr by 1
-        ctr--;
-        // And swap the last element with it
-        temp = arra1[ctr];
-        arra1[ctr] = arra1[index];
-        arra1[index] = temp;
-    }
-    return arra1;
 }
 
 class Tales extends React.Component {
