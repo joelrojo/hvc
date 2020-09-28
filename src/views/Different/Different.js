@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import { ReactTitle } from 'react-meta-tags';
 import SectionHeader from '../../components/sections/partials/SectionHeader';
+import { AiOutlineCheckCircle } from "react-icons/ai";
 
 import './Different.scss';
 
@@ -81,6 +82,18 @@ const Different = ({
                 </p>
               </div>
             </div>
+
+            <p className="callOut m-0 reveal-from-bottom" data-reveal-delay="100">
+              Having worked with strategic investors longer than almost anyone in the industry, we interact with a broad group of their senior executives and emerging leaders to understand their strategy, priorities, and challenges as organizations and across functional areas. We track and monitor relevant themes and companies across the sector for them, and we help them identify the right innovative themes and companies to adopt — and at the right time.
+            </p>
+
+            <ul className='callOuts'>
+              <li><AiOutlineCheckCircle /> Quarterly, Proprietary Innovation Market Intelligence Report</li>
+              <li><AiOutlineCheckCircle /> Quarterly, Proprietary Thematic Whitepapers</li>
+              <li><AiOutlineCheckCircle /> Exclusive Strategic Investor Webinars and Annual Off-Site at Elk Creek Ranch</li>
+              <li><AiOutlineCheckCircle /> Quarterly On-Site Meetings</li>
+              <li><AiOutlineCheckCircle /> And Much More...</li>
+            </ul>
 
             <div className="feature-split">
               <div className="center-content-mobile">

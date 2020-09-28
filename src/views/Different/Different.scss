@@ -8,6 +8,23 @@
     }
   }
 
+  p.callOut {
+    margin: 20px auto;
+  }
+
+  .callOuts {
+    list-style: none;
+
+    li {
+      display: flex;
+      svg {
+        color: #25A380;
+        flex-shrink: 0;
+        margin-right: 10px;
+      }
+    }
+  }
+
   .feature-split-wrap {
     margin: 60px auto;
 
