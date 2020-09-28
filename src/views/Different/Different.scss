@@ -1,10 +1,38 @@
 .different {
   margin: 0;
-  padding: 20px 10px;
+  padding: 80px 10px;
 
   .section-header {
     h1 {
       font-size: 42px;
+    }
+  }
+
+  .feature-split-wrap {
+    margin: 60px auto;
+
+    .feature-split {
+      display: flex;
+      align-items: baseline;
+      margin-top: 60px;
+
+      > div {
+        width: 45%;
+        margin-right: 10%;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+      h2 {
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 1.2em;
+      }
+
+      strong {
+        color: #101D2D;
+      }
     }
   }
 
@@ -31,5 +59,22 @@
 
 @media (max-width: 767px) {
   .different {
+    .feature-split-wrap {
+      .feature-split {
+        flex-direction: column;
+        > div {
+          width: 100%;
+          margin-right: 0;
+          p {
+            text-align: left;
+          }
+          margin-top: 20px;
+        }
+
+        &:nth-child(2) {
+          flex-direction: column-reverse;
+        }
+      }
+    }
   }
 }
