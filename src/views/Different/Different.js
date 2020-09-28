@@ -136,8 +136,8 @@ const Different = ({
                   {testimonials.slice(3,6).map(t => (
                     <div>
                       <p
-                        className={quoteOneShow ? '' : "clipped"}
-                        onClick={() => setQuoteOneShow(!quoteOneShow)}
+                        className={quoteTwoShow ? '' : "clipped"}
+                        onClick={() => setQuoteTwoShow(!quoteTwoShow)}
                       >"{t.quote}"</p>
                       <div className='user'>
                         <img src={require(`../../assets/images/testimonials/${t.name.toLowerCase().replace(' ', '_').replace(' ', '_')}.jpg`)} alt={t.name} />

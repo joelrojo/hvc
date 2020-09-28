@@ -17,6 +17,7 @@
 
     li {
       display: flex;
+
       svg {
         color: #25A380;
         flex-shrink: 0;
@@ -30,7 +31,7 @@
 
     .feature-split {
       display: flex;
-      align-items: start;
+      align-items: flex-start;
       margin-top: 60px;
 
       > div {
@@ -156,6 +157,15 @@
 
 @media (max-width: 767px) {
   .different {
+
+    .callOuts {
+      li {
+        align-items: flex-start;
+        svg {
+          margin-top: 5px;
+        }
+      }
+    }
     .feature-split-wrap {
       .feature-split {
         flex-direction: column;
