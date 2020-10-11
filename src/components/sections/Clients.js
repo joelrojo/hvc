@@ -75,7 +75,7 @@ class Clients extends React.Component {
               <div className='buttons'>
                 <Link to="/companies" className="bottom reveal-from-bottom"><Button color="primary" wideMobile>View All Companies</Button></Link>
 
-                <Link to="/" className="bottom reveal-from-bottom"><Button color="primary" wideMobile>News</Button></Link>
+                <a href="https://medium.com/health-velocity-capital" rel="noopener noreferrer" target="_blank" className="bottom reveal-from-bottom"><Button color="primary" wideMobile>News</Button></a>
               </div>
             </div>
           </div>
