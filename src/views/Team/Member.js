@@ -33,7 +33,7 @@ const Member = ({ member, index, show }) => {
       >
         <div className="tiles-item reveal-from-bottom teamContainer" data-reveal-container=".tiles-wrap" data-reveal-delay={index*200+200}>
           <div className="tiles-item-inner">
-            <img src={member.src} alt={member.name} />
+            <img src={member.src} alt={member.name} className={member.original ? "original" : ""} />
             <h2>{member.name}</h2>
             <h3>{member.title}</h3>
           </div>

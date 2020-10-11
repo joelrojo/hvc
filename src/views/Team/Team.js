@@ -45,7 +45,7 @@ const Team = ({
 
   const sectionHeader = {
     title: <span style={{ fontWeight: "300" }}>Our Team</span>,
-    paragraph: <span style={{ display: "block", maxWidth: "700px", margin: "0 auto" }}>For the past 25 years, our Principals have exclusively invested in and helped build healthcare software and service innovators contributing to a more affordable, sustainable, consumer-friendly healthcare system.</span>
+    paragraph: <span style={{ display: "block", maxWidth: "700px", margin: "0 auto" }}>For the past 25 years, our Principals have exclusively invested in and helped build healthcare software and service companies contributing to a more affordable, sustainable, consumer-friendly healthcare system.</span>
   };
 
   return (

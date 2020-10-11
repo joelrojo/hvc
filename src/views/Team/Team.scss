@@ -85,6 +85,10 @@
       transition: 0.21s ease-in-out all;
       border-radius: 100%;
       object-position: 0 -25px;
+
+      &.original {
+        object-position: 0 0;
+      }
     }
   }
 }
