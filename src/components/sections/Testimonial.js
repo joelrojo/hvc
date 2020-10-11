@@ -41,7 +41,10 @@ class Testimonial extends React.Component {
     this.setState({ videoIndex: 0 })
 
     const video = document.getElementById('video-0')
-    if (video) video.load()
+    if (video) {
+      video.load()
+      video.play()
+    }
 
     this.setState({ interval: setInterval(() => {
       const newVideoIndex = this.state.videoIndex === videoBgs.length - 1
@@ -112,6 +115,7 @@ class Testimonial extends React.Component {
               id={`video-${index}`}
               loop
               muted
+              playsInline
               autoPlay
               key={video}
               style={{ opacity: index === this.state.videoIndex ? 1 : 0 }}
