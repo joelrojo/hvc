@@ -86,11 +86,21 @@
 }
 
 @media (max-width: 800px) {
-  .numbers .numbersList {
-    display: block;
+  .numbers {
+    .invert-color .numbersList {
+      min-height: 820px;
+    }
+    .numbersList {
+      display: block;
+      min-height: 640px;
 
-    .listItem {
-      padding: 20px 0;
+      .listItem {
+        padding: 20px 0;
+
+        p.number {
+          margin: 0 auto;
+        }
+      }
     }
   }
 }
