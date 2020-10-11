@@ -21,7 +21,7 @@ const defaultProps = {
 
 const sectionHeader = {
   title: <div style={{ fontWeight: "300", fontSize: "36px", lineHeight: "46px" }}>We invest on behalf of many of the largest healthcare organizations in the country, many of healthcare's most accomplished senior executives, and an outstanding group of global institutional investors</div>,
-  paragraph: <span style={{ margin: "30px auto", display: "block" }}>Our Principals have worked with strategic investors longer than almost anyone in the industry. Collectively, Health Velocity Capital’s investors represent organizations that:</span>
+  paragraph: <span style={{ margin: "30px auto", display: "block" }}>Our Principals have worked with strategic investors longer than almost anyone in the industry. Collectively, Health Velocity Capital’s investors represent organizations that</span>
 };
 
 class Numbers extends React.Component {

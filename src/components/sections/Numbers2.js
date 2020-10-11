@@ -20,7 +20,7 @@ const defaultProps = {
 
 const sectionHeader = {
   title: <div style={{ fontWeight: "300", fontSize: "36px", lineHeight: "46px", maxWidth: "600px", margin: "0 auto" }}>We leverage these relationships to help drive revenue and build teams</div>,
-  paragraph: <span style={{ margin: "30px auto", display: "block", fontSize: "18px" }}>In a highly process-driven and symbiotic manner, our Principals have used their networks to <span style={{ fontWeight: "900", color: "#101D2D" }}>tangibily create equity value at more than <span style={{ fontStyle: 'italic' }}>95%</span></span> of the companies with whom we have partnered</span>
+  paragraph: <span style={{ margin: "30px auto", display: "block", fontSize: "18px" }}>In a highly process-driven and symbiotic manner, our Principals have used their networks to <span style={{ fontWeight: "900", color: "#101D2D" }}>tangibly create equity value at more than <span style={{ fontStyle: 'italic' }}>95%</span></span> of the companies with which they have partnered</span>
 };
 
 class Numbers2 extends React.Component {
@@ -59,8 +59,7 @@ class Numbers2 extends React.Component {
                             <p className="number">
                               <CountUp
                                 useEasing={false}
-                                end={700}
-                                suffix="+"
+                                end={720}
                               />
                             </p>
                             <p>conversations with strategic investors</p>
@@ -70,8 +69,7 @@ class Numbers2 extends React.Component {
                             <p className="number">
                               <CountUp
                                 useEasing={false}
-                                end={600}
-                                suffix="+"
+                                end={700}
                               />
                             </p>
                             <p>companies<br />discussed</p>
@@ -93,19 +91,17 @@ class Numbers2 extends React.Component {
                             <p className="number">
                               <CountUp
                                 useEasing={false}
-                                end={55}
-                                suffix="+"
+                                end={65}
                               />
                             </p>
                             <p>executives<br />placed</p>
                           </div>
-                          
+
                           <div className="listItem">
                             <p className="number">
                               <CountUp
                                 useEasing={false}
-                                end={100}
-                                suffix="+"
+                                end={120}
                               />
                             </p>
                             <p>commercial relationships facilitated</p>
