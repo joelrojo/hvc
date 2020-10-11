@@ -59,7 +59,7 @@ const Companies = ({
     >
       <ReactTitle title="Companies | Health Velocity Capital"/>
       <div className="bgImg">
-        <img src={require('../../assets/images/bg@2x.png')} alt="Health Velocity Capital Companies"/>
+        <img src={require('../../assets/images/bg_blue@2x.png')} alt="Health Velocity Capital Companies"/>
       </div>
       <div className="container">
         <div className={innerClasses} style={{ paddingBottom: 0 }}>
