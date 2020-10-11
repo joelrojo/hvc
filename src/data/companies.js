@@ -73,7 +73,7 @@ export const companies = [
     url: 'https://www.onshift.com/',
     src: require('./../assets/images/companies/onshift.png'),
     alt: 'OnShift',
-    caption: 'Post-Acute Software',
+    caption: 'Post Acute Labor Management Software',
     description: "OnShift is a rapidly growing SaaS provider of workforce optimization software for senior care facilities that is currently serving more than 10% of the nation's skilled nursing facilities and a rapidly growing percentage of assisted living facilities."
   },
   {
@@ -87,14 +87,14 @@ export const companies = [
     url: 'https://healthjoy.com/',
     src: require('./../assets/images/companies/healthjoy.png'),
     alt: 'Healthjoy',
-    caption: 'Employee Healthcare Navigation Platform',
+    caption: 'Healthcare Navigation Platform',
     description: "Healthjoy offers an employee healthcare navigation platform, largely sold through brokers, that provides digital, chat-based, and telephonic advocacy services through a unified, single-view, single-sign-on benefits wallet; free, capitated telehealth services; and concierges that facilitate services such as helping to find an in-network provider, making an appointment, and providing cost estimates; drug review services to find lower cost alternatives, drug discount coupons, and lower cost pharmacies; and medical bill review and negotiations."
   },
   {
     url: 'https://wellapp.com/',
     src: require('./../assets/images/companies/well.png'),
     alt: 'Well Health',
-    caption: 'Patient Relationship Management Software',
+    caption: 'Patient Relationship Management and Communications',
     description: "Well Health provides a unified communications platform for providers and health systems to facilitate an enhanced digital patient experience. By converting a significant portion of administrative and clinical interactions to text through their own applications and integrated applications, the company’s SaaS and ML software reduces phone call volume and the associated patient and staff frustration, costs, lost visits, and sub-optimal care that can result from phone friction."
   },
   {
@@ -371,7 +371,7 @@ export const currentCompanies = [
     url: 'https://www.onshift.com/',
     src: require('./../assets/images/companies/onshift.png'),
     alt: 'OnShift',
-    caption: 'Post-Acute Software',
+    caption: 'Post Acute Labor Management Software',
     description: "OnShift is a rapidly growing SaaS provider of workforce optimization software for senior care facilities that is currently serving more than 10% of the nation's skilled nursing facilities and a rapidly growing percentage of assisted living facilities."
   },
   {
@@ -385,14 +385,14 @@ export const currentCompanies = [
     url: 'https://healthjoy.com/',
     src: require('./../assets/images/companies/healthjoy.png'),
     alt: 'Healthjoy',
-    caption: 'Employee Healthcare Navigation Platform',
+    caption: 'Healthcare Navigation Platform',
     description: "Healthjoy offers an employee healthcare navigation platform, largely sold through brokers, that provides digital, chat-based, and telephonic advocacy services through a unified, single-view, single-sign-on benefits wallet; free, capitated telehealth services; and concierges that facilitate services such as helping to find an in-network provider, making an appointment, and providing cost estimates; drug review services to find lower cost alternatives, drug discount coupons, and lower cost pharmacies; and medical bill review and negotiations."
   },
   {
     url: 'https://wellapp.com/',
     src: require('./../assets/images/companies/well.png'),
     alt: 'Well Health',
-    caption: 'Patient Relationship Management Software',
+    caption: 'Patient Relationship Management and Communications',
     description: "Well Health provides a unified communications platform for providers and health systems to facilitate an enhanced digital patient experience. By converting a significant portion of administrative and clinical interactions to text through their own applications and integrated applications, the company’s SaaS and ML software reduces phone call volume and the associated patient and staff frustration, costs, lost visits, and sub-optimal care that can result from phone friction."
   },
   {

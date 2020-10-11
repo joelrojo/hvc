@@ -4,7 +4,7 @@ import { ReactTitle } from 'react-meta-tags';
 import slugify from '../../utils/slugify';
 import { Modal } from 'antd';
 
-const Company = ({ company, index, show }) => {
+const Company = ({ company, index, show, noUrl }) => {
 
   const [clicked, setClicked] = useState(false)
   const history = useHistory();
@@ -48,7 +48,7 @@ const Company = ({ company, index, show }) => {
         <h2>{company.caption}</h2>
         <p>{company.description}</p>
         {company.exit && <p className='exit'>Exit: {company.exit}</p> }
-        {company.url && <a className='button button-wide-mobile' href={company.url} alt={company.alt} target="_blank" rel="noopener noreferrer">Visit Homepage</a> }
+        {company.url && !noUrl && <a className='button button-wide-mobile' href={company.url} alt={company.alt} target="_blank" rel="noopener noreferrer">Visit Homepage</a> }
       </Modal>
     </>
   )
