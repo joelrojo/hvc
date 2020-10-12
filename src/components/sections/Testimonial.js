@@ -9,6 +9,11 @@ import sf2 from '../../assets/videos/sf_2.webm';
 import nv1 from '../../assets/videos/nv_1.webm';
 import nv2 from '../../assets/videos/nv_2.webm';
 
+import sf1_img from '../../assets/videos/sf_1.png';
+import sf2_img from '../../assets/videos/sf_2.png';
+import nv1_img from '../../assets/videos/nv_1.png';
+import nv2_img from '../../assets/videos/nv_2.png';
+
 import { IoIosArrowDown } from "react-icons/io";
 
 import './Testimonial.scss';
@@ -21,7 +26,12 @@ const defaultProps = {
   ...SectionTilesProps.defaults
 }
 
-const videoBgs = [sf1, nv1, sf2, nv2]
+const videoBgs = [
+  { poster: sf1_img, source: sf1 },
+  { poster: nv1_img, source: nv1 },
+  { poster: sf2_img, source: sf2 },
+  { poster: nv2_img, source: nv2 }
+]
 
 const headers = [
   <span>More <strong>Industry "Firsts"</strong> For Longer</span>,
@@ -43,7 +53,6 @@ class Testimonial extends React.Component {
     const video = document.getElementById('video-0')
     if (video) {
       video.load()
-      video.play()
     }
 
     this.setState({ interval: setInterval(() => {
@@ -55,7 +64,9 @@ class Testimonial extends React.Component {
       })
 
       const video = document.getElementById(`video-${newVideoIndex}`)
-      if (video) video.load()
+      if (video) {
+        video.load()
+      }
     }, 4000)})
   }
 
@@ -117,10 +128,11 @@ class Testimonial extends React.Component {
               muted
               playsInline
               autoPlay
-              key={video}
+              key={`video-${index}`}
               style={{ opacity: index === this.state.videoIndex ? 1 : 0 }}
+              poster={video.poster}
             >
-              <source src={video} />
+              <source src={video.source} />
             </video>
           )}
         </div>
@@ -129,7 +141,7 @@ class Testimonial extends React.Component {
             <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color reveal-from-top" data-reveal-delay="600" />
             <div className={tilesClasses}>
               {headers.map((header, index) =>
-                <Scroll.Link key={header} to={`${index}`} spy smooth duration={700}>
+                <Scroll.Link key={index} to={`${index}`} spy smooth duration={700}>
                   <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay={`${1200 + (index * 200)}`}>
                     <div className="tiles-item-inner">
                       <div className="testimonial-item-header">
