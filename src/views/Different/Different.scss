@@ -1,6 +1,6 @@
 .different {
   margin: 0;
-  padding: 80px 10px;
+  padding: 80px 0 40px;
 
   img.graphicImage {
     max-width: 400px;
@@ -33,12 +33,12 @@
   }
 
   .feature-split-wrap {
-    margin: 60px auto;
+    margin: -30px auto;
 
     .feature-split {
       display: flex;
       align-items: flex-start;
-      margin-top: 60px;
+      margin: 120px auto;
 
       > div {
         width: 48%;
@@ -62,8 +62,10 @@
         margin-bottom: 30px;
 
         .slick-list {
-          box-shadow: 0 4px 16px rgba(16,29,45,0.08);
+          box-shadow: 0 0 33px 10px rgba(16,29,45,0.21);
           padding: 20px;
+          background: linear-gradient(180deg, #f0f6ff, #b2cbe4);
+          border-radius: 10px;
         }
 
         .slick-slide {
@@ -89,19 +91,25 @@
             margin: 20px auto 0;
 
             img {
-              width: 77px;
-              height: 77px;
+              width: 120px;
+              height: 120px;
               border-radius: 100%;
-              margin-right: 15px;
+              margin-right: 20px;
               object-fit: cover;
               flex-shrink: 0;
             }
-            h4 {
-              margin: 10px 0;
-              font-size: 21px;
-              font-weight: 600;
-              span {
+
+            .details {
+              h4 {
+                margin: 0;
+                font-size: 24px;
+                font-weight: 600;
+              }
+              h5 {
                 font-weight: 300;
+                margin: 0;
+                font-size: 22px;
+                color: #666;
               }
             }
           }
@@ -153,6 +161,7 @@
 
   .section-header {
     padding-bottom: 10px;
+    h2 { font-size: 32px; }
   }
 
   h2 {

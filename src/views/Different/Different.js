@@ -42,7 +42,7 @@ const Different = ({
   };
 
   const sectionHeaderMission = {
-    title: "And, Last But Not Least, We Are An Investment Firm With A Mission",
+    title: "We Are An Investment Firm With A Mission",
     paragraph: "Our mission at Health Velocity Capital is to generate outstanding financial returns while being the preferred innovation partner of entrepreneurs and investors working toward a more affordable, sustainable, consumer-friendly healthcare system."
   }
 
@@ -57,7 +57,7 @@ const Different = ({
     >
       <ReactTitle title="Why We're Different | Health Velocity Capital"/>
       <div className="bgImg">
-        <img src={require('../../assets/images/bg@2x.png')} alt="Health Velocity Capital Tales from the Road"/>
+        <img src={require('../../assets/images/bg_blue@2x.png')} alt="Health Velocity Capital Tales from the Road"/>
       </div>
       <div className="container">
         <div className={innerClasses} style={{ paddingBottom: 0 }}>
@@ -84,7 +84,10 @@ const Different = ({
                       >"{t.quote}"</p>
                       <div className='user'>
                         <img src={require(`../../assets/images/testimonials/${t.name.toLowerCase().replace(' ', '_')}.jpg`)} alt={t.name} />
-                        <h4>{t.name}, <span>{t.company}</span></h4>
+                        <div className="details">
+                          <h4>{t.name}</h4>
+                          <h5>{t.company}</h5>
+                        </div>
                       </div>
                     </div>
                   ))}
@@ -107,46 +110,58 @@ const Different = ({
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
 
-            <p className="callOut m-0 reveal-from-bottom" data-reveal-delay="100">
-              Having worked with strategic investors longer than almost anyone in the industry, we interact with a broad group of their senior executives and emerging leaders to understand their strategy, priorities, and challenges as organizations and across functional areas. We track and monitor relevant themes and companies across the sector for them, and we help them identify the right innovative themes and companies to adopt — and at the right time.
-            </p>
+      <div className="invert-color mission">
+        <div className='container'>
+          <p className="callOut m-0 reveal-from-bottom" data-reveal-delay="100">
+            Having worked with strategic investors longer than almost anyone in the industry, we interact with a broad group of their senior executives and emerging leaders to understand their strategy, priorities, and challenges as organizations and across functional areas. We track and monitor relevant themes and companies across the sector for them, and we help them identify the right innovative themes and companies to adopt — and at the right time.
+          </p>
 
-            <ul className='callOuts'>
-              <li><AiOutlineCheckCircle /> Quarterly, Proprietary Innovation Market Intelligence Report</li>
-              <li><AiOutlineCheckCircle /> Quarterly, Proprietary Thematic Whitepapers</li>
-              <li><AiOutlineCheckCircle /> Exclusive Strategic Investor Webinars and Annual Off-Site at Elk Creek Ranch</li>
-              <li><AiOutlineCheckCircle /> Quarterly On-Site Meetings</li>
-              <li><AiOutlineCheckCircle /> And Much More...</li>
-            </ul>
+          <ul className='callOuts reveal-from-bottom' data-reveal-delay="300">
+            <li><AiOutlineCheckCircle /> Quarterly, Proprietary Innovation Market Intelligence Report</li>
+            <li><AiOutlineCheckCircle /> Quarterly, Proprietary Thematic Whitepapers</li>
+            <li><AiOutlineCheckCircle /> Exclusive Strategic Investor Webinars and Annual Off-Site at Elk Creek Ranch</li>
+            <li><AiOutlineCheckCircle /> Quarterly On-Site Meetings</li>
+            <li><AiOutlineCheckCircle /> And Much More...</li>
+          </ul>
+        </div>
+      </div>
 
-            <div className="feature-split">
-              <div className="center-content-mobile">
-                <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-container=".feature-split">
-                  We Are Practical Company Builders
-                </h2>
-                <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".feature-split">
-                  With decades of experience, we know that most innovative, growing companies hit a bump (or five) in the road, and the line to success is never straight.  With former operating experience, we know what it takes to overcome setbacks and to accelerate growth, and as such, are ready to roll up our sleeves to help.<br /><br />We are patient investors focused on long term value creation.
-                </p>
-              </div>
-              <div className='center-content-mobile reveal-scale-up'
-                data-reveal-container=".feature-split"
-                data-reveal-delay="200">
-                <Carousel autoplay>
-                  {testimonials.slice(3,6).map(t => (
-                    <div>
-                      <p
-                        className={quoteTwoShow ? '' : "clipped"}
-                        onClick={() => setQuoteTwoShow(!quoteTwoShow)}
-                      >"{t.quote}"</p>
-                      <div className='user'>
-                        <img src={require(`../../assets/images/testimonials/${t.name.toLowerCase().replace(' ', '_').replace(' ', '_')}.jpg`)} alt={t.name} />
-                        <h4>{t.name}, <span>{t.company}</span></h4>
-                      </div>
+
+      <div className='container'>
+        <div className="feature-split-wrap">
+          <div className="feature-split">
+            <div className="center-content-mobile">
+              <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-container=".feature-split">
+                We Are Practical Company Builders
+              </h2>
+              <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".feature-split">
+                With decades of experience, we know that most innovative, growing companies hit a bump (or five) in the road, and the line to success is never straight.  With former operating experience, we know what it takes to overcome setbacks and to accelerate growth, and as such, are ready to roll up our sleeves to help.<br /><br />We are patient investors focused on long term value creation.
+              </p>
+            </div>
+            <div className='center-content-mobile reveal-scale-up'
+              data-reveal-container=".feature-split"
+              data-reveal-delay="200">
+              <Carousel autoplay>
+                {testimonials.slice(3,6).map(t => (
+                  <div>
+                    <p
+                      className={quoteTwoShow ? '' : "clipped"}
+                      onClick={() => setQuoteTwoShow(!quoteTwoShow)}
+                    >"{t.quote}"</p>
+                    <div className='user'>
+                      <img src={require(`../../assets/images/testimonials/${t.name.toLowerCase().replace(' ', '_').replace(' ', '_')}.jpg`)} alt={t.name} />
+                        <div className="details">
+                          <h4>{t.name}</h4>
+                          <h5>{t.company}</h5>
+                        </div>
                     </div>
-                  ))}
-                </Carousel>
-              </div>
+                  </div>
+                ))}
+              </Carousel>
             </div>
           </div>
         </div>
