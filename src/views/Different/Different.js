@@ -83,7 +83,7 @@ const Different = ({
                         onClick={() => setQuoteOneShow(!quoteOneShow)}
                       >"{t.quote}"</p>
                       <div className='user'>
-                        <img src={require(`../../assets/images/testimonials/${t.name.toLowerCase().replace(' ', '_')}.jpg`)} alt={t.name} />
+                        <img src={require(`../../assets/images/testimonials/${t.name.toLowerCase().replace(' ', '_').replace(' ', '_')}.jpg`)} alt={t.name} />
                         <div className="details">
                           <h4>{t.name}</h4>
                           <h5>{t.company}</h5>
@@ -153,7 +153,7 @@ const Different = ({
                       onClick={() => setQuoteTwoShow(!quoteTwoShow)}
                     >"{t.quote}"</p>
                     <div className='user'>
-                      <img src={require(`../../assets/images/testimonials/${t.name.toLowerCase().replace(' ', '_').replace(' ', '_')}.jpg`)} alt={t.name} />
+                      <img src={require(`../../assets/images/testimonials/${t.name.toLowerCase().replace(' ', '_')}.jpg`)} alt={t.name} />
                         <div className="details">
                           <h4>{t.name}</h4>
                           <h5>{t.company}</h5>
