@@ -55,9 +55,18 @@ const Member = ({ member, index, show }) => {
           <p dangerouslySetInnerHTML={{ __html: member.bio }} />
           {member.investments && member.investments.length > 0 &&
             <Accordion>
-              <AccordionItem title="Investments">
+              <AccordionItem title={`${member.name === 'Marty Felsenthal' ? "Current " : ""}Investments`}>
                 <ul>
                   {member.investments.map(item => <li>{item}</li>)}
+                </ul>
+              </AccordionItem>
+            </Accordion>
+          }
+          {member.former_investments && member.former_investments.length > 0 &&
+            <Accordion>
+              <AccordionItem title="Former Investments & Boards">
+                <ul>
+                  {member.former_investments.map(item => <li>{item}</li>)}
                 </ul>
               </AccordionItem>
             </Accordion>

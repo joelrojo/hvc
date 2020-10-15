@@ -11,9 +11,10 @@ export const team = [
       "MDLIVE (Board Director)",
       "Well Health (Board Director)",
       "Three Oaks Hospice (Board Observer)",
-      "ClearDATA Networks",
-      "Teladoc (NYSE: TDOC)",
-      "Change Healthcare (acquired by Emdeon)",
+    ],
+    former_investments: [
+      "Teladoc (Board Director, NYSE: TDOC)",
+      "Change Healthcare (Board Director, acquired by Emdeon)",
       "Aperio (acquired by Leica Biosystems)",
       "Titan Health (acquired by United Surgical Partners)",
       "US Renal Care (acquired by Leonard Green)",
@@ -21,6 +22,7 @@ export const team = [
       "Vantage Oncology (acquired by McKesson)",
       "NovoLogix (acquired by CVS Health)",
       "VeriCare (acquired by MedOptions)",
+      "ClearDATA Networks (Board Director)",
     ],
     education: [
       "AB, Princeton University",
