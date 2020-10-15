@@ -3,7 +3,6 @@ import photos from '../../data/photos';
 import classNames from 'classnames';
 import { ReactTitle } from 'react-meta-tags';
 import SectionHeader from '../../components/sections/partials/SectionHeader';
-import shuffleArray from '../../utils/shuffleArray';
 
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
@@ -39,7 +38,7 @@ const TalesPage = ({
 
   const sectionHeader = {
     title: <span style={{ fontWeight: "300" }}>Tales from the Road</span>,
-    paragraph: <span style={{ display: "block", maxWidth: "700px", margin: "0 auto" }}>Health Velocity Capital has headquarters in both Nashville and San Francisco, which means we're on the road a lot. Check out some of our favorite memories, the fun we’ve had in our company’s journey, and the many friends who’ve helped us along the way</span>
+    paragraph: <span style={{ display: "block", maxWidth: "700px", margin: "0 auto" }}>Health Velocity Capital has headquarters in both Nashville and San Francisco, which means we're on the road a lot. Check out some of our favorite memories, the fun we’ve had in our journey, and the many friends who’ve helped us along the way.</span>
   };
 
   const [currentImage, setCurrentImage] = useState(0);
@@ -47,7 +46,7 @@ const TalesPage = ({
   const [images, setImages] = useState([])
 
   useEffect(() => {
-    setImages(shuffleArray(photos))
+    setImages(photos)
   }, [])
 
   const openLightbox = useCallback((event, { photo, index }) => {
