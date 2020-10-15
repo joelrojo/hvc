@@ -118,11 +118,17 @@
           bottom: -20px;
           margin: 0;
 
+          button {
+            background: transparent;
+          }
           button:before {
             opacity: 1;
           }
           li.slick-active {
             width: 16px;
+            button {
+              background: transparent;
+            }
 
             button:before {
               color: #203878;

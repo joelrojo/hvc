@@ -75,7 +75,7 @@ const Different = ({
               <div className='center-content-mobile reveal-scale-up'
                 data-reveal-container=".feature-split"
                 data-reveal-delay="200">
-                <Carousel autoplay>
+                <Carousel autoplay autoplaySpeed={6000}>
                   {testimonials.slice(0,3).map(t => (
                     <div>
                       <p
@@ -106,7 +106,7 @@ const Different = ({
                   We Leverage Some of the Strongest Relationships in the Industry to Drive Revenue, Build Teams, & Create Symbiotic Value
                 </h2>
                 <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".feature-split">
-                  We work closely with a broad group of strategic investors (in addition to an outstanding group of institutional investors) and enjoy longstanding <strong>relationships and friendships executives of with hundreds of the largest and most influential healthcare organizations in the country</strong>. These organizations help us identify the key themes in which we invest; they assist with diligence; they help our portfolio companies with product development; they help us build management teams; they drive revenue to our portfolio companies; they take part in distribution relationships; and much more.
+                  We work closely with a broad group of strategic investors (in addition to an outstanding group of institutional investors) and enjoy longstanding <strong>relationships and friendships with executives of with hundreds of the largest and most influential healthcare organizations in the country</strong>.<br /><br />These organizations help us identify the key themes in which we invest; they assist with diligence; they help our portfolio companies with product development; they help us build management teams; they drive revenue to our portfolio companies; they take part in distribution relationships; and much more.
                 </p>
               </div>
             </div>
@@ -145,7 +145,7 @@ const Different = ({
             <div className='center-content-mobile reveal-scale-up'
               data-reveal-container=".feature-split"
               data-reveal-delay="200">
-              <Carousel autoplay>
+              <Carousel autoplay autoplaySpeed={6000}>
                 {testimonials.slice(3,6).map(t => (
                   <div>
                     <p
