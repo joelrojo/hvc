@@ -38,7 +38,7 @@ const Different = ({
 
   const sectionHeader = {
     title: <span style={{ fontWeight: "300" }}>Why We're Different</span>,
-    paragraph: <span style={{ display: "block", maxWidth: "700px", margin: "0 auto" }}>Healthcare is all we've ever done...</span>
+    paragraph: <span style={{ display: "block", maxWidth: "700px", margin: "0 auto" }}>Our Principals have been investing in and building innovative healthcare software and services companies since the mid-1990s, creating market leaders and important new healthcare sectors in all types of market and healthcare cycles.</span>
   };
 
   const sectionHeaderMission = {
@@ -57,7 +57,7 @@ const Different = ({
     >
       <ReactTitle title="Why We're Different | Health Velocity Capital"/>
       <div className="bgImg">
-        <img src={require('../../assets/images/bg_blue@2x.png')} alt="Health Velocity Capital Tales from the Road"/>
+        <img src={require('../../assets/images/bg_grey@2x.png')} alt="Health Velocity Capital Tales from the Road"/>
       </div>
       <div className="container">
         <div className={innerClasses} style={{ paddingBottom: 0 }}>
@@ -66,17 +66,41 @@ const Different = ({
             <div className="feature-split">
               <div className="center-content-mobile">
                 <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-container=".feature-split">
-                  More Industry "Firsts" for Longer
+                  We Help Drive Revenue and Build Teams
                 </h2>
                 <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".feature-split">
-                  In partnership with outstanding management teams, our Principals have helped to create <strong>more new, important healthcare sectors and market leaders</strong> than almost any other investor in the country.
+                  We have leveraged our unique networks to tangibly and directly drive revenue (and the  resulting value creation) at almost every company with whom we have ever partnered.  We also believe nothing is more important in fast-growing, successful businesses than getting the right people on the bus – and quickly. Our Principals have introduced more than <strong>75 executives, team members, board members, and key contributors</strong> (well-known to us and longstanding in our networks) to the companies that have chosen to partner with us.
                 </p>
               </div>
               <div className='center-content-mobile reveal-scale-up'
                 data-reveal-container=".feature-split"
                 data-reveal-delay="200">
                 <Carousel autoplay autoplaySpeed={6000}>
-                  {testimonials.slice(0,3).map(t => (
+                  {testimonials.slice(0,2).map(t => (
+                    <div>
+                      <p
+                        className={quoteOneShow ? '' : "clipped"}
+                        onClick={() => setQuoteOneShow(!quoteOneShow)}
+                      >"{t.quote}"</p>
+                      <div className='user'>
+                        <img src={require(`../../assets/images/testimonials/${t.name.toLowerCase().replace(' ', '_')}.jpg`)} alt={t.name} />
+                        <div className="details">
+                          <h4>{t.name}</h4>
+                          <h5>{t.company}</h5>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </Carousel>
+              </div>
+            </div>
+
+            <div className="feature-split">
+              <div className='center-content-mobile reveal-scale-up'
+                data-reveal-container=".feature-split"
+                data-reveal-delay="200">
+                <Carousel autoplay autoplaySpeed={6000}>
+                  {testimonials.slice(2,4).map(t => (
                     <div>
                       <p
                         className={quoteOneShow ? '' : "clipped"}
@@ -93,95 +117,113 @@ const Different = ({
                   ))}
                 </Carousel>
               </div>
+              <div className="center-content-mobile">
+                <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-container=".feature-split">
+                  Limited Partners That Matter
+                </h2>
+                <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".feature-split">
+                  We work closely with a number of strategic investors (in addition to an outstanding group of global institutional investors) and enjoy longstanding friendships with executives of many of the largest and most influential healthcare organizations in the country. Collectively, our strategic investors and more than <strong>50 senior level healthcare executives</strong> who have invested personally in our fund represent organizations that <strong>insure 140 million Americans, operate more than 500 hospitals, provide pharmacy and PBM services to more than 75% of the nation, and sell software to every major health system in the country.</strong> Our broader relationships put us a phone call away from almost any healthcare organization in the country.
+                </p>
+              </div>
+            </div>
+
+            <div className="feature-split">
+              <div className="center-content-mobile">
+                <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-container=".feature-split">
+                   These Are Truly Symbiotic Relationships
+                </h2>
+                <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".feature-split">
+                  We have partnered with strategic investors for longer than almost anyone in the industry. We interact with a broad group of their senior executives and emerging leaders to understand their strategy, priorities, and challenges as organizations and across functional areas. They look to us to help them identify the right innovative themes and companies to adopt at the right time – and to avoid mistakes. In turn, they help us identify some of the key themes in which we invest, they assist with diligence, they help our portfolio companies with product development, they drive revenue to our portfolio companies, they take part in distribution relationships, and much more.
+                </p>
+              </div>
+              <div className='reveal-scale-up'
+                data-reveal-container=".feature-split"
+                data-reveal-delay="200">
+                <p className='callOut'>We facilitate this knowledge sharing through:</p>
+                <Carousel autoplay autoplaySpeed={6000}>
+                  <ul className='callOuts'>
+                    <li><AiOutlineCheckCircle /> Quarterly, proprietary innovation market intelligence reports</li>
+                    <li><AiOutlineCheckCircle /> Quarterly, proprietary thematic white papers</li>
+                    <li><AiOutlineCheckCircle /> Exclusive strategic investor webinars and pitch days</li>
+                    <li><AiOutlineCheckCircle /> Quarterly on-site meetings</li>
+                    <li><AiOutlineCheckCircle /> 11th annual JPMorgan Healthcare Conference Senior Leaders Dinner</li>
+                  </ul>
+                  <ul className='callOuts'>
+                    <li><AiOutlineCheckCircle /> Proprietary, annual SLP Innovation Survey</li>
+                    <li><AiOutlineCheckCircle /> Annual SLP offsite at Elk Creek Ranch</li>
+                    <li><AiOutlineCheckCircle /> Presentations at off-sites and other bespoke services</li>
+                    <li><AiOutlineCheckCircle /> Executive Network Fund and Advisory Board interactions</li>
+                    <li><AiOutlineCheckCircle /> 19th annual JPMorgan Healthcare Conference Innovation Reception</li>
+                  </ul>
+                </Carousel>
+                <p className='callOut' style={{ margin: "60px auto 0"}}>...and much more</p>
+              </div>
             </div>
 
             <div className="feature-split">
               <div className='center-content-mobile reveal-scale-up'
                 data-reveal-container=".feature-split"
                 data-reveal-delay="200">
-                <img className='graphicImage' src={require('../../assets/images/graphic.png')} alt='HVC Numbers' />
+                <Carousel autoplay autoplaySpeed={6000}>
+                  {testimonials.slice(4,6).map(t => (
+                    <div>
+                      <p
+                        className={quoteTwoShow ? '' : "clipped"}
+                        onClick={() => setQuoteTwoShow(!quoteTwoShow)}
+                      >"{t.quote}"</p>
+                      <div className='user'>
+                        <img src={require(`../../assets/images/testimonials/${t.name.toLowerCase().replace(' ', '_')}.jpg`)} alt={t.name} />
+                          <div className="details">
+                            <h4>{t.name}</h4>
+                            <h5>{t.company}</h5>
+                          </div>
+                      </div>
+                    </div>
+                  ))}
+                </Carousel>
               </div>
               <div className="center-content-mobile">
                 <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-container=".feature-split">
-                  We Leverage Some of the Strongest Relationships in the Industry to Drive Revenue, Build Teams, & Create Symbiotic Value
+                  We Have Pattern Recognition
                 </h2>
                 <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".feature-split">
-                  We work closely with a broad group of strategic investors (in addition to an outstanding group of institutional investors) and enjoy longstanding <strong>relationships and friendships with executives of with hundreds of the largest and most influential healthcare organizations in the country</strong>.<br /><br />These organizations help us identify the key themes in which we invest; they assist with diligence; they help our portfolio companies with product development; they help us build management teams; they drive revenue to our portfolio companies; they take part in distribution relationships; and much more.
+                  Working with management, we are constantly assessing market size, the competitive environment, and the company’s ability to executive against the opportunity. We know these are not static variables and evaluate them on an ongoing basis in partnership with management to help determine when to increase or decrease spend; when to tweak a product, invest heavily in product development, or switch gears completely; and when to continue building a company, sell, or go public. All these decisions directly impact the capital intensity of a business and can have a huge impact on an entrepreneur’s personal wealth creation. We make two clear promises while doing this: we work FOR our entrepreneur partners and, accordingly, we will lean in hard to help.
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
 
-      <div className="invert-color mission">
-        <div className='container'>
-          <p className="callOut m-0 reveal-from-bottom" data-reveal-delay="100">
-            Having worked with strategic investors longer than almost anyone in the industry, we interact with a broad group of their senior executives and emerging leaders to understand their strategy, priorities, and challenges as organizations and across functional areas. We track and monitor relevant themes and companies across the sector for them, and we help them identify the right innovative themes and companies to adopt — and at the right time.
-          </p>
-
-          <ul className='callOuts reveal-from-bottom' data-reveal-delay="300">
-            <li><AiOutlineCheckCircle /> Quarterly, Proprietary Innovation Market Intelligence Report</li>
-            <li><AiOutlineCheckCircle /> Quarterly, Proprietary Thematic Whitepapers</li>
-            <li><AiOutlineCheckCircle /> Exclusive Strategic Investor Webinars and Annual Off-Site at Elk Creek Ranch</li>
-            <li><AiOutlineCheckCircle /> Quarterly On-Site Meetings</li>
-            <li><AiOutlineCheckCircle /> And Much More...</li>
-          </ul>
-        </div>
-      </div>
-
-
-      <div className='container'>
-        <div className="feature-split-wrap">
-          <div className="feature-split">
-            <div className="center-content-mobile">
-              <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-container=".feature-split">
-                We Are Practical Company Builders
-              </h2>
-              <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".feature-split">
-                With decades of experience, we know that most innovative, growing companies hit a bump (or five) in the road, and the line to success is never straight.  With former operating experience, we know what it takes to overcome setbacks and to accelerate growth, and as such, are ready to roll up our sleeves to help.<br /><br />We are patient investors focused on long term value creation.
-              </p>
-            </div>
-            <div className='center-content-mobile reveal-scale-up'
-              data-reveal-container=".feature-split"
-              data-reveal-delay="200">
-              <Carousel autoplay autoplaySpeed={6000}>
-                {testimonials.slice(3,6).map(t => (
-                  <div>
-                    <p
-                      className={quoteTwoShow ? '' : "clipped"}
-                      onClick={() => setQuoteTwoShow(!quoteTwoShow)}
-                    >"{t.quote}"</p>
-                    <div className='user'>
-                      <img src={require(`../../assets/images/testimonials/${t.name.toLowerCase().replace(' ', '_')}.jpg`)} alt={t.name} />
-                        <div className="details">
-                          <h4>{t.name}</h4>
-                          <h5>{t.company}</h5>
-                        </div>
-                    </div>
-                  </div>
-                ))}
-              </Carousel>
+            <div className="feature-split">
+              <div className="center-content-mobile">
+                <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-container=".feature-split">
+                   We Are an Investment Firm with a Mission and Values
+                </h2>
+                <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".feature-split">
+                  Our mission at Health Velocity Capital is to generate outstanding financial returns while being the preferred innovation partner of entrepreneurs and investors working toward a more affordable, sustainable, consumer-friendly healthcare system.
+                </p>
+              </div>
+              <div className='reveal-scale-up'
+                data-reveal-container=".feature-split"
+                data-reveal-delay="200">
+                <p className='callOut' style={{ marginTop: "10px"}}>We strive to accomplish our mission through a culture that is defined by the following characteristics:</p>
+                <Carousel autoplay autoplaySpeed={6000}>
+                  <ul className='values'>
+                    <li>Our team members are driven by a desire to excel for our entrepreneurs and our investors and to improve our nation’s healthcare system</li>
+                    <li>We over-communicate and are transparent</li>
+                    <li>We are responsive</li>
+                  </ul>
+                  <ul>
+                    <li>We serve multiple customers, we work hard for all of them, and we are respectful of the needs of all entrepreneurs, our limited partners, our team, and our co-investors</li>
+                    <li>We believe good process leads to good results</li>
+                  </ul>
+                  <ul className='values'>
+                    <li>We believe the opinion of every team member matters a lot</li>
+                    <li>We know we make mistakes and do our best to own up to them</li>
+                    <li>We believe high performance organizations require leadership, accountability, clarity, decisiveness, and a strong and fun culture</li>
+                  </ul>
+                </Carousel>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <section className='invert-color mission'>
-      <div className='container'>
-        <SectionHeader data={sectionHeaderMission} className="reveal-from-bottom" />
-        <div className='container-sm'>
-          <h2 className="reveal-from-bottom" data-reveal-delay="200">We operate with a clear set of organizational values</h2>
-          <ul className="reveal-from-bottom" data-reveal-delay="300">
-            <li>Our team members are driven by a desire to excel for our entrepreneurs and our investors and to improve our nation’s healthcare system</li>
-            <li>We over-communicate and are transparent</li>
-            <li>We are responsive</li>
-            <li>We serve multiple customers, we work hard for all of them, and we are respectful of the needs of all entrepreneurs, our limited partners, our team, and our co-investors</li>
-            <li>We believe good process leads to good results</li>
-            <li>We believe the opinion of every team member matters a lot</li>
-            <li>We know we make mistakes and do our best to own up to them</li>
-            <li>We believe high performance organizations require leadership, accountability, clarity, decisiveness, and a strong and fun culture</li>
-          </ul>
         </div>
       </div>
     </section>

@@ -1,5 +1,10 @@
 export const testimonials = [
   {
+    name: 'Russ Glass',
+    company: 'Ginger',
+    quote: 'Between Teladoc, Livongo, MDLive, Aperio, Lemonaid Health, Insight Telepsychiatry, and many others, we’re not aware of any other investor with more successful experience in telehealth than the Health Velocity team.  We proactively chose them as our partner, and since investing, they have really leaned in with their networks and reputation to help introduce us to potential customers, distributions partners, and Board members.  They also initiated for us a commercial relationship with one of the largest insurers in the country.'
+  },
+  {
     name: 'Doug Ghertner',
     company: 'IVX Health',
     quote: 'We worked with the team at Health Velocity at our prior company, Change Healthcare, and now at IVX Health. There’s just no investor better networked in healthcare.  They have made literally hundreds of valuable introductions over the years that have directly driven revenue to our businesses and expanded our networks.'
@@ -18,11 +23,6 @@ export const testimonials = [
     name: 'Travis Messina',
     company: 'Contessa',
     quote: 'We actually took capital from Health Velocity Capital at a lower valuation than what other investors had offered… and it was worth it. Almost immediately after investing, the Health Velocity Capital team facilitated commercial relationships with one of largest payers and one of largest health systems in the US.'
-  },
-  {
-    name: 'Russ Glass',
-    company: 'Ginger',
-    quote: 'We had lots of options for our syndicate, and we proactively chose Health Velocity and expanded our financing for them.  They are so highly regarded in the community and so well-networked and have really leaned in since their investment.  That’s what really distinguishes them – the elbow grease.  They have introduced us to potential customers, distributions partners, and Board members and also initiated a commercial relationship with one of the largest insurers in the country.'
   },
   {
     name: 'Mark Woodka',
