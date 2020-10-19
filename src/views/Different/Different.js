@@ -210,15 +210,13 @@ const Different = ({
                     <li>Our team members are driven by a desire to excel for our entrepreneurs and our investors and to improve our nation’s healthcare system</li>
                     <li>We over-communicate and are transparent</li>
                     <li>We are responsive</li>
+                    <li>We believe good process leads to good results</li>
                   </ul>
                   <ul>
                     <li>We serve multiple customers, we work hard for all of them, and we are respectful of the needs of all entrepreneurs, our limited partners, our team, and our co-investors</li>
-                    <li>We believe good process leads to good results</li>
-                  </ul>
-                  <ul className='values'>
-                    <li>We believe the opinion of every team member matters a lot</li>
-                    <li>We know we make mistakes and do our best to own up to them</li>
-                    <li>We believe high performance organizations require leadership, accountability, clarity, decisiveness, and a strong and fun culture</li>
+                      <li>We believe the opinion of every team member matters a lot</li>
+                      <li>We know we make mistakes and do our best to own up to them</li>
+                      <li>We believe high performance organizations require leadership, accountability, clarity, decisiveness, and a strong and fun culture</li>
                   </ul>
                 </Carousel>
               </div>
