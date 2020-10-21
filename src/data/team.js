@@ -99,7 +99,7 @@ export const team = [
     title: 'Senior Associate',
     bio: "Jenny has spent her career driving innovation in health care services and technology as an operator and investor. Most recently, Jenny led various acquisitions and de novo new product development initiatives at The Advisory Board Company (NASDAQ: ABCO), a market-leading health care research, consulting, and technology company. Prior to The Advisory Board, Jenny worked in investment banking focused on mergers and acquisitions.",
     investments: [
-      "Contessa Health (Board Observer)"
+      "Contessa Health (Board Observer)",
       "Jvion",
       "Ginger",
       "HealthJoy"
