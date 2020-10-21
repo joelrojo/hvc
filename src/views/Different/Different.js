@@ -41,11 +41,6 @@ const Different = ({
     paragraph: <span style={{ display: "block", maxWidth: "700px", margin: "0 auto" }}>Our Principals have been investing in and building innovative healthcare software and services companies since the mid-1990s, creating market leaders and important new healthcare sectors in all types of market and healthcare cycles.</span>
   };
 
-  const sectionHeaderMission = {
-    title: "We Are An Investment Firm With A Mission",
-    paragraph: "Our mission at Health Velocity Capital is to generate outstanding financial returns while being the preferred innovation partner of entrepreneurs and investors working toward a more affordable, sustainable, consumer-friendly healthcare system."
-  }
-
   const [quoteOneShow, setQuoteOneShow] = useState(false)
   const [quoteTwoShow, setQuoteTwoShow] = useState(false)
 
