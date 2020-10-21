@@ -43,7 +43,7 @@ export const companies = [
   },
   {
     url: 'https://www.ivxhealth.com/',
-    src: require('./../assets/images/companies/ivx_health.jpg'),
+    src: require('./../assets/images/companies/ivx_health.png'),
     alt: 'IVX Health',
     caption: 'Specialty Biologics Cost Reduction',
     description: "IVX Health is a rapidly growing provider of low-cost, consumer-centric infusion centers serving patients on expensive specialty biologics with diseases such as Rheumatoid Arthritis, Psoriasis, Crohn’s Disease, Ulcerative Colitis, Multiple Sclerosis, severe Asthma, Lupus, and others. The company’s facilities are located in Class A retail settings near where patients live and work, have a medical spa/concierge look and feel, and provide best in class, retail-like administrative services to support patients and referring physicians."
@@ -397,7 +397,7 @@ export const currentCompanies = [
   },
   {
     url: 'https://www.ivxhealth.com/',
-    src: require('./../assets/images/companies/ivx_health.jpg'),
+    src: require('./../assets/images/companies/ivx_health.png'),
     alt: 'IVX Health',
     caption: 'Specialty Biologics Cost Reduction',
     description: "IVX Health is a rapidly growing provider of low-cost, consumer-centric infusion centers serving patients on expensive specialty biologics with diseases such as Rheumatoid Arthritis, Psoriasis, Crohn’s Disease, Ulcerative Colitis, Multiple Sclerosis, severe Asthma, Lupus, and others. The company’s facilities are located in Class A retail settings near where patients live and work, have a medical spa/concierge look and feel, and provide best in class, retail-like administrative services to support patients and referring physicians."
