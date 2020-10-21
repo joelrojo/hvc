@@ -12,7 +12,7 @@ export const team = [
       "Well Health (Board Director)",
       "Three Oaks Hospice (Board Observer)",
     ],
-    former_investments: [
+    prior_investments: [
       "Teladoc (Board Director, NYSE: TDOC)",
       "Change Healthcare (Board Director, acquired by Emdeon)",
       "Aperio (Board Director, acquired by Leica Biosystems)",
@@ -40,6 +40,8 @@ export const team = [
       "Contessa Health (Board Director)",
       "Three Oaks Hospice (Board Director)",
       "Healthjoy (Board Observer)",
+    ],
+    prior_investments: [
       "Accordant Health Services (acquired by AdvancePCS)",
       "National Surgical Care (acquired by Amsurg)",
       "IASIS Healthcare (acquired by TPG Capital)",
@@ -63,6 +65,8 @@ export const team = [
       "Jvion (Board Director)",
       "Ginger (Board Observer)",
       "Spero Health (Board Observer)",
+    ],
+    prior_investments: [
       "Omada Health",
       "Aspire Health (acquired by Anthem)",
       "Circulation Health (acquired by Logisticare)",

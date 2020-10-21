@@ -22,6 +22,7 @@ const Member = ({ member, index, show }) => {
     setClicked(show)
   }, [show])
 
+  const hasPriorInvestments = member.prior_investments && member.prior_investments.length > 0
   return (
     <>
       <Link
@@ -55,18 +56,18 @@ const Member = ({ member, index, show }) => {
           <p dangerouslySetInnerHTML={{ __html: member.bio }} />
           {member.investments && member.investments.length > 0 &&
             <Accordion>
-              <AccordionItem title={`${member.name === 'Marty Felsenthal' ? "Current " : ""}Investments`}>
+              <AccordionItem title={`${hasPriorInvestments ? "Current " : ""}Investments`}>
                 <ul>
                   {member.investments.map(item => <li>{item}</li>)}
                 </ul>
               </AccordionItem>
             </Accordion>
           }
-          {member.former_investments && member.former_investments.length > 0 &&
+          {hasPriorInvestments &&
             <Accordion>
-              <AccordionItem title="Former Investments & Boards">
+              <AccordionItem title="Prior Investments">
                 <ul>
-                  {member.former_investments.map(item => <li>{item}</li>)}
+                  {member.prior_investments.map(item => <li>{item}</li>)}
                 </ul>
               </AccordionItem>
             </Accordion>
