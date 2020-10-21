@@ -10,7 +10,6 @@ export const team = [
       "IVX Health (Board Director)",
       "MDLIVE (Board Director)",
       "Well Health (Board Director)",
-      "Three Oaks Hospice (Board Observer)",
     ],
     prior_investments: [
       "Teladoc (Board Director, NYSE: TDOC)",
