@@ -44,6 +44,9 @@ class Tales extends React.Component {
       slidesToShow: 3,
       slidesToScroll: 3,
       initialSlide: 0,
+      pauseOnDotsHover: true,
+      pauseOnFocus: true,
+      pauseOnHover: true,
       responsive: [
         {
           breakpoint: 600,
