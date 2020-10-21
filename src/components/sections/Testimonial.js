@@ -35,7 +35,7 @@ const videoBgs = [
 
 const headers = [
   <span>More <strong>Industry "Firsts"</strong> For Longer</span>,
-  <span>More <strong>Value-Add Investors For Longer</strong></span>,
+  <span>More <strong>Value-Add Investors</strong> For Longer</span>,
   <span>Leveraged to Drive <strong>More Customer Relationships</strong></span>,
   <span>Investing with a<br /><strong>Mission</strong></span>,
 ]
