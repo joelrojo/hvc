@@ -187,7 +187,9 @@ const Different = ({
               </div>
             </div>
 
-            <div className="feature-split">
+            <div id="values" />
+            
+            <div className="feature-split values">
               <div className="center-content-mobile">
                 <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-container=".feature-split">
                    We Are an Investment Firm with a Mission and Values

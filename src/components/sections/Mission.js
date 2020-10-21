@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import classNames from 'classnames';
 import * as Scroll from 'react-scroll';
 import SectionHeader from './partials/SectionHeader';
@@ -60,7 +60,7 @@ class Mission extends React.Component {
               <SectionHeader data={sectionHeader} className="reveal-from-bottom" />
 
               <div className='buttons'>
-                <Link to="/why-were-different" className="bottom reveal-from-bottom"><Button wideMobile>Our Values</Button></Link>
+                <HashLink to="/why-were-different#values" className="bottom reveal-from-bottom"><Button wideMobile>Our Values</Button></HashLink>
               </div>
             </div>
           </div>
