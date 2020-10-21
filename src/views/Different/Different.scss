@@ -51,6 +51,13 @@
       align-items: flex-start;
       margin: 120px auto;
 
+      .downIcon {
+        margin: -5px auto 21px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+
       &.values {
         margin-top: 0;
       }

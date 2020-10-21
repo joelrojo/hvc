@@ -4,6 +4,7 @@ import { ReactTitle } from 'react-meta-tags';
 import SectionHeader from '../../components/sections/partials/SectionHeader';
 import { AiOutlineCheckCircle } from "react-icons/ai";
 import { Carousel } from 'antd';
+import { FaArrowDown } from "react-icons/fa";
 
 import { testimonials } from '../../data/testimonials';
 
@@ -135,7 +136,8 @@ const Different = ({
                 data-reveal-container=".feature-split"
                 data-reveal-delay="200">
                 <p className='callOut'>We facilitate this knowledge sharing through:</p>
-                <Carousel autoplay autoplaySpeed={6000}>
+                <div className='downIcon'><FaArrowDown /></div>
+                <Carousel>
                   <ul className='callOuts'>
                     <li><AiOutlineCheckCircle /> Quarterly, proprietary innovation market intelligence reports</li>
                     <li><AiOutlineCheckCircle /> Quarterly, proprietary thematic white papers</li>
@@ -188,7 +190,7 @@ const Different = ({
             </div>
 
             <div id="values" />
-            
+
             <div className="feature-split values">
               <div className="center-content-mobile">
                 <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-container=".feature-split">
@@ -202,7 +204,7 @@ const Different = ({
                 data-reveal-container=".feature-split"
                 data-reveal-delay="200">
                 <p className='callOut' style={{ marginTop: "10px"}}>We strive to accomplish our mission through a culture that is defined by the following characteristics:</p>
-                <Carousel autoplay autoplaySpeed={6000}>
+                <Carousel>
                   <ul className='callOuts'>
                     <li><AiOutlineCheckCircle /> Our team members are driven by a desire to excel for our entrepreneurs and our investors and to improve our nation’s healthcare system</li>
                     <li><AiOutlineCheckCircle /> We over-communicate and are transparent</li>
