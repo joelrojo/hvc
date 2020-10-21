@@ -15,13 +15,13 @@ export const team = [
     former_investments: [
       "Teladoc (Board Director, NYSE: TDOC)",
       "Change Healthcare (Board Director, acquired by Emdeon)",
-      "Aperio (acquired by Leica Biosystems)",
-      "Titan Health (acquired by United Surgical Partners)",
-      "US Renal Care (acquired by Leonard Green)",
-      "Payerpath (acquired by Misys/Allscripts)",
-      "Vantage Oncology (acquired by McKesson)",
-      "NovoLogix (acquired by CVS Health)",
-      "VeriCare (acquired by MedOptions)",
+      "Aperio (Board Director, acquired by Leica Biosystems)",
+      "Titan Health (Board Director, acquired by United Surgical Partners)",
+      "US Renal Care (Board Director, acquired by Leonard Green)",
+      "Payerpath (Board Director, acquired by Misys/Allscripts)",
+      "Vantage Oncology (Board Director, acquired by McKesson)",
+      "NovoLogix (Board Director, acquired by CVS Health)",
+      "VeriCare (Board Director, acquired by MedOptions)",
       "ClearDATA Networks (Board Director)",
     ],
     education: [
@@ -63,14 +63,13 @@ export const team = [
       "Jvion (Board Director)",
       "Ginger (Board Observer)",
       "Spero Health (Board Observer)",
-      "Contessa Health (Board Observer)",
       "Omada Health",
       "Aspire Health (acquired by Anthem)",
       "Circulation Health (acquired by Logisticare)",
       "Livongo Health (NASDAQ: LVGO)"
     ],
     education: [
-      "AB, Northwestern University",
+      "BA, Northwestern University",
       "MBA, The Wharton School at The University of Pennsylvania"
     ],
   },
@@ -87,6 +86,7 @@ export const team = [
       "MDLIVE",
       "OnShift",
       "Zipari",
+      "Contessa",
     ],
     education: ['BBA, Belmont University'],
   },
@@ -96,8 +96,10 @@ export const team = [
     title: 'Senior Associate',
     bio: "Jenny has spent her career driving innovation in health care services and technology as an operator and investor. Most recently, Jenny led various acquisitions and de novo new product development initiatives at The Advisory Board Company (NASDAQ: ABCO), a market-leading health care research, consulting, and technology company. Prior to The Advisory Board, Jenny worked in investment banking focused on mergers and acquisitions.",
     investments: [
-      "Jvion",
-      "Ginger"
+      "Jvion(Board Observer) ",
+      "Ginger (Board Observer)",
+      "Contessa Health (Board Observer)",
+      "HealthJoy"
     ],
     education: [
       'BA, Yale University',

@@ -61,7 +61,7 @@ const Different = ({
             <div className="feature-split">
               <div className="center-content-mobile">
                 <h2 className="mt-0 mb-16 reveal-from-bottom" data-reveal-container=".feature-split">
-                  We Help Drive Revenue and Build Teams
+                  We Drive Revenue and Build Teams
                 </h2>
                 <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".feature-split">
                   We have leveraged our unique networks to tangibly and directly drive revenue (and the  resulting value creation) at almost every company with whom we have ever partnered.  We also believe nothing is more important in fast-growing, successful businesses than getting the right people on the bus – and quickly. Our Principals have introduced more than <strong>75 executives, team members, board members, and key contributors</strong> (well-known to us and longstanding in our networks) to the companies that have chosen to partner with us.
@@ -144,8 +144,8 @@ const Different = ({
                     <li><AiOutlineCheckCircle /> 11th annual JPMorgan Healthcare Conference Senior Leaders Dinner</li>
                   </ul>
                   <ul className='callOuts'>
-                    <li><AiOutlineCheckCircle /> Proprietary, annual SLP Innovation Survey</li>
-                    <li><AiOutlineCheckCircle /> Annual SLP offsite at Elk Creek Ranch</li>
+                    <li><AiOutlineCheckCircle /> Proprietary, annual Strategic Limited Partner Innovation Survey</li>
+                    <li><AiOutlineCheckCircle /> Annual Strategic Limited Partner offsite at Elk Creek Ranch</li>
                     <li><AiOutlineCheckCircle /> Presentations at off-sites and other bespoke services</li>
                     <li><AiOutlineCheckCircle /> Executive Network Fund and Advisory Board interactions</li>
                     <li><AiOutlineCheckCircle /> 19th annual JPMorgan Healthcare Conference Innovation Reception</li>
@@ -201,18 +201,18 @@ const Different = ({
                 data-reveal-delay="200">
                 <p className='callOut' style={{ marginTop: "10px"}}>We strive to accomplish our mission through a culture that is defined by the following characteristics:</p>
                 <Carousel autoplay autoplaySpeed={6000}>
-                  <ul className='values'>
-                    <li>Our team members are driven by a desire to excel for our entrepreneurs and our investors and to improve our nation’s healthcare system</li>
-                    <li>We over-communicate and are transparent</li>
-                    <li>We are responsive</li>
-                    <li>We believe good process leads to good results</li>
+                  <ul className='callOuts'>
+                    <li><AiOutlineCheckCircle /> Our team members are driven by a desire to excel for our entrepreneurs and our investors and to improve our nation’s healthcare system</li>
+                    <li><AiOutlineCheckCircle /> We over-communicate and are transparent</li>
+                    <li><AiOutlineCheckCircle /> We are responsive</li>
+                    <li><AiOutlineCheckCircle /> We serve multiple customers, we work hard for all of them, and we are respectful of the needs of all entrepreneurs, our limited partners, our team, and our co-investors</li>
                   </ul>
-                  <ul>
-                    <li>We serve multiple customers, we work hard for all of them, and we are respectful of the needs of all entrepreneurs, our limited partners, our team, and our co-investors</li>
-                      <li>We believe the opinion of every team member matters a lot</li>
-                      <li>We know we make mistakes and do our best to own up to them</li>
-                      <li>We believe high performance organizations require leadership, accountability, clarity, decisiveness, and a strong and fun culture</li>
-                  </ul>
+                  <ul className='callOuts'>
+                    <li><AiOutlineCheckCircle /> We believe good process leads to good results</li>
+                    <li><AiOutlineCheckCircle /> We believe the opinion of every team member matters a lot</li>
+                    <li><AiOutlineCheckCircle /> We know we make mistakes and do our best to own up to them</li>
+                    <li><AiOutlineCheckCircle /> We believe high performance organizations require leadership, accountability, clarity, decisiveness, and a strong and fun culture</li>
+                </ul>
                 </Carousel>
               </div>
             </div>

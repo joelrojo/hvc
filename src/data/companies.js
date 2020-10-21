@@ -78,7 +78,7 @@ export const companies = [
   },
   {
     url: 'https://contessahealth.com/',
-    src: require('./../assets/images/companies/contessa.png'),
+    src: require('./../assets/images/companies/contessa_final.png'),
     alt: 'Contessa',
     caption: 'Hospital at Home',
     description: "Contessa Health is a highly innovative, market leading provider of hospital at home services. The company couples home hospitalist telemedicine capabilities with specialized home care services to treat hundreds of medical inpatient DRGs and, when appropriate, divert these patients from the inpatient hospital setting into the home. Contessa’s programs result in significant savings to payers, savings and increased profits to their hospital partners, and high quality outcomes for patients."
@@ -376,7 +376,7 @@ export const currentCompanies = [
   },
   {
     url: 'https://contessahealth.com/',
-    src: require('./../assets/images/companies/contessa.png'),
+    src: require('./../assets/images/companies/contessa_final.png'),
     alt: 'Contessa',
     caption: 'Hospital at Home',
     description: "Contessa Health is a highly innovative, market leading provider of hospital at home services. The company couples home hospitalist telemedicine capabilities with specialized home care services to treat hundreds of medical inpatient DRGs and, when appropriate, divert these patients from the inpatient hospital setting into the home. Contessa’s programs result in significant savings to payers, savings and increased profits to their hospital partners, and high quality outcomes for patients."
