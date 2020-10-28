@@ -77,7 +77,7 @@ const Companies = ({
             )}
             <div className="tiles-item reveal-from-bottom companyContainer" data-reveal-container=".tiles-wrap"></div>
           </div>
-          <p className="center-content reveal-from-bottom footnote">Prior investments includes investments that were sourced and led by our Principals at predecessor firms, with the exceptions of ClearData (co-led), iTriage, D2Hawkeye, and Iasis Healthcare.</p>
+          <p className="center-content reveal-from-bottom footnote">Prior investments include investments that were sourced and led by our Principals at predecessor firms, with the exceptions of ClearData (co-led), iTriage, D2Hawkeye, and Iasis Healthcare.</p>
         </div>
       </div>
     </section>
