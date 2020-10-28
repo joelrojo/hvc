@@ -32,7 +32,7 @@ export const team = [
     src: require('./../assets/images/team/bruce.jpg'),
     name: 'Bruce Crosby',
     title: 'Partner',
-    bio: "Bruce has spent 25 years as a healthcare executive, entrepreneur, and venture and growth stage investor. He has helped build and invested in a number of high growth, successful healthcare software and services companies with revenues ranging from $10 million to $700 million. Bruce's executive roles have been with Compassus, the nation's 3rd largest hospice and palliative care company; Healthways (NASDAQ: HWAY), the nation's largest independent disease and population health management company and largest Medicare Advantage consumer services benefit provider; and The Advisory Board Company (NASDAQ: ABCO), one of the nation's largest health system best-practice research and software businesses.",
+    bio: "Bruce has spent 25+ years as a healthcare executive, entrepreneur, and venture and growth stage investor. He has helped build and invested in a number of high growth, successful healthcare software and services companies with revenues ranging from $10 million to $700 million.  Bruce's executive roles have been with Compassus, one of the largest providers of hospice and palliative care; Healthways, a pioneer and leading provider of disease and population health management; Pfizer, a global pharmaceutical company; and The Advisory Board Company (sold to Optum), one of the nation's largest health system best-practice research and business intelligence software businesses.",
     linkedin: 'bruce-crosby-58267b',
     investments: [
       "Spero Health (Board Director)",
@@ -67,9 +67,9 @@ export const team = [
     ],
     prior_investments: [
       "Omada Health",
-      "Aspire Health (acquired by Anthem)",
+      "Aspire Health (acquired by Anthem) (Board Observer)",
       "Circulation Health (acquired by Logisticare)",
-      "Livongo Health (NASDAQ: LVGO)"
+      "Livongo Health (NASDAQ: LVGO) (Board Observer)"
     ],
     education: [
       "BA, Northwestern University",
@@ -113,7 +113,7 @@ export const team = [
   {
     src: require('./../assets/images/team/julie.jpg'),
     name: 'Julie Foster',
-    title: 'Administrator',
+    title: 'Chief Administrative Officer',
     bio: "Julie is the administrator for Health Velocity Capital and is responsible for making our trains run on time.  She has been working in the venture capital industry since 1999 at firms including Salix Ventures, De Novo Ventures, and HLM Venture Partners."
   }
 ]
