@@ -61,6 +61,12 @@ class Numbers2 extends React.Component {
                                 useEasing={false}
                                 end={1000}
                                 suffix="+"
+                                formattingFn={value => {
+                                  if (value >= 1000) {
+                                    return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                                  }
+                                  return value
+                                }}
                               />
                             </p>
                             <p>conversations with strategic investors</p>
@@ -92,7 +98,7 @@ class Numbers2 extends React.Component {
                             <p className="number">
                               <CountUp
                                 useEasing={false}
-                                end={65}
+                                end={75}
                               />
                             </p>
                             <p>executives<br />placed</p>
