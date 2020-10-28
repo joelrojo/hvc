@@ -97,6 +97,7 @@ export const team = [
     src: require('./../assets/images/team/jenny.jpg'),
     name: 'Jenny Guyton',
     title: 'Senior Associate',
+    original: true,
     bio: "Jenny has spent her career driving innovation in health care services and technology as an operator and investor. Most recently, Jenny led various acquisitions and de novo new product development initiatives at The Advisory Board Company (NASDAQ: ABCO), a market-leading health care research, consulting, and technology company. Prior to The Advisory Board, Jenny worked in investment banking focused on mergers and acquisitions.",
     investments: [
       "Contessa Health (Board Observer)",
@@ -115,6 +116,13 @@ export const team = [
     name: 'Julie Foster',
     title: 'Chief Administrative Officer',
     bio: "Julie is the administrator for Health Velocity Capital and is responsible for making our trains run on time.  She has been working in the venture capital industry since 1999 at firms including Salix Ventures, De Novo Ventures, and HLM Venture Partners."
+  },
+  {
+    src: require('./../assets/images/team/morgan.jpg'),
+    name: 'Morgan Thompson',
+    original: true,
+    title: 'Executive Assistant',
+    bio: "Morgan is a certified executive assistant with five years of experience in the technology and finance industry.  She embraces process coordination, operations and strategy planning, and end-to-end event planning and execution with passion.  Former companies include Capital One, Intuit, and Booz Allen Hamilton."
   }
 ]
 
@@ -128,6 +136,7 @@ export const advisors = [
   {
     src: require('./../assets/images/team/mark.jpg'),
     name: 'Mark Smith, MD',
+    original: true,
     title: 'Founding Advisory Board Member',
     bio: "Mark Smith, MD serves as Co-chair of the Health Care Payment Learning & Action Network’s Guiding Committee. He is Visiting Professor, University of California at Berkeley, and Clinical Professor of Medicine, University of California at San Francisco.  He serves on the board of Teladoc (NYSE: TDOC) and Phreesia (NYSE: PHR). He was the Founding President and former Chief Executive Officer of the California HealthCare Foundation (CHCF).  Previously, Mark was Executive Vice President at the Henry J. Kaiser Family Foundation where he oversaw programs in HIV, reproductive health, and the health care marketplace. Prior to that, he was a faculty member at the Johns Hopkins Schools of Medicine and of Public Health. Dr. Smith was elected a member of the Institute of Medicine (IOM) in 2001 and chaired the IOM’s Committee on the Learning Healthcare System, which produced the 2012 report, Best Care at Lower Cost.  He has served on the board of the National Business Group on Health, the performance measurement committee of the National Committee for Quality Assurance, and the editorial board of the Annals of Internal Medicine."
   },
@@ -180,6 +189,20 @@ export const advisors = [
     name: 'Lew Trowbridge',
     title: 'Founding Advisory Board Member',
     bio: "Lew is the former President and COO of Blue Cross Blue Shield of Nebraska, where he also served as Chief Financial Officer and Treasurer. Prior to joining Blue Cross Blue Shield of Nebraska, Lew was the CEO of World Marketing, Inc., a private equity roll-up in the newspaper and direct marketing arena, and the CEO of The SilverStone Group, Inc., a large regional insurance brokerage and human resource/actuarial consulting firm. He was also a Managing Partner at KPMG. Lew currently serves as a board member of Think Whole Person Primary Care LLC, a first of its kind, integrated care delivery enterprise with 46,000 patients and 24 independent primary care physicians; of a $900 million regional bank based in Omaha; and is a trustee of the W. David Scott Foundation. Lew was previously on the boards of TriWest Health Alliance, which administered the Tricare contract for the western 21 states; HTH (now GeoBlue), an insurance company offering international health insurance products for ex-patriots, students and other overseas travelers; Nebraska Medical Center; and the Peter Kiewit Institute. Lew was also the co-founder of the Blue Investment Collaborative, a coalition of 10 like-minded Blue plans who meet regularly to discuss collaborative private equity investment opportunities."
+  },
+  {
+    src: require('./../assets/images/team/brad.jpg'),
+    name: 'Brad Fluegel',
+    original: true,
+    title: 'Founding Advisory Board Member',
+    bio: "Brad Fluegel was most recently Senior Vice President, Chief Healthcare Commercial Market Development Officer for Walgreens. Brad was responsible for all commercial healthcare activities, including sales and contracting, biopharma relationships, retail clinics, clinical affairs, new service development and market planning.  Previously, he was Chief Strategy and Business Development Officer for Walgreens, responsible for corporate strategy and business development. Prior to Walgreens, he was Chief Strategy and External Affairs officer of Anthem, where he was responsible for long-term strategic planning, government affairs, corporate communications including public relations, corporate marketing, corporate development, international expansion, innovation and new business ventures. Prior to Anthem, Brad was Senior Vice President of National Accounts and Vice President, Enterprise Strategy at Aetna. Brad currently serves on the Board of Directors of Metropolitan Jewish Health System in New York City, Performant Financial Corporation, Fitbit, Premera Blue Cross, Alight Solutions and AdhereHealth. Brad earned a master’s degree in public policy from Harvard University’s Kennedy School of Government and a Bachelor of Arts in Business Administration from the University of Washington.  He also serves as a lecturer at the University of Pennsylvania’s Wharton School of Business."
+  },
+  {
+    src: require('./../assets/images/team/eric.jpg'),
+    name: 'Eric Larsen',
+    original: true,
+    title: 'Founding Advisory Board Member',
+    bio: "Eric Larsen serves as President of The Advisory Board Company, a best practices and business intelligence software firm dedicated to improving the performance of health care organizations around the world. Eric has oversight responsibility for enterprise strategic relationships, key client partnerships and companywide business growth efforts.  He is a leading expert on health care market forces and industry transformation and has served as a trusted strategic advisor to the CEOs of the 100 largest health systems nationally—both not-for-profit and investor-owned—for more than two decades.  In addition to his work with The Advisory Board Company, Eric serves on the Boards of Directors of several organizations, including Mytonomy, Contessa Health, The Washington National Opera (where he serves as Chairman of the Board), The Washington Ballet, and as a Board Observer for Somatus. Eric received his bachelor's degree from Georgetown University’s School of Foreign Service in 1995."
   }
 ]
 
