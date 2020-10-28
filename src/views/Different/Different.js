@@ -129,7 +129,7 @@ const Different = ({
                    These Are Truly Symbiotic Relationships
                 </h2>
                 <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".feature-split">
-                  We have partnered with strategic investors for longer than almost anyone in the industry. We interact with a broad group of their senior executives and emerging leaders to understand their strategy, priorities, and challenges as organizations and across functional areas. They look to us to help them identify the right innovative themes and companies to adopt at the right time – and to avoid mistakes. In turn, they help us identify some of the key themes in which we invest, they assist with diligence, they help our portfolio companies with product development, they drive revenue to our portfolio companies, they take part in distribution relationships, and much more.
+                  We have partnered with strategic investors for longer than almost anyone in the industry. We interact with a broad group of their senior executives and emerging leaders to understand their strategies, priorities, and challenges as organizations and across functional areas. They look to us to help them identify the right innovative themes and companies to adopt at the right time – and to avoid mistakes. In turn, they help us identify some of the key themes in which we invest, they assist with diligence, they help our portfolio companies with product development, they drive revenue to our portfolio companies, they take part in distribution relationships, and much more.
                 </p>
               </div>
               <div className='reveal-scale-up'
@@ -143,7 +143,7 @@ const Different = ({
                     <li><AiOutlineCheckCircle /> Quarterly, proprietary thematic white papers</li>
                     <li><AiOutlineCheckCircle /> Exclusive strategic investor webinars and pitch days</li>
                     <li><AiOutlineCheckCircle /> Quarterly on-site meetings</li>
-                    <li><AiOutlineCheckCircle /> 11th annual JPMorgan Healthcare Conference Senior Leaders Dinner</li>
+                    <li><AiOutlineCheckCircle /> Our Annual JPMorgan Healthcare Conference Senior Leaders Dinner (11 years running…)</li>
                   </ul>
                   <ul className='callOuts'>
                     <li><AiOutlineCheckCircle /> Proprietary, annual Strategic Limited Partner Innovation Survey</li>
@@ -184,7 +184,7 @@ const Different = ({
                   We Have Pattern Recognition
                 </h2>
                 <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".feature-split">
-                  Working with management, we are constantly assessing market size, the competitive environment, and the company’s ability to executive against the opportunity. We know these are not static variables and evaluate them on an ongoing basis in partnership with management to help determine when to increase or decrease spend; when to tweak a product, invest heavily in product development, or switch gears completely; and when to continue building a company, sell, or go public. All these decisions directly impact the capital intensity of a business and can have a huge impact on an entrepreneur’s personal wealth creation. We make two clear promises while doing this: we work FOR our entrepreneur partners and, accordingly, we will lean in hard to help.
+                  Working with management, we are constantly assessing market size, the competitive environment, and the company’s ability to executive against the opportunity. We know these are not static variables and evaluate them on an ongoing basis in partnership with management to help determine when to increase or decrease spend; when to tweak a product, invest heavily in product development, or switch gears completely; and when to continue building a company, sell, or go public. All these decisions directly impact the capital intensity of a business and can have a huge impact on an entrepreneur’s personal wealth creation. We make two clear promises while doing this: we work FOR our entrepreneur partners, and, accordingly, we will lean in hard to help.
                 </p>
               </div>
             </div>
