@@ -180,7 +180,10 @@ export const advisors = [
     name: 'Lew Trowbridge',
     title: 'Founding Advisory Board Member',
     bio: "Lew is the former President and COO of Blue Cross Blue Shield of Nebraska, where he also served as Chief Financial Officer and Treasurer. Prior to joining Blue Cross Blue Shield of Nebraska, Lew was the CEO of World Marketing, Inc., a private equity roll-up in the newspaper and direct marketing arena, and the CEO of The SilverStone Group, Inc., a large regional insurance brokerage and human resource/actuarial consulting firm. He was also a Managing Partner at KPMG. Lew currently serves as a board member of Think Whole Person Primary Care LLC, a first of its kind, integrated care delivery enterprise with 46,000 patients and 24 independent primary care physicians; of a $900 million regional bank based in Omaha; and is a trustee of the W. David Scott Foundation. Lew was previously on the boards of TriWest Health Alliance, which administered the Tricare contract for the western 21 states; HTH (now GeoBlue), an insurance company offering international health insurance products for ex-patriots, students and other overseas travelers; Nebraska Medical Center; and the Peter Kiewit Institute. Lew was also the co-founder of the Blue Investment Collaborative, a coalition of 10 like-minded Blue plans who meet regularly to discuss collaborative private equity investment opportunities."
-  },
+  }
+]
+
+export const pastAdvisors = [
   {
     src: require('./../assets/images/team/ben.jpg'),
     name: 'Ben Leedle',

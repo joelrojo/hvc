@@ -1,11 +1,12 @@
 import React from 'react';
-import { team, advisors } from '../../data/team'
+import { team, advisors, pastAdvisors } from '../../data/team'
 import { useParams } from 'react-router-dom'
 import classNames from 'classnames';
 import { ReactTitle } from 'react-meta-tags';
 import SectionHeader from '../../components/sections/partials/SectionHeader';
 import Member from './Member';
 import slugify from '../../utils/slugify';
+import Tabs, { TabList, Tab, TabPanel } from '../../components/elements/Tabs';
 
 import './Team.scss';
 
@@ -66,12 +67,35 @@ const Team = ({
               <Member key={m.name} member={m} index={index} show={slug && slugify(slug) === slugify(m.name)}/>
             )}
           </div>
-          <SectionHeader style={{ margin: '80px auto 0' }}data={{ title: 'Our Advisors' }} tag="h1" className="center-content reveal-from-top" data-reveal-delay="200" />
-          <div className={tilesClasses}>
-            {advisors.map((m, index) =>
-              <Member key={m.name} member={m} index={index} show={slug && slugify(slug) === slugify(m.name)}/>
-            )}
-          </div>
+          <SectionHeader style={{ margin: '80px auto 0', paddingBottom: '20px' }}data={{ title: 'Our Advisors' }} tag="h1" className="center-content reveal-from-top" data-reveal-delay="200" />
+          <Tabs active="tab-a">
+            <TabList>
+              <Tab tabId="tab-a">
+                <div className="text-color-high fw-600 text-sm">
+                  Current Advisors
+                </div>
+              </Tab>
+              <Tab tabId="tab-b">
+                <div className="text-color-high fw-600 text-sm">
+                  Emeritus Advisors
+                </div>
+              </Tab>
+            </TabList>
+            <TabPanel id="tab-a">
+              <div className={tilesClasses}>
+                {advisors.map((m, index) =>
+                  <Member key={m.name} member={m} index={index} show={slug && slugify(slug) === slugify(m.name)}/>
+                )}
+              </div>
+            </TabPanel>
+            <TabPanel id="tab-b">
+              <div className={tilesClasses}>
+                {pastAdvisors.map((m, index) =>
+                  <Member key={m.name} member={m} index={index} show={slug && slugify(slug) === slugify(m.name)}/>
+                )}
+              </div>
+            </TabPanel>
+          </Tabs>
         </div>
       </div>
     </section>
