@@ -60,12 +60,11 @@ class Numbers2 extends React.Component {
                               <CountUp
                                 useEasing={false}
                                 end={1000}
-                                suffix="+"
                                 formattingFn={value => {
                                   if (value >= 1000) {
-                                    return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                                    return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + "+";
                                   }
-                                  return value
+                                  return value + "+"
                                 }}
                               />
                             </p>
@@ -77,6 +76,7 @@ class Numbers2 extends React.Component {
                               <CountUp
                                 useEasing={false}
                                 end={700}
+                                suffix="+"
                               />
                             </p>
                             <p>companies<br />discussed</p>
