@@ -197,13 +197,6 @@ export const advisors = [
     original: true,
     title: 'Founding Advisory Board Member',
     bio: "Brad Fluegel was most recently Senior Vice President, Chief Healthcare Commercial Market Development Officer for Walgreens. Brad was responsible for all commercial healthcare activities, including sales and contracting, biopharma relationships, retail clinics, clinical affairs, new service development and market planning.  Previously, he was Chief Strategy and Business Development Officer for Walgreens, responsible for corporate strategy and business development. Prior to Walgreens, he was Chief Strategy and External Affairs officer of Anthem, where he was responsible for long-term strategic planning, government affairs, corporate communications including public relations, corporate marketing, corporate development, international expansion, innovation and new business ventures. Prior to Anthem, Brad was Senior Vice President of National Accounts and Vice President, Enterprise Strategy at Aetna. Brad currently serves on the Board of Directors of Metropolitan Jewish Health System in New York City, Performant Financial Corporation, Fitbit, Premera Blue Cross, Alight Solutions and AdhereHealth. Brad earned a master’s degree in public policy from Harvard University’s Kennedy School of Government and a Bachelor of Arts in Business Administration from the University of Washington.  He also serves as a lecturer at the University of Pennsylvania’s Wharton School of Business."
-  },
-  {
-    src: require('./../assets/images/team/eric.jpg'),
-    name: 'Eric Larsen',
-    original: true,
-    title: 'Founding Advisory Board Member',
-    bio: "Eric Larsen serves as President of The Advisory Board Company, a best practices and business intelligence software firm dedicated to improving the performance of health care organizations around the world. Eric has oversight responsibility for enterprise strategic relationships, key client partnerships and companywide business growth efforts.  He is a leading expert on health care market forces and industry transformation and has served as a trusted strategic advisor to the CEOs of the 100 largest health systems nationally—both not-for-profit and investor-owned—for more than two decades.  In addition to his work with The Advisory Board Company, Eric serves on the Boards of Directors of several organizations, including Mytonomy, Contessa Health, The Washington National Opera (where he serves as Chairman of the Board), The Washington Ballet, and as a Board Observer for Somatus. Eric received his bachelor's degree from Georgetown University’s School of Foreign Service in 1995."
   }
 ]
 
