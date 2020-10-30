@@ -98,7 +98,7 @@ export const team = [
     name: 'Jenny Guyton',
     title: 'Senior Associate',
     original: true,
-    bio: "Jenny has spent her career driving innovation in health care services and technology as an operator and investor. Most recently, Jenny led various acquisitions and de novo new product development initiatives at The Advisory Board Company (NASDAQ: ABCO), a market-leading health care research, consulting, and technology company. Prior to The Advisory Board, Jenny worked in investment banking focused on mergers and acquisitions.",
+    bio: "Jenny has spent her career driving innovation in health care services and technology as an operator and investor.  Most recently, Jenny led acquisitions and new product development initiatives at The Advisory Board Company.  She later led special projects for the company’s technology business, including a strategic reorganization of the business.  Prior to The Advisory Board, Jenny worked in investment banking focused on mergers and acquisitions.  She has also held positions at Town Hall Ventures, Flare Capital as a Flare Capital Scholar, Bridgewater Associates, and Google.",
     investments: [
       "Contessa Health (Board Observer)",
       "Jvion",
@@ -107,7 +107,7 @@ export const team = [
     ],
     education: [
       'BA, Yale University',
-      'MBA, The Wharton School at The University of Pennsylvania',
+      'MBA, The Wharton School at the University of Pennsylvania; Howard E. Mitchell Fellow',
     ],
     linkedin: 'jennyguyton'
   },
