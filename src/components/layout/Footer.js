@@ -53,7 +53,7 @@ class Footer extends React.Component {
 
             <div className="footer-bottom space-between text-xxs">
               <small className="footer-copyright">&copy; {(new Date().getFullYear())} Health Velocity Capital.</small>
-              <small>Logos on this site include Health Velocity Capital investments, prior operating companies and investments from predecessor firms.<br />Commercial relationships and executives placed include introductions from Principals’ prior roles at other organizations.</small>
+              <small>Logos on this site include Health Velocity Capital investments, prior operating companies, and investments from predecessor firms.<br />Commercial relationships and executives placed include introductions from Principals’ prior roles at other organizations.</small>
             </div>
           </div>
         </div>

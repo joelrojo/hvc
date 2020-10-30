@@ -7,12 +7,12 @@ export const testimonials = [
   {
     name: 'Doug Ghertner',
     company: 'IVX Health',
-    quote: 'We’ve worked with the team at HVC on multiple occasions, most notably at our prior company, Change Healthcare, and now at IVX Health. One of the things that differentiates them from others, beyond the simple fact that they have an attractive base of strategic LPs, is their intimate knowledge of the healthcare industry as a whole and their willingness to role up their sleeves and engage directly with their network on behalf of their portfolio companies.  Those introductions and facilitated conversations, on multiple occasions, have directly resulted in new business wins, product roadmap enhancements and adjustments to our overall strategic plan.'
+    quote: 'We’ve worked with the team at HVC on multiple occasions, most notably at our prior company, Change Healthcare, and now at IVX Health. One of the things that differentiates them from others, beyond the simple fact that they have an attractive base of strategic LPs, is their intimate knowledge of the healthcare industry as a whole, and their willingness to role up their sleeves and engage directly with their network on behalf of their portfolio companies.  Those introductions and facilitated conversations, on multiple occasions, have directly resulted in new business wins, product roadmap enhancements, and adjustments to our overall strategic plan.'
   },
   {
     name: 'Guillaume de Zwirek',
     company: 'Well Health',
-    quote: 'We weren’t even raising money, and they introduced us to clients and board members long before we were even formal partners… we were so impressed, we invited them to invest when we didn’t need the money and at a lower valuation than we could have gotten elsewhere.  And it has been more than worth it.  Since investing, they have introduced us to a number of additional customers, helped push some prospects they know over the finish line, introduced us to talented executives who became team members and recruited a key advisor who has driven the most important partnership in our company’s history.'
+    quote: 'We weren’t even raising money, and they introduced us to clients and board members long before we were even formal partners… we were so impressed, we invited them to invest when we didn’t need the money and at a lower valuation than we could have gotten elsewhere.  And it has been more than worth it.  Since investing, they have introduced us to a number of additional customers, helped push some prospects they know over the finish line, introduced us to talented executives who became team members, and recruited a key advisor who has driven the most important partnership in our company’s history.'
   },
   {
     name: 'Mark Nathan',
