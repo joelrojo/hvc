@@ -95,7 +95,7 @@ export const companies = [
     src: require('./../assets/images/companies/well.png'),
     alt: 'Well Health',
     caption: 'Patient Relationship Management and Communications',
-    description: "Well Health provides a unified communications platform for providers and health systems to facilitate an enhanced digital patient experience. By converting a significant portion of administrative and clinical interactions to text through their own applications and integrated applications, the company’s SaaS and ML software reduces phone call volume and the associated patient and staff frustration, costs, lost visits, and sub-optimal care that can result from phone friction."
+    description: "Well Health provides a unified communications platform for providers and health systems to facilitate an enhanced digital patient experience. By converting a significant portion of administrative and clinical interactions to text through their own integrated applications, the company’s SaaS and ML software reduces phone call volume as well as associated patient and staff frustration, costs, lost visits, and sub-optimal care that can result from phone friction."
   },
   {
     url: 'https://www.threeoakshospice.com/',

@@ -209,7 +209,7 @@ const Different = ({
                     <li><AiOutlineCheckCircle /> Our team members are driven by a desire to excel for our entrepreneurs and our investors and to improve our nation’s healthcare system</li>
                     <li><AiOutlineCheckCircle /> We over-communicate and are transparent</li>
                     <li><AiOutlineCheckCircle /> We are responsive</li>
-                    <li><AiOutlineCheckCircle /> We serve multiple customers, we work hard for all of them, and we are respectful of the needs of all entrepreneurs, our limited partners, our team, and our co-investors</li>
+                    <li><AiOutlineCheckCircle /> We serve multiple customers; we work hard for all of them; and we are respectful of the needs of all entrepreneurs, our limited partners, our team, and our co-investors</li>
                   </ul>
                   <ul className='callOuts'>
                     <li><AiOutlineCheckCircle /> We believe good process leads to good results</li>
