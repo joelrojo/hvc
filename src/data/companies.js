@@ -340,6 +340,13 @@ export const pastCompanies = [
 
 export const currentCompanies = [
   {
+    url: 'https://insighttelepsychiatry.com/',
+    src: require('./../assets/images/companies/insight.svg'),
+    alt: 'Insight + Regroup',
+    caption: 'B2B tele-behavioral health for provider-based settings',
+    description: "Insight Regroup is one of the nation’s largest providers of tele-psychiatry services to hospital emergency departments and broader tele-behavioral health solutions to community mental health centers, correctional facilities, FQHCs, and primary care clinics."
+  },
+  {
     url: 'https://www.lemonaidhealth.com/',
     src: require('./../assets/images/companies/lemonaid.png'),
     alt: 'Lemonaid Health',
