@@ -340,10 +340,17 @@ export const pastCompanies = [
 
 export const currentCompanies = [
   {
+    url: 'https://findoctave.com',
+    src: require('./../assets/images/companies/octave.png'),
+    alt: 'Octave',
+    caption: 'Next-Generation Behavioral Health',
+    description: "Octave offers behavioral therapy provided by certified coaches, licensed psychologists, and psychiatric nurse practitioners, leveraging a step-care model, in a highly consumer-centric, “One Medical” like manner.  Care is delivered in brick-and-mortar clinics and through engaging and outcomes-driven technology and telehealth."
+  },
+  {
     url: 'https://insighttelepsychiatry.com/',
     src: require('./../assets/images/companies/insight.svg'),
     alt: 'Insight + Regroup',
-    caption: 'B2B tele-behavioral health for provider-based settings',
+    caption: 'B2B Tele-Behavioral Health for Provider-Based Settings',
     description: "Insight Regroup is one of the nation’s largest providers of tele-psychiatry services to hospital emergency departments and broader tele-behavioral health solutions to community mental health centers, correctional facilities, FQHCs, and primary care clinics."
   },
   {
