@@ -6,6 +6,7 @@ export const team = [
     bio: "Marty has worked exclusively with innovative, disruptive, and rapidly growing healthcare software and services companies for the last 25 years. Marty was previously a partner at two leading venture and growth capital firms focused on this sector - Salix Ventures and HLM Venture Partners - and also worked with Madison Dearborn Partners earlier in his career. He also serves as an adviser to the California Healthcare Foundation Innovation Fund.",
     linkedin: 'martinfelsenthal',
     investments: [
+      "Array Behavioral Care (Board Director)",
       "OnShift (Board Director)",
       "IVX Health (Board Director)",
       "MDLIVE (Board Director)",
@@ -59,6 +60,7 @@ export const team = [
     bio: "Saurabh has spent his career working with innovative healthcare services and software companies. Most recently, Saurabh helped build and lead investments for Humana Health Ventures, the venture capital arm at one of the nation’s leading healthcare companies and second largest Medicare Advantage insurer. Prior to Humana, Saurabh held roles on the investing teams at HLM Venture Partners and Ferrer Freeman & Co and worked at Pfizer as part of the mergers, acquisitions, and licensing team.",
     linkedin: 's-bhansali',
     investments: [
+      "Octave (Board Director)",
       "HealthJoy (Board Director)",
       "Zipari (Board Director)",
       "Jvion (Board Director)",
@@ -80,9 +82,10 @@ export const team = [
     src: require('./../assets/images/team/grant.jpg'),
     name: 'Grant Blevins',
     title: 'Senior Associate',
-    bio: "Grant has spent his entire career investing exclusively in innovative healthcare companies. Prior to joining Health Velocity Capital, Grant was an investor with Clayton Associates, Nashville’s oldest venture capital firm, where he co-led deal sourcing for FCA Venture Partners.",
+    bio: "Grant has spent his entire career investing exclusively in innovative healthcare companies. Prior to joining Health Velocity Capital, Grant was a healthcare investor with Clayton Associates, Nashville’s oldest venture capital firm, where he co-led deal sourcing. He sourced notable investments in RubiconMD, Shiftwizard (acquired by Health Stream [NASDAQ: HSTM]), and HealthiPASS (acquired by Sphere).",
     linkedin: 'grantblevins',
     investments: [
+      "Array Behavioral Care (Board Observer)",
       "Lemonaid Health (Board Observer)",
       "IVX Health (Board Observer)",
       "Well Health (Board Observer)",
@@ -100,6 +103,7 @@ export const team = [
     original: true,
     bio: "Jenny has spent her career driving innovation in health care services and technology as an operator and investor.  Most recently, Jenny led acquisitions and new product development initiatives at The Advisory Board Company.  She later led special projects for the company’s technology business, including a strategic reorganization of the business.  Prior to The Advisory Board, Jenny worked in investment banking focused on mergers and acquisitions.  She has also held positions at Town Hall Ventures, Flare Capital as a Flare Capital Scholar, Bridgewater Associates, and Google.",
     investments: [
+      "Octave (Board Observer)",
       "Contessa Health (Board Observer)",
       "Jvion",
       "Ginger",
@@ -160,11 +164,10 @@ export const advisors = [
     bio: "Frank Williams is the CEO and Co-Founder of Evolent Health (NYSE: EVH). Evolent helps physicians and health systems achieve superior performance through value-based care transformation with the ultimate objective of dramatically improving the health of the populations that it serves.  The company currently partners with leading health systems in over 35\r\nmarkets, manages over 3.5M lives under value-based arrangements, and employs over 3,700 professionals. \r\n\r\nPrior to Evolent, Frank also served as Chairman and CEO of The Advisory Board Company (NASDAQ: ABCO), a global research and technology firm that serves over 5,000 organizations across the Health care and Higher Education sectors. During Frank's tenure as both its\u2019 Chairman and CEO, The Advisory Board completed an initial public offering and grew to $450M+ in annual revenues with over 2,500 employees and $2B+ in market capitalization.\r\n\r\nAlong with the Evolent Health board, he currently serves on the boards of Syapse, Business Talent Group, and Peer Health Exchange and as an Advisor to TPG\u2019s Growth and Rise Funds.  A native Californian, Frank received a BA in Political Economy from UC Berkeley and an MBA from Harvard Business School.\r\n"
   },
   {
-    src: require('./../assets/images/team/julie_2.jpg'),
-    name: 'Julie Murchinson',
-    original: true,
+    src: require('./../assets/images/team/ben.jpg'),
+    name: 'Ben Leedle',
     title: 'Founding Advisory Board Member',
-    bio: "Julie Murchinson is currently an Entrepreneur in Residence at AVIA. She was formerly the Chief Executive Officer of Health Evolution, which connects the healthcare industry’s most influential leaders to inspire forward-thinking strategies and scalable solutions that drive health for us all. Prior to Health Evolution, Julie was Managing Director at Manatt Health Solutions, the policy and strategy advisory division of Manatt, Phelps, and Phillips. Previously, Julie was Vice President of Services at CareScience, a Senior Associate with Deloitte Consulting and launched her career with Ernst & Young.  Julie received her MBA in Healthcare and Operations Management from The Wharton School at the University of Pennsylvania in Philadelphia, Pennsylvania and her BA in Business Management & Accounting from Franklin and Marshall College in Lancaster, Pennsylvania, where she currently serves on the Leadership Council. Julie also serves on the Board of Directors of the National Committee for Quality Assurance (NCQA)."
+    bio: "Ben Leedle served as CEO of Healthways (NASDAQ:  HWAY) from 2003 until 2015.  During his tenure as CEO, Healthways increased revenue from $165 million to $770 million and became the leading independent disease management, population health management, consumer engagement, and senior-focused consumer services company in healthcare.  Ben joined Healthways in 1985 initially supporting early models for advancing population health for people with diabetes. Over his 30-year career with the company, he rose in the organization as a leader and manager of business development, product management, and operations – serving as the company’s Chief Operating Officer - before being elected President & Chief Executive Officer, and Board Director of Healthways in 2003."
   },
   {
     src: require('./../assets/images/team/kent.jpg'),
@@ -203,10 +206,11 @@ export const advisors = [
 
 export const pastAdvisors = [
   {
-    src: require('./../assets/images/team/ben.jpg'),
-    name: 'Ben Leedle',
+    src: require('./../assets/images/team/julie_2.jpg'),
+    name: 'Julie Murchinson',
+    original: true,
     title: 'Founding Advisory Board Member',
-    bio: "Ben Leedle served as CEO of Healthways (NASDAQ:  HWAY) from 2003 until 2015.  During his tenure as CEO, Healthways increased revenue from $165 million to $770 million and became the leading independent disease management, population health management, consumer engagement, and senior-focused consumer services company in healthcare.  Ben joined Healthways in 1985 initially supporting early models for advancing population health for people with diabetes. Over his 30-year career with the company, he rose in the organization as a leader and manager of business development, product management, and operations – serving as the company’s Chief Operating Officer - before being elected President & Chief Executive Officer, and Board Director of Healthways in 2003."
+    bio: "Julie Murchinson is currently an Entrepreneur in Residence at AVIA. She was formerly the Chief Executive Officer of Health Evolution, which connects the healthcare industry’s most influential leaders to inspire forward-thinking strategies and scalable solutions that drive health for us all. Prior to Health Evolution, Julie was Managing Director at Manatt Health Solutions, the policy and strategy advisory division of Manatt, Phelps, and Phillips. Previously, Julie was Vice President of Services at CareScience, a Senior Associate with Deloitte Consulting and launched her career with Ernst & Young.  Julie received her MBA in Healthcare and Operations Management from The Wharton School at the University of Pennsylvania in Philadelphia, Pennsylvania and her BA in Business Management & Accounting from Franklin and Marshall College in Lancaster, Pennsylvania, where she currently serves on the Leadership Council. Julie also serves on the Board of Directors of the National Committee for Quality Assurance (NCQA)."
   },
   {
     src: require('./../assets/images/team/david.jpg'),

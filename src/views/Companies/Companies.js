@@ -71,13 +71,13 @@ const Companies = ({
             <div className="tiles-item reveal-from-bottom companyContainer" data-reveal-container=".tiles-wrap"></div>
           </div>
           <SectionHeader style={{ margin: '40px auto 0', paddingBottom: "10px" }} data={section2Header} tag="h1" className="center-content reveal-from-top" data-reveal-delay="200" />
+          <p className="center-content reveal-from-bottom footnote">Includes investments that were sourced and led by our Principals at predecessor firms, with the exceptions of ClearData (co-led), iTriage, D2Hawkeye, and Iasis Healthcare.</p>
           <div className={tilesClasses}>
             {pastCompanies.map((c, index) =>
               <Company noUrl key={c.alt} company={c} index={index} show={slug && slugify(slug) === slugify(c.alt)}/>
             )}
             <div className="tiles-item reveal-from-bottom companyContainer" data-reveal-container=".tiles-wrap"></div>
           </div>
-          <p className="center-content reveal-from-bottom footnote">Prior investments include investments that were sourced and led by our Principals at predecessor firms, with the exceptions of ClearData (co-led), iTriage, D2Hawkeye, and Iasis Healthcare.</p>
         </div>
       </div>
     </section>
