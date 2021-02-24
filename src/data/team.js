@@ -81,7 +81,7 @@ export const team = [
   {
     src: require('./../assets/images/team/grant.jpg'),
     name: 'Grant Blevins',
-    title: 'Senior Associate',
+    title: 'Vice President',
     bio: "Grant has spent his entire career investing exclusively in innovative healthcare companies. Prior to joining Health Velocity Capital, Grant was a healthcare investor with Clayton Associates, Nashville’s oldest venture capital firm, where he co-led deal sourcing. He sourced notable investments in RubiconMD, Shiftwizard (acquired by Health Stream [NASDAQ: HSTM]), and HealthiPASS (acquired by Sphere).",
     linkedin: 'grantblevins',
     investments: [
@@ -99,7 +99,7 @@ export const team = [
   {
     src: require('./../assets/images/team/jenny.jpg'),
     name: 'Jenny Guyton',
-    title: 'Senior Associate',
+    title: 'Vice President',
     original: true,
     bio: "Jenny has spent her career driving innovation in health care services and technology as an operator and investor.  Most recently, Jenny led acquisitions and new product development initiatives at The Advisory Board Company.  She later led special projects for the company’s technology business, including a strategic reorganization of the business.  Prior to The Advisory Board, Jenny worked in investment banking focused on mergers and acquisitions.  She has also held positions at Town Hall Ventures, Flare Capital as a Flare Capital Scholar, Bridgewater Associates, and Google.",
     investments: [
