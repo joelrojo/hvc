@@ -4,10 +4,10 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 
-import sf1 from '../../assets/videos/sf_1.webm';
-import sf2 from '../../assets/videos/sf_2.webm';
-import nv1 from '../../assets/videos/nv_1.webm';
-import nv2 from '../../assets/videos/nv_2.webm';
+import sf1 from '../../assets/videos/sf_1.mp4';
+import sf2 from '../../assets/videos/sf_2.mp4';
+import nv1 from '../../assets/videos/nv_1.mp4';
+import nv2 from '../../assets/videos/nv_2.mp4';
 
 import sf1_img from '../../assets/videos/sf_1.png';
 import sf2_img from '../../assets/videos/sf_2.png';
