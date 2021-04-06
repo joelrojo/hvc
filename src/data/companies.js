@@ -348,7 +348,7 @@ export const currentCompanies = [
   },
   {
     url: 'https://insighttelepsychiatry.com/',
-    src: require('./../assets/images/companies/insight.svg'),
+    src: require('./../assets/images/companies/array.jpg'),
     alt: 'Insight + Regroup',
     caption: 'B2B Tele-Behavioral Health for Provider-Based Settings',
     description: "Insight Regroup is one of the nation’s largest providers of tele-psychiatry services to hospital emergency departments and broader tele-behavioral health solutions to community mental health centers, correctional facilities, FQHCs, and primary care clinics."
