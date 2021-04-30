@@ -101,26 +101,6 @@ export const team = [
     education: ["BBA, Belmont University"],
   },
   {
-    src: require("./../assets/images/team/jenny.jpg"),
-    name: "Jenny Guyton",
-    title: "Vice President",
-    original: true,
-    bio:
-      "Jenny has spent her career driving innovation in health care services and technology as an operator and investor.  Most recently, Jenny led acquisitions and new product development initiatives at The Advisory Board Company.  She later led special projects for the company’s technology business, including a strategic reorganization of the business.  Prior to The Advisory Board, Jenny worked in investment banking focused on mergers and acquisitions.  She has also held positions at Town Hall Ventures, Flare Capital as a Flare Capital Scholar, Bridgewater Associates, and Google.",
-    investments: [
-      "Octave (Board Observer)",
-      "Contessa Health (Board Observer)",
-      "Jvion",
-      "Ginger",
-      "HealthJoy",
-    ],
-    education: [
-      "BA, Yale University",
-      "MBA, The Wharton School at the University of Pennsylvania; Howard E. Mitchell Fellow",
-    ],
-    linkedin: "jennyguyton",
-  },
-  {
     src: require("./../assets/images/team/ken.jpg"),
     name: "Ken Goodhue",
     title: "Director",
