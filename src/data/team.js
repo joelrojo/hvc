@@ -3,8 +3,7 @@ export const team = [
     src: require("./../assets/images/team/marty.jpg"),
     name: "Marty Felsenthal",
     title: "Partner",
-    bio:
-      "Marty has worked exclusively with innovative, disruptive, and rapidly growing healthcare software and services companies for the last 25 years. Marty was previously a partner at two leading venture and growth capital firms focused on this sector - Salix Ventures and HLM Venture Partners - and also worked with Madison Dearborn Partners earlier in his career. He also serves as an adviser to the California Healthcare Foundation Innovation Fund.",
+    bio: "Marty has worked exclusively with innovative, disruptive, and rapidly growing healthcare software and services companies for the last 25 years. Marty was previously a partner at two leading venture and growth capital firms focused on this sector - Salix Ventures and HLM Venture Partners - and also worked with Madison Dearborn Partners earlier in his career. He also serves as an adviser to the California Healthcare Foundation Innovation Fund.",
     linkedin: "martinfelsenthal",
     investments: [
       "Array Behavioral Care (Board Director)",
@@ -34,8 +33,7 @@ export const team = [
     src: require("./../assets/images/team/bruce.jpg"),
     name: "Bruce Crosby",
     title: "Partner",
-    bio:
-      "Bruce has spent 25+ years as a healthcare executive, entrepreneur, and venture and growth stage investor. He has helped build and invested in a number of high growth, successful healthcare software and services companies with revenues ranging from $10 million to $700 million.  Bruce's executive roles have been with Compassus, one of the largest providers of hospice and palliative care; Healthways, a pioneer and leading provider of disease and population health management; Pfizer, a global pharmaceutical company; and The Advisory Board Company (sold to Optum), one of the nation's largest health system best-practice research and business intelligence software businesses.",
+    bio: "Bruce has spent 25+ years as a healthcare executive, entrepreneur, and venture and growth stage investor. He has helped build and invested in a number of high growth, successful healthcare software and services companies with revenues ranging from $10 million to $700 million.  Bruce's executive roles have been with Compassus, one of the largest providers of hospice and palliative care; Healthways, a pioneer and leading provider of disease and population health management; Pfizer, a global pharmaceutical company; and The Advisory Board Company (sold to Optum), one of the nation's largest health system best-practice research and business intelligence software businesses.",
     linkedin: "bruce-crosby-58267b",
     investments: [
       "Spero Health (Board Director)",
@@ -59,8 +57,7 @@ export const team = [
     src: require("./../assets/images/team/saurabh.jpg"),
     name: "Saurabh Bhansali",
     title: "Partner",
-    bio:
-      "Saurabh has spent his career working with innovative healthcare services and software companies. Most recently, Saurabh helped build and lead investments for Humana Health Ventures, the venture capital arm at one of the nation’s leading healthcare companies and second largest Medicare Advantage insurer. Prior to Humana, Saurabh held roles on the investing teams at HLM Venture Partners and Ferrer Freeman & Co and worked at Pfizer as part of the mergers, acquisitions, and licensing team.",
+    bio: "Saurabh has spent his career working with innovative healthcare services and software companies. Most recently, Saurabh helped build and lead investments for Humana Health Ventures, the venture capital arm at one of the nation’s leading healthcare companies and second largest Medicare Advantage insurer. Prior to Humana, Saurabh held roles on the investing teams at HLM Venture Partners and Ferrer Freeman & Co and worked at Pfizer as part of the mergers, acquisitions, and licensing team.",
     linkedin: "s-bhansali",
     investments: [
       "Octave (Board Director)",
@@ -82,11 +79,26 @@ export const team = [
     ],
   },
   {
+    src: require("./../assets/images/team/kristin.jpg"),
+    name: "Kristin Torres Mowat",
+    title: "Partner + Strategic Networks",
+    bio: "Kristin has more than 15 years of successful operating experience in healthcare software and services organizations, serving as a senior executive within a Fortune 200 healthcare services company and helping to lead and scale a healthcare software company from the early stages through IPO.  Kristin previously served as SVP Corporate and Business Development for Castlight Health, leading one of the sector’s earliest innovators in transparency, engagement, and member advocacy in the areas of growth strategy, health plan relationships, and strategic partnerships. Prior to Castlight Health, Kristin was a senior executive at DaVita, where she was responsible for Corporate Strategy, founded and ran the company’s specialty EHR line of business, and led recruiting for the Leadership Development Program.  Kristin has extensive experience serving on boards and advising healthcare and technology companies through critical growth periods, fundraising, and M&A transactions.  Kristin began her career at Bain & Co. and is from Mexico City.",
+    linkedin: "kristintm",
+    investments: [
+      "Women’s Health USA (Board Director) ",
+      "In Vitro Sciences (Board Director) ",
+    ],
+    education: [
+      "BA, Stanford University",
+      "MBA, Stanford University Graduate School of Business",
+      "JD, Stanford Law School ",
+    ],
+  },
+  {
     src: require("./../assets/images/team/grant.jpg"),
     name: "Grant Blevins",
     title: "Vice President",
-    bio:
-      "Grant has spent his entire career investing exclusively in innovative healthcare companies. Prior to joining Health Velocity Capital, Grant was a healthcare investor with Clayton Associates, Nashville’s oldest venture capital firm, where he co-led deal sourcing. He sourced notable investments in RubiconMD, Shiftwizard (acquired by Health Stream [NASDAQ: HSTM]), and HealthiPASS (acquired by Sphere).",
+    bio: "Grant has spent his entire career investing exclusively in innovative healthcare companies. Prior to joining Health Velocity Capital, Grant was a healthcare investor with Clayton Associates, Nashville’s oldest venture capital firm, where he co-led deal sourcing. He sourced notable investments in RubiconMD, Shiftwizard (acquired by Health Stream [NASDAQ: HSTM]), and HealthiPASS (acquired by Sphere).",
     linkedin: "grantblevins",
     investments: [
       "Array Behavioral Care (Board Observer)",
@@ -105,8 +117,7 @@ export const team = [
     name: "Ken Goodhue",
     title: "Director",
     original: true,
-    bio:
-      "Ken has spent his career working with corporate and private equity clients to create value in the healthcare sector. Prior to joining Health Velocity Capital, Ken led diligence efforts as a Senior Manager at PwC for transactions ranging from $20 million to $5 billion. His experience consists of evaluating opportunities across the healthcare sector including: behavioral health, software, primary care, urgent care, and health plans.",
+    bio: "Ken has spent his career working with corporate and private equity clients to create value in the healthcare sector. Prior to joining Health Velocity Capital, Ken led diligence efforts as a Senior Manager at PwC for transactions ranging from $20 million to $5 billion. His experience consists of evaluating opportunities across the healthcare sector including: behavioral health, software, primary care, urgent care, and health plans.",
     education: [
       "BBA in Accounting, MS in Finance, Texas A&M University - Mays Business School",
     ],
@@ -117,16 +128,14 @@ export const team = [
     name: "Julie Foster",
     original: true,
     title: "Chief Administrative Officer",
-    bio:
-      "Julie is the administrator for Health Velocity Capital and is responsible for making our trains run on time.  She has been working in the venture capital industry since 1999 at firms including Salix Ventures, De Novo Ventures, and HLM Venture Partners.",
+    bio: "Julie is the administrator for Health Velocity Capital and is responsible for making our trains run on time.  She has been working in the venture capital industry since 1999 at firms including Salix Ventures, De Novo Ventures, and HLM Venture Partners.",
   },
   {
     src: require("./../assets/images/team/morgan.jpg"),
     name: "Morgan Thompson",
     original: true,
     title: "Executive Assistant",
-    bio:
-      "Morgan is a certified executive assistant with five years of experience in the technology and finance industry.  She embraces process coordination, operations and strategy planning, and end-to-end event planning and execution with passion.  Former companies include Capital One, Intuit, and Booz Allen Hamilton.",
+    bio: "Morgan is a certified executive assistant with five years of experience in the technology and finance industry.  She embraces process coordination, operations and strategy planning, and end-to-end event planning and execution with passion.  Former companies include Capital One, Intuit, and Booz Allen Hamilton.",
   },
 ];
 
