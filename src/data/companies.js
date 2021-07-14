@@ -1,5 +1,12 @@
 export const companies = [
   {
+    url: 'https://clevercarehealthplan.com/',
+    src: require('./../assets/images/companies/clevercare.png'),
+    alt: 'CleverCare',
+    caption: 'Culturally-focused Health Plan',
+    description: "Clever Care Health Plan is a culturally-focused Medicare Advantage Plan predominantly focused on serving Asian Americans through preferred physician networks, preferred supplemental benefits, and culturally relevant customer service."
+  },
+  {
     url: 'https://teladochealth.com/',
     src: require('./../assets/images/companies/teledoc.png'),
     alt: 'Teledoc',
@@ -39,7 +46,8 @@ export const companies = [
     src: require('./../assets/images/companies/mdlive.png'),
     alt: 'MDLive',
     caption: 'Telemedicine',
-    description: "MDLIVE is one of the nation's leading and largest telehealth platforms."
+    description: "MDLIVE is one of the nation's leading and largest telehealth platforms.",
+    exit: 'Acquired by Cigna'
   },
   {
     url: 'https://www.ivxhealth.com/',
@@ -340,6 +348,13 @@ export const pastCompanies = [
 
 export const currentCompanies = [
   {
+    url: 'https://clevercarehealthplan.com/',
+    src: require('./../assets/images/companies/clevercare.png'),
+    alt: 'CleverCare',
+    caption: 'Culturally-focused Health Plan',
+    description: "Clever Care Health Plan is a culturally-focused Medicare Advantage Plan predominantly focused on serving Asian Americans through preferred physician networks, preferred supplemental benefits, and culturally relevant customer service."
+  },
+  {
     url: 'https://findoctave.com',
     src: require('./../assets/images/companies/octave.png'),
     alt: 'Octave',
@@ -365,7 +380,8 @@ export const currentCompanies = [
     src: require('./../assets/images/companies/mdlive.png'),
     alt: 'MDLive',
     caption: 'Telemedicine',
-    description: "MDLIVE is one of the nation's leading and largest telehealth platforms."
+    description: "MDLIVE is one of the nation's leading and largest telehealth platforms.",
+    exit: 'Acquired by Cigna'
   },
   {
     url: 'https://zipari.com/',
