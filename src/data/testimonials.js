@@ -7,7 +7,7 @@ export const testimonials = [
   {
     name: 'Doug Ghertner',
     company: 'IVX Health',
-    quote: 'We’ve worked with the team at HVC on multiple occasions, most notably at our prior company, Change Healthcare, and now at IVX Health. One of the things that differentiates them from others, beyond the simple fact that they have an attractive base of strategic LPs, is their intimate knowledge of the healthcare industry as a whole, and their willingness to role up their sleeves and engage directly with their network on behalf of their portfolio companies.  Those introductions and facilitated conversations, on multiple occasions, have directly resulted in new business wins, product roadmap enhancements, and adjustments to our overall strategic plan.'
+    quote: 'We’ve worked with the team at HVC on multiple occasions, most notably at our prior company, Change Healthcare, and now at IVX Health. One of the things that differentiates them from others, beyond the simple fact that they have an attractive base of strategic LPs, is their intimate knowledge of the healthcare industry as a whole, and their willingness to roll up their sleeves and engage directly with their network on behalf of their portfolio companies.  Those introductions and facilitated conversations, on multiple occasions, have directly resulted in new business wins, product roadmap enhancements, and adjustments to our overall strategic plan.'
   },
   {
     name: 'Guillaume de Zwirek',
