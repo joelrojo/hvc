@@ -1,5 +1,12 @@
 export const companies = [
   {
+    url: 'https://www.hospiq.com/',
+    src: require('./../assets/images/companies/hospital_iq.png'),
+    alt: 'Hospital IQ',
+    caption: 'Operations Management Software for Health Systems',
+    description: "Hospital IQ is a leading provider of operations management software for health systems that improves the utilization of operating rooms and infusion clinics and also optimizes clinician staffing and patient throughput – helping hospitals to increase revenue and decrease labor costs."
+  },
+  {
     url: 'https://clevercarehealthplan.com/',
     src: require('./../assets/images/companies/clevercare.png'),
     alt: 'CleverCare',
@@ -347,6 +354,13 @@ export const pastCompanies = [
 
 
 export const currentCompanies = [
+  {
+    url: 'https://www.hospiq.com/',
+    src: require('./../assets/images/companies/hospital_iq.png'),
+    alt: 'Hospital IQ',
+    caption: 'Operations Management Software for Health Systems',
+    description: "Hospital IQ is a leading provider of operations management software for health systems that improves the utilization of operating rooms and infusion clinics and also optimizes clinician staffing and patient throughput – helping hospitals to increase revenue and decrease labor costs."
+  },
   {
     url: 'https://clevercarehealthplan.com/',
     src: require('./../assets/images/companies/clevercare.png'),
