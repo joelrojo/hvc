@@ -1,19 +1,5 @@
 export const companies = [
   {
-    url: 'https://www.hospiq.com/',
-    src: require('./../assets/images/companies/hospital_iq.png'),
-    alt: 'Hospital IQ',
-    caption: 'Operations Management Software for Health Systems',
-    description: "Hospital IQ is a leading provider of operations management software for health systems that improves the utilization of operating rooms and infusion clinics and also optimizes clinician staffing and patient throughput – helping hospitals to increase revenue and decrease labor costs."
-  },
-  {
-    url: 'https://clevercarehealthplan.com/',
-    src: require('./../assets/images/companies/clevercare.png'),
-    alt: 'CleverCare',
-    caption: 'Culturally-focused Health Plan',
-    description: "Clever Care Health Plan is a culturally-focused Medicare Advantage Plan predominantly focused on serving Asian Americans through preferred physician networks, preferred supplemental benefits, and culturally relevant customer service."
-  },
-  {
     url: 'https://teladochealth.com/',
     src: require('./../assets/images/companies/teledoc.png'),
     alt: 'Teledoc',
