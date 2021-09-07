@@ -115,7 +115,7 @@ export const team = [
   {
     src: require("./../assets/images/team/ken.jpg"),
     name: "Ken Goodhue",
-    title: "Director",
+    title: "Director of Finance and FP&A",
     original: true,
     bio: "Ken has spent his career working with corporate and private equity clients to create value in the healthcare sector. Prior to joining Health Velocity Capital, Ken led diligence efforts as a Senior Manager at PwC for transactions ranging from $20 million to $5 billion. His experience consists of evaluating opportunities across the healthcare sector including: behavioral health, software, primary care, urgent care, and health plans.",
     education: [
