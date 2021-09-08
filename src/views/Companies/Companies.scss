@@ -33,6 +33,12 @@
     a {
       text-decoration: none;
       flex-basis: 33%;
+      @media (max-width: 600px) {
+        flex-basis: 50%;
+      }
+      @media (max-width: 400px) {
+        flex-basis: 100%;
+      }
     }
   }
 
@@ -90,7 +96,8 @@
     transform: translateX(-50%);
   }
 
-  h2, p {
+  h2,
+  p {
     text-align: center;
   }
   p.exit {
