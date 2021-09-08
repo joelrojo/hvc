@@ -200,143 +200,176 @@ export const companies = [
 
 export const pastCompanies = [
   {
-    url: 'https://teladochealth.com/',
-    src: require('./../assets/images/companies/teledoc.png'),
-    alt: 'Teledoc',
-    caption: 'Telemedicine',
-    description: "The nation’s largest and leading provider of telehealth services.",
-    exit: 'IPO: (NYSE: TDOC)'
+    url: "https://contessahealth.com/",
+    src: require("./../assets/images/companies/contessa_final.png"),
+    alt: "Contessa",
+    caption: "Hospital at Home",
+    description:
+      "Contessa Health is a highly innovative, market leading provider of hospital at home services. The company couples home hospitalist telemedicine capabilities with specialized home care services to treat hundreds of medical inpatient DRGs and, when appropriate, divert these patients from the inpatient hospital setting into the home. Contessa’s programs result in significant savings to payers, savings and increased profits to their hospital partners, and high quality outcomes for patients.",
   },
   {
-    url: 'https://www.changehealthcare.com/',
-    src: require('./../assets/images/companies/change.png'),
-    alt: 'Change Healthcare',
-    caption: 'Cost Transparency',
-    description: "Leading provider of healthcare cost transparency and consumer engagement solutions to tens of millions of Americans.",
-    exit: 'Acquired by Emdeon'
+    url: "http://mdlive.com/",
+    src: require("./../assets/images/companies/mdlive.png"),
+    alt: "MDLive",
+    caption: "Telemedicine",
+    description:
+      "MDLIVE is one of the nation's leading and largest telehealth platforms.",
+    exit: "Acquired by Cigna",
   },
   {
-    url: 'https://www2.livongo.com/',
-    src: require('./../assets/images/companies/livongo.png'),
-    alt: 'Livongo',
-    caption: 'Virtual Chronic Care Management',
-    description: "Livongo is a leading provider of diabetes digital care management for employers and plans.",
-    exit: 'IPO – (NASDAQ: LVGO)'
+    url: "https://teladochealth.com/",
+    src: require("./../assets/images/companies/teledoc.png"),
+    alt: "Teledoc",
+    caption: "Telemedicine",
+    description:
+      "The nation’s largest and leading provider of telehealth services.",
+    exit: "IPO: (NYSE: TDOC)",
   },
   {
-    url: 'http://aspirehealthcare.com/',
-    src: require('./../assets/images/companies/aspire.png'),
-    alt: 'Aspire',
-    caption: 'End of Life Care Management',
+    url: "https://www.changehealthcare.com/",
+    src: require("./../assets/images/companies/change.png"),
+    alt: "Change Healthcare",
+    caption: "Cost Transparency",
+    description:
+      "Leading provider of healthcare cost transparency and consumer engagement solutions to tens of millions of Americans.",
+    exit: "Acquired by Emdeon",
+  },
+  {
+    url: "https://www2.livongo.com/",
+    src: require("./../assets/images/companies/livongo.png"),
+    alt: "Livongo",
+    caption: "Virtual Chronic Care Management",
+    description:
+      "Livongo is a leading provider of diabetes digital care management for employers and plans.",
+    exit: "IPO – (NASDAQ: LVGO)",
+  },
+  {
+    url: "http://aspirehealthcare.com/",
+    src: require("./../assets/images/companies/aspire.png"),
+    alt: "Aspire",
+    caption: "End of Life Care Management",
     description: "Home-based provider of palliative care services.",
-    exit: 'Acquired by Anthem (NYSE: ANTM)'
+    exit: "Acquired by Anthem (NYSE: ANTM)",
   },
   {
-    url: 'https://www.leicabiosystems.com/digital-pathology/',
-    src: require('./../assets/images/companies/aperio.jpeg'),
-    alt: 'Aperio',
-    caption: 'Digital Pathology',
-    description: "At the time of exit, Aperio was the world's largest provider of digital and tele-pathology solutions to hospital systems, pathologists, and reference laboratories.",
-    exit: 'Acquired by Leica Biosystems in 2012'
+    url: "https://www.leicabiosystems.com/digital-pathology/",
+    src: require("./../assets/images/companies/aperio.jpeg"),
+    alt: "Aperio",
+    caption: "Digital Pathology",
+    description:
+      "At the time of exit, Aperio was the world's largest provider of digital and tele-pathology solutions to hospital systems, pathologists, and reference laboratories.",
+    exit: "Acquired by Leica Biosystems in 2012",
   },
   {
-    url: 'https://www.usrenalcare.com/',
-    src: require('./../assets/images/companies/us_renal_care.jpeg'),
-    alt: 'USRenal Care',
-    caption: 'Kidney Care Management',
-    description: "One of the nation’s largest operators of dialysis clinics for patients suffering from end stage renal disease.",
-    exit: 'Acquired by Leonard Green'
+    url: "https://www.usrenalcare.com/",
+    src: require("./../assets/images/companies/us_renal_care.jpeg"),
+    alt: "USRenal Care",
+    caption: "Kidney Care Management",
+    description:
+      "One of the nation’s largest operators of dialysis clinics for patients suffering from end stage renal disease.",
+    exit: "Acquired by Leonard Green",
   },
   {
-    url: 'https://www.accordant.com/',
-    src: require('./../assets/images/companies/accordant.png'),
-    alt: 'Accordant Health Services',
-    caption: 'Specialty Biologic Cost Containment & Disease Management',
-    description: "Nation’s first specialty biologic disease management and cost containment solution.",
-    exit: 'Acquired by AdvancePCS'
+    url: "https://www.accordant.com/",
+    src: require("./../assets/images/companies/accordant.png"),
+    alt: "Accordant Health Services",
+    caption: "Specialty Biologic Cost Containment & Disease Management",
+    description:
+      "Nation’s first specialty biologic disease management and cost containment solution.",
+    exit: "Acquired by AdvancePCS",
   },
   {
-    url: 'https://www.circulation.com/',
-    src: require('./../assets/images/companies/circulation.png'),
-    alt: 'Circulation Health',
-    caption: 'On-Demand Healthcare Transportation',
-    description: "On-demand ride ordering solution for clinics and payers to offer rides to medical appointments for patients.",
-    exit: 'Acquired by Logisticare'
+    url: "https://www.circulation.com/",
+    src: require("./../assets/images/companies/circulation.png"),
+    alt: "Circulation Health",
+    caption: "On-Demand Healthcare Transportation",
+    description:
+      "On-demand ride ordering solution for clinics and payers to offer rides to medical appointments for patients.",
+    exit: "Acquired by Logisticare",
   },
   {
-    url: 'https://www.cleardata.com/',
-    src: require('./../assets/images/companies/cleardata.png'),
-    alt: 'ClearData Networks',
-    caption: 'Cloud Migration & Security',
-    description: "Provides technology and services to enable healthcare organizations to cost-effectively and securely transition and manage their data and infrastructure to the cloud in a HIPAA compliant, HiTrust certified environment.",
-    exit: ''
+    url: "https://www.cleardata.com/",
+    src: require("./../assets/images/companies/cleardata.png"),
+    alt: "ClearData Networks",
+    caption: "Cloud Migration & Security",
+    description:
+      "Provides technology and services to enable healthcare organizations to cost-effectively and securely transition and manage their data and infrastructure to the cloud in a HIPAA compliant, HiTrust certified environment.",
+    exit: "",
   },
   {
-    src: require('./../assets/images/companies/d2hawkeye.jpeg'),
-    alt: 'D2Hawkeye',
-    caption: 'Predictive Analytics',
-    description: "One of the nation’s first, successful, independent healthcare predictive analytics companies.",
-    exit: 'Acquired by Verisk Analytics'
+    src: require("./../assets/images/companies/d2hawkeye.jpeg"),
+    alt: "D2Hawkeye",
+    caption: "Predictive Analytics",
+    description:
+      "One of the nation’s first, successful, independent healthcare predictive analytics companies.",
+    exit: "Acquired by Verisk Analytics",
   },
   {
-    src: require('./../assets/images/companies/iasis.jpeg'),
-    alt: 'IASIS Healthcare',
-    caption: 'Acute-Care Hospitals',
-    description: "At time of investment, Iasis was a newly-formed owner and operator of 15 acute-care hospitals.",
-    exit: 'Acquired by Texas Pacific Group'
+    src: require("./../assets/images/companies/iasis.jpeg"),
+    alt: "IASIS Healthcare",
+    caption: "Acute-Care Hospitals",
+    description:
+      "At time of investment, Iasis was a newly-formed owner and operator of 15 acute-care hospitals.",
+    exit: "Acquired by Texas Pacific Group",
   },
   {
-    src: require('./../assets/images/companies/itriage.png'),
-    alt: 'iTriage',
-    caption: 'Consumer Health Navigation',
-    description: "The nation’s first and leading healthcare mobile member engagement solution provided by health plans and self-insured employers.",
-    exit: 'Acquired by Aetna'
+    src: require("./../assets/images/companies/itriage.png"),
+    alt: "iTriage",
+    caption: "Consumer Health Navigation",
+    description:
+      "The nation’s first and leading healthcare mobile member engagement solution provided by health plans and self-insured employers.",
+    exit: "Acquired by Aetna",
   },
   {
-    src: require('./../assets/images/companies/national_surgical_care.png'),
-    alt: 'National Surgical Care',
-    caption: 'Ambulatory Surgery Centers',
+    src: require("./../assets/images/companies/national_surgical_care.png"),
+    alt: "National Surgical Care",
+    caption: "Ambulatory Surgery Centers",
     description: "Operator of outpatient surgery centers.",
-    exit: 'Acquired by Amsurg'
+    exit: "Acquired by Amsurg",
   },
   {
-    src: require('./../assets/images/companies/novologix.png'),
-    alt: 'NovoLogix',
-    caption: 'Specialty Biologic Cost Containment',
-    description: "One of the nation's first and leading solution providers addressing the management of high cost specialty drugs.",
-    exit: 'Acquired by CVS Health (NYSE: CVS)'
+    src: require("./../assets/images/companies/novologix.png"),
+    alt: "NovoLogix",
+    caption: "Specialty Biologic Cost Containment",
+    description:
+      "One of the nation's first and leading solution providers addressing the management of high cost specialty drugs.",
+    exit: "Acquired by CVS Health (NYSE: CVS)",
   },
   {
-    url: 'https://www.allscripts.com/solution/payerpath/',
-    src: require('./../assets/images/companies/payerpath.jpeg'),
-    alt: 'PayerPath',
-    caption: 'Revenue Cycle Management',
-    description: "At the time of exit, PayerPath was a rapidly growing provider of revenue cycle management solutions to physician practices",
-    exit: 'Acquired by Allscripts/Misys'
+    url: "https://www.allscripts.com/solution/payerpath/",
+    src: require("./../assets/images/companies/payerpath.jpeg"),
+    alt: "PayerPath",
+    caption: "Revenue Cycle Management",
+    description:
+      "At the time of exit, PayerPath was a rapidly growing provider of revenue cycle management solutions to physician practices",
+    exit: "Acquired by Allscripts/Misys",
   },
   {
-    src: require('./../assets/images/companies/titan.jpeg'),
-    alt: 'Titan Health',
-    caption: 'Specialty Outpatient Surgery Centers',
-    description: "At the time of exit, Titan Health was one of the leading developers of low cost outpatient surgery centers in the US.",
-    exit: 'Acquired by United Surgical Partners'
+    src: require("./../assets/images/companies/titan.jpeg"),
+    alt: "Titan Health",
+    caption: "Specialty Outpatient Surgery Centers",
+    description:
+      "At the time of exit, Titan Health was one of the leading developers of low cost outpatient surgery centers in the US.",
+    exit: "Acquired by United Surgical Partners",
   },
   {
-    src: require('./../assets/images/companies/vantage_oncology.png'),
-    alt: 'Vantage Oncology',
-    caption: 'Oncology Cost Reduction',
-    description: "At the time of exit, Vantage Oncology was the second largest operator of freestanding radiation treatment centers for cancer patients in the US.",
-    exit: 'Acquired by McKesson'
+    src: require("./../assets/images/companies/vantage_oncology.png"),
+    alt: "Vantage Oncology",
+    caption: "Oncology Cost Reduction",
+    description:
+      "At the time of exit, Vantage Oncology was the second largest operator of freestanding radiation treatment centers for cancer patients in the US.",
+    exit: "Acquired by McKesson",
   },
   {
-    url: 'https://www.medoptionsinc.com/vericare/',
-    src: require('./../assets/images/companies/vericare.png'),
-    alt: 'VeriCare',
-    caption: 'Integrated Behavioral Care Services',
-    description: "At the time of exit, VeriCare was one of the nation’s largest providers of integrated behavioral care services to patients in nursing homes.",
-    exit: 'Acquired by MedOptions'
+    url: "https://www.medoptionsinc.com/vericare/",
+    src: require("./../assets/images/companies/vericare.png"),
+    alt: "VeriCare",
+    caption: "Integrated Behavioral Care Services",
+    description:
+      "At the time of exit, VeriCare was one of the nation’s largest providers of integrated behavioral care services to patients in nursing homes.",
+    exit: "Acquired by MedOptions",
   },
-]
+];
 
 
 export const currentCompanies = [
@@ -376,14 +409,6 @@ export const currentCompanies = [
     description: "Lemonaid Health provides telemedicine services (via asynchronous, phone, or video technology) and medication delivery direct-to-consumer for a wide range of conditions using a proprietary clinical information system designed to improve the quality of care for the patients it serves and reduce clinical variation."
   },
   {
-    url: 'http://mdlive.com/',
-    src: require('./../assets/images/companies/mdlive.png'),
-    alt: 'MDLive',
-    caption: 'Telemedicine',
-    description: "MDLIVE is one of the nation's leading and largest telehealth platforms.",
-    exit: 'Acquired by Cigna'
-  },
-  {
     url: 'https://zipari.com/',
     src: require('./../assets/images/companies/zipari.png'),
     alt: 'Zipari',
@@ -403,13 +428,6 @@ export const currentCompanies = [
     alt: 'OnShift',
     caption: 'Post Acute Labor Management Software',
     description: "OnShift is a rapidly growing SaaS provider of workforce optimization software for senior care facilities that is currently serving more than 10% of the nation's skilled nursing facilities and a rapidly growing percentage of assisted living facilities."
-  },
-  {
-    url: 'https://contessahealth.com/',
-    src: require('./../assets/images/companies/contessa_final.png'),
-    alt: 'Contessa',
-    caption: 'Hospital at Home',
-    description: "Contessa Health is a highly innovative, market leading provider of hospital at home services. The company couples home hospitalist telemedicine capabilities with specialized home care services to treat hundreds of medical inpatient DRGs and, when appropriate, divert these patients from the inpatient hospital setting into the home. Contessa’s programs result in significant savings to payers, savings and increased profits to their hospital partners, and high quality outcomes for patients."
   },
   {
     url: 'https://healthjoy.com/',

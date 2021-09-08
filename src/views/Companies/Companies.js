@@ -49,34 +49,67 @@ const Companies = ({
   };
 
   const section2Header = {
-    title: 'Prior Investments',
+    title: 'Exited Investments',
   }
 
   return (
-    <section
-      {...props}
-      className={outerClasses}
-    >
-      <ReactTitle title="Companies | Health Velocity Capital"/>
+    <section {...props} className={outerClasses}>
+      <ReactTitle title="Companies | Health Velocity Capital" />
       <div className="bgImg">
-        <img src={require('../../assets/images/bg_grey@2x.png')} alt="Health Velocity Capital Companies"/>
+        <img
+          src={require("../../assets/images/bg_grey@2x.png")}
+          alt="Health Velocity Capital Companies"
+        />
       </div>
       <div className="container">
         <div className={innerClasses} style={{ paddingBottom: 0 }}>
-          <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color reveal-from-top" data-reveal-delay="600" />
+          <SectionHeader
+            data={sectionHeader}
+            tag="h1"
+            className="center-content invert-color reveal-from-top"
+            data-reveal-delay="600"
+          />
           <div className={tilesClasses}>
-            {currentCompanies.map((c, index) =>
-              <Company key={c.alt} company={c} index={index} show={slug && slugify(slug) === slugify(c.alt)}/>
-            )}
-            <div className="tiles-item reveal-from-bottom companyContainer" data-reveal-container=".tiles-wrap"></div>
+            {currentCompanies.map((c, index) => (
+              <Company
+                key={c.alt}
+                company={c}
+                index={index}
+                show={slug && slugify(slug) === slugify(c.alt)}
+              />
+            ))}
+            <div
+              className="tiles-item reveal-from-bottom companyContainer"
+              data-reveal-container=".tiles-wrap"
+            ></div>
           </div>
-          <SectionHeader style={{ margin: '40px auto 0', paddingBottom: "10px" }} data={section2Header} tag="h1" className="center-content reveal-from-top" data-reveal-delay="200" />
-          <p className="center-content reveal-from-bottom footnote">Includes investments that were exclusively sourced and led by our Principals at predecessor firms, with the exceptions of ClearData (co-led), iTriage, D2Hawkeye, and Iasis Healthcare.</p>
+          <SectionHeader
+            style={{ margin: "40px auto 0", paddingBottom: "10px" }}
+            data={section2Header}
+            tag="h1"
+            className="center-content reveal-from-top"
+            data-reveal-delay="200"
+          />
+          <p className="center-content reveal-from-bottom footnote">
+            In addition to Health Velocity Capital investments, includes
+            investments that were exclusively sourced and led by our Principals
+            at predecessor firms, with the exceptions of ClearData (co-led),
+            iTriage, D2Hawkeye, and Iasis Healthcare.
+          </p>
           <div className={tilesClasses}>
-            {pastCompanies.map((c, index) =>
-              <Company noUrl key={c.alt} company={c} index={index} show={slug && slugify(slug) === slugify(c.alt)}/>
-            )}
-            <div className="tiles-item reveal-from-bottom companyContainer" data-reveal-container=".tiles-wrap"></div>
+            {pastCompanies.map((c, index) => (
+              <Company
+                noUrl
+                key={c.alt}
+                company={c}
+                index={index}
+                show={slug && slugify(slug) === slugify(c.alt)}
+              />
+            ))}
+            <div
+              className="tiles-item reveal-from-bottom companyContainer"
+              data-reveal-container=".tiles-wrap"
+            ></div>
           </div>
         </div>
       </div>
