@@ -200,6 +200,14 @@ export const companies = [
 
 export const pastCompanies = [
   {
+    url: "http://aspirehealthcare.com/",
+    src: require("./../assets/images/companies/aspire.png"),
+    alt: "Aspire",
+    caption: "End of Life Care Management",
+    description: "Home-based provider of palliative care services.",
+    exit: "Acquired by Anthem (NYSE: ANTM)",
+  },
+  {
     url: "https://contessahealth.com/",
     src: require("./../assets/images/companies/contessa_final.png"),
     alt: "Contessa",
@@ -242,14 +250,6 @@ export const pastCompanies = [
     description:
       "Livongo is a leading provider of diabetes digital care management for employers and plans.",
     exit: "IPO – (NASDAQ: LVGO)",
-  },
-  {
-    url: "http://aspirehealthcare.com/",
-    src: require("./../assets/images/companies/aspire.png"),
-    alt: "Aspire",
-    caption: "End of Life Care Management",
-    description: "Home-based provider of palliative care services.",
-    exit: "Acquired by Anthem (NYSE: ANTM)",
   },
   {
     url: "https://www.leicabiosystems.com/digital-pathology/",
