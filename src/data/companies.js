@@ -73,12 +73,12 @@ export const companies = [
       "Zipari provides a software platform for health plans’ member, broker, provider and employer portals as well as their call centers that is powered by a robust, underlying, modern, integrated customer relationship management (CRM) technology – bringing together traditionally siloed data into a single interface for members and customer service representatives, layering in personalized, next-best actions, and facilitating better, more integrated, and intelligent constituent service.",
   },
   {
-    url: "https://www.ginger.io/",
-    src: require("./../assets/images/companies/ginger.png"),
-    alt: "Ginger",
+    url: "https://www.headspace.com/health",
+    src: require("./../assets/images/companies/headspace.png"),
+    alt: "Headspace Health",
     caption: "On-Demand Virtual Mental Health",
     description:
-      "Ginger is one of the nation’s leading providers of digital, on-demand behavioral health.",
+      "Headspace Health is one of the nation’s leading providers of digital, on-demand behavioral health.",
   },
   {
     url: "https://www.onshift.com/",
@@ -458,12 +458,12 @@ export const currentCompanies = [
       "Zipari provides a software platform for health plans’ member, broker, provider and employer portals as well as their call centers that is powered by a robust, underlying, modern, integrated customer relationship management (CRM) technology – bringing together traditionally siloed data into a single interface for members and customer service representatives, layering in personalized, next-best actions, and facilitating better, more integrated, and intelligent constituent service.",
   },
   {
-    url: "https://www.ginger.io/",
-    src: require("./../assets/images/companies/ginger.png"),
-    alt: "Ginger",
+    url: "https://www.headspace.com/health",
+    src: require("./../assets/images/companies/headspace.png"),
+    alt: "Headspace Health",
     caption: "On-Demand Virtual Mental Health",
     description:
-      "Ginger is one of the nation’s leading providers of digital, on-demand behavioral health.",
+      "Headspace Health is one of the nation’s leading providers of digital, on-demand behavioral health.",
   },
   {
     url: "https://www.onshift.com/",
