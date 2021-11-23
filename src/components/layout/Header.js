@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import classNames from 'classnames';
-import { Link } from 'react-router-dom';
-import LogoInvert from './partials/LogoInvert';
+import React from "react";
+import PropTypes from "prop-types";
+import classNames from "classnames";
+import { Link } from "react-router-dom";
+import LogoInvert from "./partials/LogoInvert";
 
 const propTypes = {
   active: PropTypes.bool,
@@ -13,23 +13,22 @@ const propTypes = {
   bottomDivider: PropTypes.bool,
   fixed: PropTypes.bool,
   showHeader: PropTypes.bool,
-}
+};
 
 const defaultProps = {
   active: false,
-  navPosition: '',
+  navPosition: "",
   hideNav: false,
   hideSignin: false,
   bottomOuterDivider: false,
   bottomDivider: false,
   fixed: false,
   showHeader: false,
-}
+};
 
 class Header extends React.Component {
-
   state = {
-    isActive: false
+    isActive: false,
   };
 
   nav = React.createRef();
@@ -37,37 +36,42 @@ class Header extends React.Component {
 
   componentDidMount() {
     this.props.active && this.openMenu();
-    document.addEventListener('keydown', this.keyPress);
-    document.addEventListener('click', this.clickOutside);
+    document.addEventListener("keydown", this.keyPress);
+    document.addEventListener("click", this.clickOutside);
   }
 
   componentWillUnmount() {
-    document.removeEventListener('keydown', this.keyPress);
-    document.addEventListener('click', this.clickOutside);
+    document.removeEventListener("keydown", this.keyPress);
+    document.addEventListener("click", this.clickOutside);
     this.closeMenu();
   }
 
   openMenu = () => {
-    document.body.classList.add('off-nav-is-active');
-    this.nav.current.style.maxHeight = this.nav.current.scrollHeight + 'px';
+    document.body.classList.add("off-nav-is-active");
+    this.nav.current.style.maxHeight = this.nav.current.scrollHeight + "px";
     this.setState({ isActive: true });
-  }
+  };
 
   closeMenu = () => {
-    document.body.classList.remove('off-nav-is-active');
+    document.body.classList.remove("off-nav-is-active");
     this.nav.current && (this.nav.current.style.maxHeight = null);
     this.setState({ isActive: false });
-  }
+  };
 
   keyPress = (e) => {
     this.state.isActive && e.keyCode === 27 && this.closeMenu();
-  }
+  };
 
   clickOutside = (e) => {
-    if (!this.nav.current) return
-    if (!this.state.isActive || this.nav.current.contains(e.target) || e.target === this.hamburger.current) return;
+    if (!this.nav.current) return;
+    if (
+      !this.state.isActive ||
+      this.nav.current.contains(e.target) ||
+      e.target === this.hamburger.current
+    )
+      return;
     this.closeMenu();
-  }
+  };
 
   render() {
     const {
@@ -84,26 +88,25 @@ class Header extends React.Component {
     } = this.props;
 
     const classes = classNames(
-      `site-header ${fixed ? "fixed": "reveal-from-top"} ${showHeader ? "show" : ""}`,
-      bottomOuterDivider && 'has-bottom-divider',
+      `site-header ${fixed ? "fixed" : "reveal-from-top"} ${
+        showHeader ? "show" : ""
+      }`,
+      bottomOuterDivider && "has-bottom-divider",
       className
     );
 
     return (
-      <header
-        {...props}
-        className={classes}
-      >
+      <header {...props} className={classes}>
         <div className="container">
-          <div className={
-            classNames(
-              'site-header-inner',
-              bottomDivider && 'has-bottom-divider'
-            )}>
-
+          <div
+            className={classNames(
+              "site-header-inner",
+              bottomDivider && "has-bottom-divider"
+            )}
+          >
             <LogoInvert />
 
-            {!hideNav &&
+            {!hideNav && (
               <React.Fragment>
                 <button
                   ref={this.hamburger}
@@ -117,37 +120,59 @@ class Header extends React.Component {
                 </button>
                 <nav
                   ref={this.nav}
-                  className={
-                    classNames(
-                      'header-nav',
-                      this.state.isActive && 'is-active'
-                    )}>
+                  className={classNames(
+                    "header-nav",
+                    this.state.isActive && "is-active"
+                  )}
+                >
                   <div className="header-nav-inner">
-                    <ul className={
-                      classNames(
-                        'list-reset text-xs',
+                    <ul
+                      className={classNames(
+                        "list-reset text-xs",
                         navPosition && `header-nav-${navPosition}`
-                      )}>
+                      )}
+                    >
                       <li>
-                        <Link to="/why-were-different" onClick={this.closeMenu}>Why We're Different</Link>
+                        <Link to="/why-were-different" onClick={this.closeMenu}>
+                          Why We're Different
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/companies" onClick={this.closeMenu}>Companies</Link>
+                        <Link to="/companies" onClick={this.closeMenu}>
+                          Companies
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/team" onClick={this.closeMenu}>Team</Link>
+                        <Link to="/team" onClick={this.closeMenu}>
+                          Team
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/tales-from-the-road" onClick={this.closeMenu}>TFTR</Link>
+                        <Link
+                          to="/tales-from-the-road"
+                          onClick={this.closeMenu}
+                        >
+                          TFTR
+                        </Link>
+                      </li>
+                      <li>
+                        <a
+                          href="https://healthvelocitycapital.medium.com/"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          News
+                        </a>
                       </li>
                     </ul>
                   </div>
                 </nav>
-              </React.Fragment>}
+              </React.Fragment>
+            )}
           </div>
         </div>
       </header>
-    )
+    );
   }
 }
 
