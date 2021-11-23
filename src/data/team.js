@@ -105,7 +105,6 @@ export const team = [
     linkedin: "grantblevins",
     investments: [
       "Array Behavioral Care (Board Observer)",
-      "Lemonaid Health (Board Observer)",
       "IVX Health (Board Observer)",
       "Well Health (Board Observer)",
       "Clever Care (Board Observer)",
@@ -115,6 +114,7 @@ export const team = [
       "Torch Dental",
     ],
     prior_investments: [
+      "Lemonaid Health (Board Observer, acquired by 23andMe)",
       "MDLIVE (Acquired by Cigna)",
       "Contessa (Acquired by Amedysis",
     ],

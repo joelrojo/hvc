@@ -32,12 +32,13 @@ export const companies = [
       "Aspire was acquired by Anthem Inc. (NYSE: ANTM) in 2018 and is a home-based provider of palliative care services.",
   },
   {
-    url: "https://www.leicabiosystems.com/digital-pathology/",
-    src: require("./../assets/images/companies/aperio.jpeg"),
-    alt: "Aperio",
-    caption: "Digital Pathology",
+    url: "https://www.lemonaidhealth.com/",
+    src: require("./../assets/images/companies/lemonaid.png"),
+    alt: "Lemonaid Health",
+    caption: "Virtual Pharmacy",
     description:
-      "Aperio was acquired by Leica Biosystems in 2012.  At the time, it was the world's largest provider of digital and tele-pathology solutions to hospital systems, pathologists, and reference laboratories.",
+      "Lemonaid Health provides telemedicine services (via asynchronous, phone, or video technology) and medication delivery direct-to-consumer for a wide range of conditions using a proprietary clinical information system designed to improve the quality of care for the patients it serves and reduce clinical variation.",
+    exit: "Acquired by 23andMe",
   },
   {
     url: "http://mdlive.com/",
@@ -263,6 +264,15 @@ export const pastCompanies = [
     exit: "IPO: (NYSE: TDOC)",
   },
   {
+    url: "https://www.lemonaidhealth.com/",
+    src: require("./../assets/images/companies/lemonaid.png"),
+    alt: "Lemonaid Health",
+    caption: "Virtual Pharmacy",
+    description:
+      "Lemonaid Health provides telemedicine services (via asynchronous, phone, or video technology) and medication delivery direct-to-consumer for a wide range of conditions using a proprietary clinical information system designed to improve the quality of care for the patients it serves and reduce clinical variation.",
+    exit: "Acquired by 23andMe",
+  },
+  {
     url: "https://www.changehealthcare.com/",
     src: require("./../assets/images/companies/change.png"),
     alt: "Change Healthcare",
@@ -440,14 +450,6 @@ export const currentCompanies = [
     caption: "B2B Tele-Behavioral Health for Provider-Based Settings",
     description:
       "Array Behavioral Care is one of the nation’s largest providers of tele-psychiatry services to hospital emergency departments and broader tele-behavioral health solutions to community mental health centers, correctional facilities, FQHCs, and primary care clinics and also provides an in-network behavioral health solution to health plans.",
-  },
-  {
-    url: "https://www.lemonaidhealth.com/",
-    src: require("./../assets/images/companies/lemonaid.png"),
-    alt: "Lemonaid Health",
-    caption: "Virtual Pharmacy",
-    description:
-      "Lemonaid Health provides telemedicine services (via asynchronous, phone, or video technology) and medication delivery direct-to-consumer for a wide range of conditions using a proprietary clinical information system designed to improve the quality of care for the patients it serves and reduce clinical variation.",
   },
   {
     url: "https://zipari.com/",
