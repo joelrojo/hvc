@@ -1,7 +1,7 @@
 export const testimonials = [
   {
     name: 'Russ Glass',
-    company: 'Ginger',
+    company: 'Headspace Health',
     quote: 'Between Teladoc, Livongo, MDLive, and many others, I’m not aware of any other investor with more experience in telehealth than the Health Velocity team. We proactively chose them as our partner, and since investing, they have been immensely helpful. They have been strategic thought partners and have used their network and reputation to introduce us to potential customers, distribution partners, and Board members. They also initiated a commercial relationship with one of the largest insurers in the country. In sum, they are world class health tech investors.'
   },
   {

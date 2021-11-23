@@ -40,7 +40,7 @@ export const team = [
       "Spero Health (Board Director)",
       "Three Oaks Hospice (Board Director)",
       "Healthjoy (Board Observer)",
-      "Hospital IQ (Board Observer",
+      "HospitalIQ (Board Observer)",
     ],
     prior_investments: [
       "Contessa Health (Board Director, acquired by Amedysis)",
@@ -68,13 +68,13 @@ export const team = [
       "Jvion (Board Director)",
       "Headspace Health (Board Observer)",
       "Spero Health (Board Observer)",
+      "Torch Dental (Board Director)",
     ],
     prior_investments: [
       "Omada Health",
       "Aspire Health (acquired by Anthem) (Board Observer)",
       "Circulation Health (acquired by Logisticare)",
       "Livongo Health (NASDAQ: LVGO) (Board Observer)",
-      "Torch Dental (Board Director)",
     ],
     education: [
       "BA, Northwestern University",
@@ -100,7 +100,7 @@ export const team = [
   {
     src: require("./../assets/images/team/grant.jpg"),
     name: "Grant Blevins",
-    title: "Vice President",
+    title: "Principal",
     bio: "Grant has spent his entire career investing exclusively in innovative healthcare companies. Prior to joining Health Velocity Capital, Grant was a healthcare investor with Clayton Associates, Nashville’s oldest venture capital firm, where he co-led deal sourcing. He sourced notable investments in RubiconMD, Shiftwizard (acquired by Health Stream [NASDAQ: HSTM]), and HealthiPASS (acquired by Sphere).",
     linkedin: "grantblevins",
     investments: [
