@@ -121,6 +121,26 @@ export const team = [
     education: ["BBA, Belmont University"],
   },
   {
+    src: require("./../assets/images/team/jordan.jpg"),
+    name: "Jordan Feyko",
+    original: true,
+    title: "Vice President",
+    bio: "Jordan has spent his career investing in healthcare and technology companies as well as advising companies on solving strategic challenges. Prior to joining Health Velocity Capital, Jordan was a Consultant at Bain & Co. and prior to that was an investor at Francisco Partners, where he focused on the Healthcare IT, FinTech, and Application Software sectors. Jordan began his career at Goldman Sachs and is originally from Columbus, OH.",
+    linkedin: "jordan-feyko",
+    education: [
+      "AB, Harvard University",
+      "MBA, Stanford University Graduate School of Business",
+    ],
+  },
+  {
+    src: require("./../assets/images/team/william.jpg"),
+    name: "William Tan",
+    title: "Associate",
+    original: true,
+    bio: "William has spent his entire career advising innovative technology and healthcare companies. Prior to joining Health Velocity Capital, William was an investment banker at William Blair & Company advising software companies on transformative buy-side and sell-side M&A transactions. Prior to Blair, William worked at JMP Securities advising high growth technology and healthcare companies on numerous M&A and private placement transactions.",
+    linkedin: "william-tan-15583497",
+  },
+  {
     src: require("./../assets/images/team/ken.jpg"),
     name: "Ken Goodhue",
     title: "Director of Finance and FP&A",
