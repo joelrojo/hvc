@@ -412,7 +412,7 @@ export const pastCompanies = [
 
 export const currentCompanies = [
   {
-    url: "https://www.hospiq.com/",
+    url: "https://www.torchdental.com",
     src: require("./../assets/images/companies/torch.png"),
     alt: "Torch",
     caption: "Supply procurement software for the modern dental practice",
