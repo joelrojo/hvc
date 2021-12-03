@@ -69,6 +69,7 @@ export const team = [
       "Headspace Health (Board Observer)",
       "Spero Health (Board Observer)",
       "Torch Dental (Board Director)",
+      "Prolucent",
     ],
     prior_investments: [
       "Omada Health",
@@ -112,6 +113,7 @@ export const team = [
       "Zipari",
       "Contessa",
       "Torch Dental",
+      "Prolucent",
     ],
     prior_investments: [
       "Lemonaid Health (Board Observer, acquired by 23andMe)",
