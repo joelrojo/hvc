@@ -415,7 +415,7 @@ export const currentCompanies = [
     url: "https://www.prolucent.com",
     src: require("./../assets/images/companies/prolucent.png"),
     alt: "Prolucent",
-    caption: "VSM Staffing Technology for Health Systems",
+    caption: "Staffing Technology for Health Systems",
     description:
       "Prolucent’s health system Vendor Management Solution (VMS) software works in concert with the full-time/part-time clinician recruitment marketplace to provide the first platform that fully aligns contingent labor use and direct hire recruitment activity.  The solution is intended to reduce substantial recruiting and placement costs resulting from misalignment of staffing needs.",
   },
