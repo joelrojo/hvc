@@ -1,5 +1,5 @@
 let photos = [];
-for (let i = 1; i <= 49; i++) {
+for (let i = 1; i <= 52; i++) {
   photos.push({
     src: require(`../assets/images/tales/${i}.jpg`),
     width: 1,
