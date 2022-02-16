@@ -412,6 +412,14 @@ export const pastCompanies = [
 
 export const currentCompanies = [
   {
+    url: "https://www.rialtic.io/",
+    src: require("./../assets/images/companies/rialtic.png"),
+    alt: "Rialtic",
+    caption: "Payer-Provider Analytics & Payment Accuracy",
+    description:
+      "Modern, cloud-based pre-payments accuracy platform allowing for faster, cheaper edits; providing true transparency between payers and providers; and providing easy to use analytics to evaluate edits by provider, geography, and rule before and after edits are implemented.",
+  },
+  {
     url: "https://www.prolucent.com",
     src: require("./../assets/images/companies/prolucent.png"),
     alt: "Prolucent",
