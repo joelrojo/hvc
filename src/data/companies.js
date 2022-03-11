@@ -412,6 +412,14 @@ export const pastCompanies = [
 
 export const currentCompanies = [
   {
+    url: "https://www.compass-sp.com/",
+    src: require("./../assets/images/companies/compass.png"),
+    alt: "Compass Surgical Partner",
+    caption: "Developer and Operator of Ambulatory Surgical Centers (ASCs)",
+    description:
+      "Compass Surgical develops and operates ambulatory surgery centers in partnership with orthopedic surgeons (among other specialties) and with health systems. Compass enables providers to move procedures out of the hospital setting to provide a more consumer-friendly experience for patients while also reducing overall healthcare costs. The Compass team has managed more than 300 ASCs over the course of their careers.",
+  },
+  {
     url: "https://www.rialtic.io/",
     src: require("./../assets/images/companies/rialtic.png"),
     alt: "Rialtic",
