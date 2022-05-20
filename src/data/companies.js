@@ -412,6 +412,14 @@ export const pastCompanies = [
 
 export const currentCompanies = [
   {
+    url: "https://www.greatergoodhealth.com/",
+    src: require("./../assets/images/companies/greater_good.png"),
+    alt: "Greater Good",
+    caption: "Nurse practitioner staffing platform for value-based care",
+    description:
+      "Greater Good Health is a nurse practitioner-focused employment model supporting risk-bearing providers and payors to broaden primary care access, fulfillment of MA requirements, and capacity with in-clinic, home, or telehealth care.",
+  },
+  {
     url: "https://www.compass-sp.com/",
     src: require("./../assets/images/companies/compass.png"),
     alt: "Compass Surgical Partner",
