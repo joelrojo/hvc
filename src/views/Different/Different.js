@@ -65,7 +65,7 @@ const Different = ({
                   We Drive Revenue and Build Teams
                 </h2>
                 <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".feature-split">
-                  We have leveraged our unique networks to tangibly and directly drive revenue (and the  resulting value creation) at almost every company with whom we have ever partnered.  We also believe nothing is more important in fast-growing, successful businesses than getting the right people on the bus – and quickly. Our Principals have introduced more than <strong>85 executives, team members, board members, and key contributors</strong> (well-known to us and longstanding in our networks) to the companies that have chosen to partner with us.
+                  We have leveraged our unique networks to tangibly and directly drive revenue (and the  resulting value creation) at almost every company with whom we have ever partnered.  We also believe nothing is more important in fast-growing, successful businesses than getting the right people on the bus – and quickly. Our Principals have introduced more than <strong>85+ executives, team members, board members, and key contributors</strong> (well-known to us and longstanding in our networks) to the companies that have chosen to partner with us.
                 </p>
               </div>
               <div className='center-content-mobile reveal-scale-up'
@@ -118,7 +118,7 @@ const Different = ({
                   Limited Partners That Matter
                 </h2>
                 <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".feature-split">
-                  We work closely with a number of strategic investors (in addition to an outstanding group of global institutional investors) and enjoy longstanding friendships with executives of many of the largest and most influential healthcare organizations in the country. Collectively, our strategic investors and more than <strong>50 senior level healthcare executives</strong> who have invested personally in our fund represent organizations that <strong>insure 175 million Americans, operate more than 620 hospitals, provide pharmacy and PBM services to more than 75% of the nation, and sell software to every major health system in the country.</strong> Our broader relationships put us a phone call away from almost any healthcare organization in the country.
+                  We work closely with a number of strategic investors (in addition to an outstanding group of global institutional investors) and enjoy longstanding friendships with executives of many of the largest and most influential healthcare organizations in the country. Collectively, our strategic investors and more than <strong>100 senior level healthcare executives</strong> who have invested personally in our fund represent organizations that <strong>insure 175 million Americans, operate more than 620 hospitals, provide pharmacy and PBM services to more than 75% of the nation, and sell software to every major health system in the country.</strong> Our broader relationships put us a phone call away from almost any healthcare organization in the country.
                 </p>
               </div>
             </div>
