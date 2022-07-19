@@ -1,4 +1,4 @@
-export const companies = [
+export const featuredCompanies = [
   {
     url: "https://teladochealth.com/",
     src: require("./../assets/images/companies/teledoc.png"),

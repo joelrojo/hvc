@@ -5,7 +5,7 @@ import * as Scroll from 'react-scroll';
 import SectionHeader from './partials/SectionHeader';
 import { SectionProps } from '../../utils/SectionProps';
 import Button from '../elements/Button';
-import { companies } from '../../data/companies'
+import { featuredCompanies } from '../../data/companies'
 import slugify from '../../utils/slugify';
 
 import './Clients.scss';
@@ -62,7 +62,7 @@ class Clients extends React.Component {
               <SectionHeader data={sectionHeader} className="reveal-from-bottom" />
 
                 <div className="companiesList">
-                  {companies.slice(0, 12).map((c, index) =>
+                  {featuredCompanies.slice(0, 12).map((c, index) =>
                     <div className="reveal-from-bottom companyContainer" data-reveal-delay={index*200+200}>
                       <Link to={`/companies/${slugify(c.alt)}`}>
                         <img src={c.src} alt={c.alt} />
