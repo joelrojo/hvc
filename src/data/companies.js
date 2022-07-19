@@ -55,7 +55,7 @@ export const companies = [
     alt: "IVX Health",
     caption: "Specialty Biologics Cost Reduction",
     description:
-      "IVX Health is a rapidly growing provider of low-cost, consumer-centric infusion centers serving patients on expensive specialty biologics with diseases such as Rheumatoid Arthritis, Psoriasis, Crohn’s Disease, Ulcerative Colitis, Multiple Sclerosis, severe Asthma, Lupus, and others. The company’s facilities are located in Class A retail settings near where patients live and work, have a medical spa/concierge look and feel, and provide best in class, retail-like administrative services to support patients and referring physicians.",
+      "IVX Health is a rapidly growing provider of low-cost, consumer-centric infusion centers serving patients on expensive specialty biologics with diseases such as Rheumatoid Arthritis, Psoriasis, Crohn's Disease, Ulcerative Colitis, Multiple Sclerosis, severe Asthma, Lupus, and others. The company's facilities are located in Class A retail settings near where patients live and work, have a medical spa/concierge look and feel, and provide best in class, retail-like administrative services to support patients and referring physicians.",
   },
   {
     url: "https://www.usrenalcare.com/",
@@ -71,7 +71,7 @@ export const companies = [
     alt: "Zipari",
     caption: "CRM for Health Plans",
     description:
-      "Zipari provides a software platform for health plans’ member, broker, provider and employer portals as well as their call centers that is powered by a robust, underlying, modern, integrated customer relationship management (CRM) technology – bringing together traditionally siloed data into a single interface for members and customer service representatives, layering in personalized, next-best actions, and facilitating better, more integrated, and intelligent constituent service.",
+      "Zipari provides a software platform for health plans' member, broker, provider and employer portals as well as their call centers that is powered by a robust, underlying, modern, integrated customer relationship management (CRM) technology – bringing together traditionally siloed data into a single interface for members and customer service representatives, layering in personalized, next-best actions, and facilitating better, more integrated, and intelligent constituent service.",
   },
   {
     url: "https://www.headspace.com/health",
@@ -79,7 +79,7 @@ export const companies = [
     alt: "Headspace Health",
     caption: "On-Demand Virtual Mental Health",
     description:
-      "Headspace Health is one of the nation’s leading providers of digital, on-demand behavioral health.",
+      "Headspace Health is one of the nation's leading providers of digital, on-demand behavioral health.",
   },
   {
     url: "https://www.onshift.com/",
@@ -95,7 +95,7 @@ export const companies = [
     alt: "Contessa",
     caption: "Hospital at Home",
     description:
-      "Contessa Health is a highly innovative, market leading provider of hospital at home services. The company couples home hospitalist telemedicine capabilities with specialized home care services to treat hundreds of medical inpatient DRGs and, when appropriate, divert these patients from the inpatient hospital setting into the home. Contessa’s programs result in significant savings to payers, savings and increased profits to their hospital partners, and high quality outcomes for patients.",
+      "Contessa Health is a highly innovative, market leading provider of hospital at home services. The company couples home hospitalist telemedicine capabilities with specialized home care services to treat hundreds of medical inpatient DRGs and, when appropriate, divert these patients from the inpatient hospital setting into the home. Contessa's programs result in significant savings to payers, savings and increased profits to their hospital partners, and high quality outcomes for patients.",
   },
   {
     url: "https://healthjoy.com/",
@@ -111,7 +111,7 @@ export const companies = [
     alt: "Well Health",
     caption: "Patient Relationship Management and Communications",
     description:
-      "Well Health provides a unified communications platform for providers and health systems to facilitate an enhanced digital patient experience. By converting a significant portion of administrative and clinical interactions to bi-directional text through their own applications and integrated applications, the company’s SaaS and ML software reduces phone call volume and the associated patient and staff frustration, costs, lost visits, and sub-optimal care that can result from phone friction.",
+      "Well Health provides a unified communications platform for providers and health systems to facilitate an enhanced digital patient experience. By converting a significant portion of administrative and clinical interactions to bi-directional text through their own applications and integrated applications, the company's SaaS and ML software reduces phone call volume and the associated patient and staff frustration, costs, lost visits, and sub-optimal care that can result from phone friction.",
   },
   {
     url: "https://www.threeoakshospice.com/",
@@ -143,7 +143,7 @@ export const companies = [
     alt: "Accordant Health Services",
     caption: "Specialty Biologic Cost Containment & Disease Management",
     description:
-      "Accordant Health Services was acquired by AdvancePCS in 2002 and was the nation’s first specialty biologic disease management and cost containment solution.",
+      "Accordant Health Services was acquired by AdvancePCS in 2002 and was the nation's first specialty biologic disease management and cost containment solution.",
   },
   {
     url: "https://www.circulation.com/",
@@ -166,7 +166,7 @@ export const companies = [
     alt: "D2Hawkeye",
     caption: "Predictive Analytics",
     description:
-      "D2Hawkeye was acquired by Verisk Analytics in 2009 and was one of the nation’s first, successful, independent healthcare predictive analytics companies.",
+      "D2Hawkeye was acquired by Verisk Analytics in 2009 and was one of the nation's first, successful, independent healthcare predictive analytics companies.",
   },
   {
     src: require("./../assets/images/companies/iasis.jpeg"),
@@ -180,7 +180,7 @@ export const companies = [
     alt: "iTriage",
     caption: "Consumer Health Navigation",
     description:
-      "iTriage was acquired by Aetna in 2011 and was the nation’s first and leading healthcare mobile member engagement solution provided by health plans and self-insured employers.",
+      "iTriage was acquired by Aetna in 2011 and was the nation's first and leading healthcare mobile member engagement solution provided by health plans and self-insured employers.",
   },
   {
     src: require("./../assets/images/companies/national_surgical_care.png"),
@@ -243,7 +243,7 @@ export const pastCompanies = [
     alt: "Contessa",
     caption: "Hospital at Home",
     description:
-      "Contessa Health is a highly innovative, market leading provider of hospital at home services. The company couples home hospitalist telemedicine capabilities with specialized home care services to treat hundreds of medical inpatient DRGs and, when appropriate, divert these patients from the inpatient hospital setting into the home. Contessa’s programs result in significant savings to payers, savings and increased profits to their hospital partners, and high quality outcomes for patients.",
+      "Contessa Health is a highly innovative, market leading provider of hospital at home services. The company couples home hospitalist telemedicine capabilities with specialized home care services to treat hundreds of medical inpatient DRGs and, when appropriate, divert these patients from the inpatient hospital setting into the home. Contessa's programs result in significant savings to payers, savings and increased profits to their hospital partners, and high quality outcomes for patients.",
   },
   {
     url: "http://mdlive.com/",
@@ -260,7 +260,7 @@ export const pastCompanies = [
     alt: "Teledoc",
     caption: "Telemedicine",
     description:
-      "The nation’s largest and leading provider of telehealth services.",
+      "The nation's largest and leading provider of telehealth services.",
     exit: "IPO: (NYSE: TDOC)",
   },
   {
@@ -305,7 +305,7 @@ export const pastCompanies = [
     alt: "USRenal Care",
     caption: "Kidney Care Management",
     description:
-      "One of the nation’s largest operators of dialysis clinics for patients suffering from end stage renal disease.",
+      "One of the nation's largest operators of dialysis clinics for patients suffering from end stage renal disease.",
     exit: "Acquired by Leonard Green",
   },
   {
@@ -314,7 +314,7 @@ export const pastCompanies = [
     alt: "Accordant Health Services",
     caption: "Specialty Biologic Cost Containment & Disease Management",
     description:
-      "Nation’s first specialty biologic disease management and cost containment solution.",
+      "Nation's first specialty biologic disease management and cost containment solution.",
     exit: "Acquired by AdvancePCS",
   },
   {
@@ -340,7 +340,7 @@ export const pastCompanies = [
     alt: "D2Hawkeye",
     caption: "Predictive Analytics",
     description:
-      "One of the nation’s first, successful, independent healthcare predictive analytics companies.",
+      "One of the nation's first, successful, independent healthcare predictive analytics companies.",
     exit: "Acquired by Verisk Analytics",
   },
   {
@@ -356,7 +356,7 @@ export const pastCompanies = [
     alt: "iTriage",
     caption: "Consumer Health Navigation",
     description:
-      "The nation’s first and leading healthcare mobile member engagement solution provided by health plans and self-insured employers.",
+      "The nation's first and leading healthcare mobile member engagement solution provided by health plans and self-insured employers.",
     exit: "Acquired by Aetna",
   },
   {
@@ -405,7 +405,7 @@ export const pastCompanies = [
     alt: "VeriCare",
     caption: "Integrated Behavioral Care Services",
     description:
-      "At the time of exit, VeriCare was one of the nation’s largest providers of integrated behavioral care services to patients in nursing homes.",
+      "At the time of exit, VeriCare was one of the nation's largest providers of integrated behavioral care services to patients in nursing homes.",
     exit: "Acquired by MedOptions",
   },
 ];
@@ -441,7 +441,7 @@ export const currentCompanies = [
     alt: "Prolucent",
     caption: "Staffing Technology for Health Systems",
     description:
-      "Prolucent’s health system Vendor Management Solution (VMS) software works in concert with the full-time/part-time clinician recruitment marketplace to provide the first platform that fully aligns contingent labor use and direct hire recruitment activity.  The solution is intended to reduce substantial recruiting and placement costs resulting from misalignment of staffing needs.",
+      "Prolucent's health system Vendor Management Solution (VMS) software works in concert with the full-time/part-time clinician recruitment marketplace to provide the first platform that fully aligns contingent labor use and direct hire recruitment activity.  The solution is intended to reduce substantial recruiting and placement costs resulting from misalignment of staffing needs.",
   },
   {
     url: "https://www.torchdental.com",
@@ -481,7 +481,7 @@ export const currentCompanies = [
     alt: "Array",
     caption: "B2B Tele-Behavioral Health for Provider-Based Settings",
     description:
-      "Array Behavioral Care is one of the nation’s largest providers of tele-psychiatry services to hospital emergency departments and broader tele-behavioral health solutions to community mental health centers, correctional facilities, FQHCs, and primary care clinics and also provides an in-network behavioral health solution to health plans.",
+      "Array Behavioral Care is one of the nation's largest providers of tele-psychiatry services to hospital emergency departments and broader tele-behavioral health solutions to community mental health centers, correctional facilities, FQHCs, and primary care clinics and also provides an in-network behavioral health solution to health plans.",
   },
   {
     url: "https://zipari.com/",
@@ -489,7 +489,7 @@ export const currentCompanies = [
     alt: "Zipari",
     caption: "CRM for Health Plans",
     description:
-      "Zipari provides a software platform for health plans’ member, broker, provider and employer portals as well as their call centers that is powered by a robust, underlying, modern, integrated customer relationship management (CRM) technology – bringing together traditionally siloed data into a single interface for members and customer service representatives, layering in personalized, next-best actions, and facilitating better, more integrated, and intelligent constituent service.",
+      "Zipari provides a software platform for health plans' member, broker, provider and employer portals as well as their call centers that is powered by a robust, underlying, modern, integrated customer relationship management (CRM) technology – bringing together traditionally siloed data into a single interface for members and customer service representatives, layering in personalized, next-best actions, and facilitating better, more integrated, and intelligent constituent service.",
   },
   {
     url: "https://www.headspace.com/health",
@@ -521,7 +521,7 @@ export const currentCompanies = [
     alt: "Well Health",
     caption: "Patient Relationship Management and Communications",
     description:
-      "Well Health provides a unified communications platform for providers and health systems to facilitate an enhanced digital patient experience. By converting a significant portion of administrative and clinical interactions to bi-directional text through their own applications and integrated applications, the company’s SaaS and ML software reduces phone call volume and the associated patient and staff frustration, costs, lost visits, and sub-optimal care that can result from phone friction.",
+      "Well Health provides a unified communications platform for providers and health systems to facilitate an enhanced digital patient experience. By converting a significant portion of administrative and clinical interactions to bi-directional text through their own applications and integrated applications, the company's SaaS and ML software reduces phone call volume and the associated patient and staff frustration, costs, lost visits, and sub-optimal care that can result from phone friction.",
   },
   {
     url: "https://www.ivxhealth.com/",
@@ -529,7 +529,7 @@ export const currentCompanies = [
     alt: "IVX Health",
     caption: "Specialty Biologics Cost Reduction",
     description:
-      "IVX Health is a rapidly growing provider of low-cost, consumer-centric infusion centers serving patients on expensive specialty biologics with diseases such as Rheumatoid Arthritis, Psoriasis, Crohn’s Disease, Ulcerative Colitis, Multiple Sclerosis, severe Asthma, Lupus, and others. The company’s facilities are located in Class A retail settings near where patients live and work, have a medical spa/concierge look and feel, and provide best in class, retail-like administrative services to support patients and referring physicians.",
+      "IVX Health is a rapidly growing provider of low-cost, consumer-centric infusion centers serving patients on expensive specialty biologics with diseases such as Rheumatoid Arthritis, Psoriasis, Crohn's Disease, Ulcerative Colitis, Multiple Sclerosis, severe Asthma, Lupus, and others. The company's facilities are located in Class A retail settings near where patients live and work, have a medical spa/concierge look and feel, and provide best in class, retail-like administrative services to support patients and referring physicians.",
   },
   {
     url: "https://www.threeoakshospice.com/",
