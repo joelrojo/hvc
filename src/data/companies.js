@@ -264,13 +264,12 @@ export const pastCompanies = [
     exit: "IPO: (NYSE: TDOC)",
   },
   {
-    url: "https://www.lemonaidhealth.com/",
-    src: require("./../assets/images/companies/lemonaid.png"),
-    alt: "Lemonaid Health",
-    caption: "Virtual Pharmacy",
+    url: "https://www.onshift.com/",
+    src: require("./../assets/images/companies/onshift.png"),
+    alt: "OnShift",
+    caption: "Post Acute Labor Management Software",
     description:
-      "Lemonaid Health provides telemedicine services (via asynchronous, phone, or video technology) and medication delivery direct-to-consumer for a wide range of conditions using a proprietary clinical information system designed to improve the quality of care for the patients it serves and reduce clinical variation.",
-    exit: "Acquired by 23andMe",
+      "OnShift is a rapidly growing SaaS provider of workforce optimization software for senior care facilities that is currently serving more than 10% of the nation's skilled nursing facilities and a rapidly growing percentage of assisted living facilities.",
   },
   {
     url: "https://www.changehealthcare.com/",
@@ -307,6 +306,15 @@ export const pastCompanies = [
     description:
       "One of the nation's largest operators of dialysis clinics for patients suffering from end stage renal disease.",
     exit: "Acquired by Leonard Green",
+  },
+  {
+    url: "https://www.lemonaidhealth.com/",
+    src: require("./../assets/images/companies/lemonaid.png"),
+    alt: "Lemonaid Health",
+    caption: "Virtual Pharmacy",
+    description:
+      "Lemonaid Health provides telemedicine services (via asynchronous, phone, or video technology) and medication delivery direct-to-consumer for a wide range of conditions using a proprietary clinical information system designed to improve the quality of care for the patients it serves and reduce clinical variation.",
+    exit: "Acquired by 23andMe",
   },
   {
     url: "https://www.accordant.com/",
@@ -497,15 +505,7 @@ export const currentCompanies = [
     alt: "Headspace Health",
     caption: "On-Demand Virtual Mental Health",
     description:
-      "Headspace Health is one of the nation’s leading providers of digital, on-demand behavioral health.",
-  },
-  {
-    url: "https://www.onshift.com/",
-    src: require("./../assets/images/companies/onshift.png"),
-    alt: "OnShift",
-    caption: "Post Acute Labor Management Software",
-    description:
-      "OnShift is a rapidly growing SaaS provider of workforce optimization software for senior care facilities that is currently serving more than 10% of the nation's skilled nursing facilities and a rapidly growing percentage of assisted living facilities.",
+      "Headspace Health is one of the nation's leading providers of digital, on-demand behavioral health.",
   },
   {
     url: "https://healthjoy.com/",
