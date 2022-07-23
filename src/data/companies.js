@@ -122,14 +122,6 @@ export const featuredCompanies = [
       "Three Oaks Hospice is a Texas-based hospice and palliative care provider.",
   },
   {
-    url: "https://jvion.com/",
-    src: require("./../assets/images/companies/jvion.png"),
-    alt: "Jvion",
-    caption: "AI-Enabled Prescriptive Analytics",
-    description:
-      "Jvion helps healthcare systems prevent harm and lower costs, using AI-enabled prescriptive analytics that identifies specific patients on a risk trajectory, determines if that trajectory can be changed, and if so, recommends patient-specific interventions.",
-  },
-  {
     url: "http://sperohealth.com/",
     src: require("./../assets/images/companies/sperohealth.png"),
     alt: "Spero Health",
@@ -538,14 +530,6 @@ export const currentCompanies = [
     caption: "Hospice & Palliative Care",
     description:
       "Three Oaks Hospice is a Texas-based hospice and palliative care provider.",
-  },
-  {
-    url: "https://jvion.com/",
-    src: require("./../assets/images/companies/jvion.png"),
-    alt: "Jvion",
-    caption: "AI-Enabled Prescriptive Analytics",
-    description:
-      "Jvion helps healthcare systems prevent harm and lower costs, using AI-enabled prescriptive analytics that identifies specific patients on a risk trajectory, determines if that trajectory can be changed, and if so, recommends patient-specific interventions.",
   },
   {
     url: "http://sperohealth.com/",
