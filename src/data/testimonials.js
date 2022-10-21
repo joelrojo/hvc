@@ -11,7 +11,7 @@ export const testimonials = [
   },
   {
     name: 'Guillaume de Zwirek',
-    company: 'Well Health',
+    company: 'Artera',
     quote: 'We weren’t even raising money, and they introduced us to clients and board members long before we were even formal partners… we were so impressed, we invited them to invest when we didn’t need the money and at a lower valuation than we could have gotten elsewhere.  And it has been more than worth it.  Since investing, they have introduced us to a number of additional customers, helped push some prospects they know over the finish line, introduced us to talented executives who became team members, and recruited a key advisor who has driven the most important partnership in our company’s history.'
   },
   {

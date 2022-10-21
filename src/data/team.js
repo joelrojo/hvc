@@ -9,7 +9,7 @@ export const team = [
       "Array Behavioral Care (Board Director)",
       "OnShift (Board Director)",
       "IVX Health (Board Director)",
-      "Well Health (Board Director)",
+      "Artera (Board Director)",
       "Clever Care (Board Director)",
     ],
     prior_investments: [
@@ -107,7 +107,7 @@ export const team = [
     investments: [
       "Array Behavioral Care (Board Observer)",
       "IVX Health (Board Observer)",
-      "Well Health (Board Observer)",
+      "Artera (Board Observer)",
       "Clever Care (Board Observer)",
       "OnShift",
       "Zipari",

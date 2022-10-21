@@ -106,12 +106,12 @@ export const featuredCompanies = [
       "Healthjoy offers an employee healthcare navigation platform, largely sold through brokers, that provides digital, chat-based, and telephonic advocacy services through a unified, single-view, single-sign-on benefits wallet; free, capitated telehealth services; and concierges that facilitate services such as helping to find an in-network provider, making an appointment, and providing cost estimates; drug review services to find lower cost alternatives, drug discount coupons, and lower cost pharmacies; and medical bill review and negotiations.",
   },
   {
-    url: "https://wellapp.com/",
-    src: require("./../assets/images/companies/well.png"),
-    alt: "Well Health",
+    url: "https://artera.io/",
+    src: require("./../assets/images/companies/artera.png"),
+    alt: "Artera",
     caption: "Patient Relationship Management and Communications",
     description:
-      "Well Health provides a unified communications platform for providers and health systems to facilitate an enhanced digital patient experience. By converting a significant portion of administrative and clinical interactions to bi-directional text through their own applications and integrated applications, the company's SaaS and ML software reduces phone call volume and the associated patient and staff frustration, costs, lost visits, and sub-optimal care that can result from phone friction.",
+      "Artera provides a unified communications platform for providers and health systems to facilitate an enhanced digital patient experience. By converting a significant portion of administrative and clinical interactions to bi-directional text through their own applications and integrated applications, the company's SaaS and ML software reduces phone call volume and the associated patient and staff frustration, costs, lost visits, and sub-optimal care that can result from phone friction.",
   },
   {
     url: "https://www.threeoakshospice.com/",
@@ -508,12 +508,12 @@ export const currentCompanies = [
       "Healthjoy offers an employee healthcare navigation platform, largely sold through brokers, that provides digital, chat-based, and telephonic advocacy services through a unified, single-view, single-sign-on benefits wallet; free, capitated telehealth services; and concierges that facilitate services such as helping to find an in-network provider, making an appointment, and providing cost estimates; drug review services to find lower cost alternatives, drug discount coupons, and lower cost pharmacies; and medical bill review and negotiations.",
   },
   {
-    url: "https://wellapp.com/",
-    src: require("./../assets/images/companies/well.png"),
-    alt: "Well Health",
+    url: "https://artera.io/",
+    src: require("./../assets/images/companies/artera.png"),
+    alt: "Artera",
     caption: "Patient Relationship Management and Communications",
     description:
-      "Well Health provides a unified communications platform for providers and health systems to facilitate an enhanced digital patient experience. By converting a significant portion of administrative and clinical interactions to bi-directional text through their own applications and integrated applications, the company's SaaS and ML software reduces phone call volume and the associated patient and staff frustration, costs, lost visits, and sub-optimal care that can result from phone friction.",
+      "Artera provides a unified communications platform for providers and health systems to facilitate an enhanced digital patient experience. By converting a significant portion of administrative and clinical interactions to bi-directional text through their own applications and integrated applications, the company's SaaS and ML software reduces phone call volume and the associated patient and staff frustration, costs, lost visits, and sub-optimal care that can result from phone friction.",
   },
   {
     url: "https://www.ivxhealth.com/",
