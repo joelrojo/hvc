@@ -39,6 +39,7 @@ class Tales extends React.Component {
     const settings = {
       dots: true,
       autoplay: true,
+      autoplaySpeed: 2000,
       infinite: true,
       speed: 500,
       slidesToShow: 3,
