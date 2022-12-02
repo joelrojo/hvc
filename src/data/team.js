@@ -41,6 +41,7 @@ export const team = [
       "Three Oaks Hospice (Board Director)",
       "Healthjoy (Board Observer)",
       "HospitalIQ (Board Observer)",
+      "Ennobale Care (Board Member)",
     ],
     prior_investments: [
       "Contessa Health (Board Director, acquired by Amedysis)",
@@ -91,6 +92,7 @@ export const team = [
     investments: [
       "Women’s Health USA (Board Director) ",
       "In Vitro Sciences (Board Director) ",
+      "Greater Good Health (Board Member) ",
     ],
     education: [
       "BA, Stanford University",
@@ -141,9 +143,7 @@ export const team = [
     original: true,
     bio: "William has spent his entire career advising innovative technology and healthcare companies. Prior to joining Health Velocity Capital, William was an investment banker at William Blair & Company advising software companies on transformative buy-side and sell-side M&A transactions. Prior to Blair, William worked at JMP Securities advising high growth technology and healthcare companies on numerous M&A and private placement transactions.",
     linkedin: "william-tan-15583497",
-    education: [
-      "BBA, University of Kentucky"
-    ],
+    education: ["BBA, University of Kentucky"],
   },
   {
     src: require("./../assets/images/team/ken.jpg"),
