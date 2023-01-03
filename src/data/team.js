@@ -148,7 +148,7 @@ export const team = [
   {
     src: require("./../assets/images/team/ken.jpg"),
     name: "Ken Goodhue",
-    title: "Director of Finance and FP&A",
+    title: "VP, Financial Planning and Analysis",
     original: true,
     bio: "Ken has spent his career working with corporate and private equity clients to create value in the healthcare sector. Prior to joining Health Velocity Capital, Ken led diligence efforts as a Senior Manager at PwC for transactions ranging from $20 million to $5 billion. His experience consists of evaluating opportunities across the healthcare sector including: behavioral health, software, primary care, urgent care, and health plans.",
     education: [
@@ -160,14 +160,14 @@ export const team = [
     src: require("./../assets/images/team/julie.jpg"),
     name: "Julie Foster",
     original: true,
-    title: "Chief Administrative Officer",
+    title: "Chief Administrative Officer, San Francisco",
     bio: "Julie is the administrator for Health Velocity Capital and is responsible for making our trains run on time.  She has been working in the venture capital industry since 1999 at firms including Salix Ventures, De Novo Ventures, and HLM Venture Partners.",
   },
   {
     src: require("./../assets/images/team/morgan.jpg"),
     name: "Morgan Thompson",
     original: true,
-    title: "Executive Assistant",
+    title: "Chief Administrative Officer, Nashville",
     bio: "Morgan is a certified executive assistant with five years of experience in the technology and finance industry.  She embraces process coordination, operations and strategy planning, and end-to-end event planning and execution with passion.  Former companies include Capital One, Intuit, and Booz Allen Hamilton.",
   },
 ];
