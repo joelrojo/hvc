@@ -412,6 +412,14 @@ export const pastCompanies = [
 
 export const currentCompanies = [
   {
+    url: "https://fortifiedhealthsecurity.com/",
+    src: require("./../assets/images/companies/fortified.png"),
+    alt: "Fortified Health Security",
+    caption: "Managed Cybersecurity Services for Health Systems",
+    description:
+      "Fortified is a cybersecurity services specialist that helps health systems identify and address cybersecurity vulnerabilities and threats and respond to attacks and intrusions.",
+  },
+  {
     url: "https://www.ennoblecare.com/",
     src: require("./../assets/images/companies/ennoble.png"),
     alt: "Ennoble Care",
