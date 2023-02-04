@@ -408,6 +408,14 @@ export const pastCompanies = [
       "At the time of exit, VeriCare was one of the nation's largest providers of integrated behavioral care services to patients in nursing homes.",
     exit: "Acquired by MedOptions",
   },
+  {
+    url: "https://www.hospiq.com/",
+    src: require("./../assets/images/companies/hospital_iq.png"),
+    alt: "HospitalIQ",
+    caption: "Operations Management Software for Health Systems",
+    description:
+      "HospitalIQ is a leading provider of operations management software for health systems that improves the utilization of operating rooms and infusion clinics and also optimizes clinician staffing and patient throughput – helping hospitals to increase revenue and decrease labor costs.",
+  },
 ];
 
 export const currentCompanies = [
@@ -466,14 +474,6 @@ export const currentCompanies = [
     caption: "Supply procurement software for the modern dental practice",
     description:
       "Torch Technology simplifies supply and equipment ordering for dentists through an easy-to-use online platform.  The online ordering platform enables price transparency and recommendations for products swaps that provide substantial cost savings.",
-  },
-  {
-    url: "https://www.hospiq.com/",
-    src: require("./../assets/images/companies/hospital_iq.png"),
-    alt: "HospitalIQ",
-    caption: "Operations Management Software for Health Systems",
-    description:
-      "HospitalIQ is a leading provider of operations management software for health systems that improves the utilization of operating rooms and infusion clinics and also optimizes clinician staffing and patient throughput – helping hospitals to increase revenue and decrease labor costs.",
   },
   {
     url: "https://clevercarehealthplan.com/",
