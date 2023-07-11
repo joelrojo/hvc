@@ -65,7 +65,7 @@ const Member = ({ member, index, show }) => {
           }
           {hasPriorInvestments &&
             <Accordion>
-              <AccordionItem title="Exited Investments">
+              <AccordionItem title="Prior Investments">
                 <ul>
                   {member.prior_investments.map(item => <li>{item}</li>)}
                 </ul>
