@@ -98,7 +98,7 @@ class Numbers2 extends React.Component {
                             <p className="number">
                               <CountUp
                                 useEasing={false}
-                                end={85}
+                                end={100}
                                 suffix="+"
                               />
                             </p>
@@ -109,7 +109,7 @@ class Numbers2 extends React.Component {
                             <p className="number">
                               <CountUp
                                 useEasing={false}
-                                end={175}
+                                end={200}
                                 suffix="+"
                               />
                             </p>
