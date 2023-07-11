@@ -39,12 +39,13 @@ export const team = [
     investments: [
       "Spero Health (Board Director)",
       "Three Oaks Hospice (Board Director)",
-      "Healthjoy (Board Observer)",
-      "HospitalIQ (Board Observer)",
-      "Ennobale Care (Board Member)",
+      "Ennoble Care (Board Director)",
+      "Fortified Health Security (Board Director)",
+      "HealthJoy (Board Observer)",
     ],
     prior_investments: [
       "Contessa Health (Board Director, acquired by Amedysis)",
+      "HospitalIQ (Board Observer, acquired by LeanTaas)",
       "Accordant Health Services (acquired by AdvancePCS)",
       "National Surgical Care (acquired by Amsurg)",
       "IASIS Healthcare (acquired by TPG Capital)",
