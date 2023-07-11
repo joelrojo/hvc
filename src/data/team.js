@@ -187,12 +187,6 @@ export const advisors = [
     bio: "Mark Smith, MD serves as Co-chair of the Health Care Payment Learning & Action Network’s Guiding Committee. He is Visiting Professor, University of California at Berkeley, and Clinical Professor of Medicine, University of California at San Francisco.  He serves on the board of Teladoc (NYSE: TDOC) and Phreesia (NYSE: PHR). He was the Founding President and former Chief Executive Officer of the California HealthCare Foundation (CHCF).  Previously, Mark was Executive Vice President at the Henry J. Kaiser Family Foundation where he oversaw programs in HIV, reproductive health, and the health care marketplace. Prior to that, he was a faculty member at the Johns Hopkins Schools of Medicine and of Public Health. Dr. Smith was elected a member of the Institute of Medicine (IOM) in 2001 and chaired the IOM’s Committee on the Learning Healthcare System, which produced the 2012 report, Best Care at Lower Cost.  He has served on the board of the National Business Group on Health, the performance measurement committee of the National Committee for Quality Assurance, and the editorial board of the Annals of Internal Medicine.",
   },
   {
-    src: require("./../assets/images/team/david_2.jpg"),
-    name: "David Shulkin, MD",
-    title: "Founding Advisory Board Member",
-    bio: "Dr. David J. Shulkin was the Ninth Secretary of the US Department of Veterans Affairs having been appointed by President Trump.  Secretary Shulkin previously served as Under Secretary for Health, having been appointed by President Obama and confirmed twice unanimously by the US Senate.  As Secretary, Dr. Shulkin represented the 21 million American veterans and was responsible for the nation’s largest integrated health care system with over 1,200 sites of care, serving over 9 million Veterans. Prior to coming to VA, Secretary Shulkin was a widely respected healthcare executive having served as chief executive of leading hospitals and health systems including Beth Israel in New York City and Morristown Medical Center in Northern NJ. As an entrepreneur, Secretary Shulkin founded and served as the Chairman and CEO of DoctorQuality and has served on boards of managed care companies, technology companies, and health care organizations.",
-  },
-  {
     src: require("./../assets/images/team/scott.png"),
     name: "Scott Powder",
     title: "Founding Advisory Board Member",
@@ -238,9 +232,21 @@ export const advisors = [
     title: "Founding Advisory Board Member",
     bio: "Mike is the CEO at SecureSeniorConnections, a digitally enabled solution to help Seniors with issues of loneliness and social isolation.  Prior to that he worked for Optum as a member of the company's Executive Leadership Team, which had responsibility for Optum’s overall business performance. From 2016-2019 he was Group Executive Vice President and Head of Corporate Strategy, Product, and Business Partnerships helping to set the strategic direction of the enterprise while also managing a portfolio of over 400 Optum products. From 2013-2016 Mike was the CEO of Optum’s Consumer Solutions Group with complete P&L responsibility for a multibillion-dollar business unit focused on Optum’s Population Health, Behavioral Health, Financial Services and Distribution Services businesses. Prior to joining Optum, Mike was a Managing Partner at Oliver Wyman for 17 years, a leading international management consulting firm. He was a member of the senior leadership team and Executive Sponsor of Diversity & Inclusion for the firm. In 2007 he founded Oliver Wyman’s Health & Life Sciences practice and served as the global Managing Partner with full P&L responsibility for that practice until 2013. Prior to Oliver Wyman, he worked as a Certified Public Accountant and Associate Partner at Price Waterhouse.  Mike holds an MBA from Duke University and a BA in accounting from UMASS, Amhert.",
   },
+  {
+    src: require("./../assets/images/team/dena.jpg"),
+    name: "Dena Bravata M.D., M.S.",
+    title: "Founding Advisory Board Member",
+    bio: "Dr. Dena Bravata is a physician, healthcare entrepreneur, and executive.  Dr. Bravata was the co-founder of Lyra Health where she also served as the Chief Medical Officer from 2015 to 2016. She was the Chief Medical Officer and Head of Products at Castlight Health from 2009 through 2014 and again from 2019 to 2022 (formerly NYSE:CSLT). Dr. Bravata was a practicing internist for 16 years in her own private practice and an attending physician at Stanford University and the Palo Alto VA. As a nationally recognized health services researcher, Dr. Bravata has published widely on the clinical effectiveness of a variety of key health technology, clinical and public health topics.  She is a founding member of the Aspen Institute Healthcare Strategy Group, was an assistant public health officer for Santa Clara County, and serves on the board of several health technology and services companies.  In 2021, Dr. Bravata received a national service award from the White House and CDC for her work on the pandemic response and vaccines.gov.  Dr. Bravata has an undergraduate degree from Yale University, an M.D. from Columbia University, and a M.S. in health policy from Stanford University.  She completed her Internal Medicine Residency and Ambulatory Care Fellowship at Stanford University.",
+  },
 ];
 
 export const pastAdvisors = [
+  {
+    src: require("./../assets/images/team/david_2.jpg"),
+    name: "David Shulkin, MD",
+    title: "Founding Advisory Board Member",
+    bio: "Dr. David J. Shulkin was the Ninth Secretary of the US Department of Veterans Affairs having been appointed by President Trump.  Secretary Shulkin previously served as Under Secretary for Health, having been appointed by President Obama and confirmed twice unanimously by the US Senate.  As Secretary, Dr. Shulkin represented the 21 million American veterans and was responsible for the nation’s largest integrated health care system with over 1,200 sites of care, serving over 9 million Veterans. Prior to coming to VA, Secretary Shulkin was a widely respected healthcare executive having served as chief executive of leading hospitals and health systems including Beth Israel in New York City and Morristown Medical Center in Northern NJ. As an entrepreneur, Secretary Shulkin founded and served as the Chairman and CEO of DoctorQuality and has served on boards of managed care companies, technology companies, and health care organizations.",
+  },
   {
     src: require("./../assets/images/team/ben.jpg"),
     name: "Ben Leedle",
