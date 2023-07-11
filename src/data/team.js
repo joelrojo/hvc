@@ -10,7 +10,7 @@ export const team = [
       "OnShift (Board Director)",
       "IVX Health (Board Director)",
       "Artera (Board Director)",
-      "Clever Care (Board Director)",
+      "Compass Surgical"
     ],
     prior_investments: [
       "MDLIVE (Board Director, acquired by Cigna)",
@@ -24,6 +24,7 @@ export const team = [
       "NovoLogix (Board Director, acquired by CVS Health)",
       "VeriCare (Board Director, acquired by MedOptions)",
       "ClearDATA Networks (Board Director)",
+      "OnShift (Board Director, partial sale to ShiftKey)",
     ],
     education: [
       "AB, Princeton University",
