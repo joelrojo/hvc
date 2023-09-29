@@ -10,7 +10,7 @@ export const team = [
       "OnShift (Board Director)",
       "IVX Health (Board Director)",
       "Artera (Board Director)",
-      "Compass Surgical"
+      "Compass Surgical",
     ],
     prior_investments: [
       "MDLIVE (Board Director, acquired by Cigna)",
@@ -112,12 +112,13 @@ export const team = [
       "Array Behavioral Care (Board Observer)",
       "IVX Health (Board Observer)",
       "Artera (Board Observer)",
-      "Clever Care (Board Observer)",
+      "Clever Care (Board Member)",
+      "Fortified Health Security (Board Member)",
+      "Prolucent Health (Board Member)",
       "OnShift",
       "Zipari",
       "Contessa",
       "Torch Dental",
-      "Prolucent",
     ],
     prior_investments: [
       "Lemonaid Health (Board Observer, acquired by 23andMe)",
