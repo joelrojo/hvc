@@ -88,7 +88,7 @@ export const team = [
   {
     src: require("./../assets/images/team/kristin.jpg"),
     name: "Kristin Torres Mowat",
-    title: "Partner + Strategic Networks",
+    title: "Partner",
     bio: "Kristin has more than 15 years of successful operating experience in healthcare software and services organizations, serving as a senior executive within a Fortune 200 healthcare services company and helping to lead and scale a healthcare software company from the early stages through IPO.  Kristin previously served as SVP Corporate and Business Development for Castlight Health, leading one of the sector’s earliest innovators in transparency, engagement, and member advocacy in the areas of growth strategy, health plan relationships, and strategic partnerships. Prior to Castlight Health, Kristin was a senior executive at DaVita, where she was responsible for Corporate Strategy, founded and ran the company’s specialty EHR line of business, and led recruiting for the Leadership Development Program.  Kristin has extensive experience serving on boards and advising healthcare and technology companies through critical growth periods, fundraising, and M&A transactions.  Kristin began her career at Bain & Co. and is from Mexico City.",
     linkedin: "kristintm",
     investments: [
@@ -105,7 +105,7 @@ export const team = [
   {
     src: require("./../assets/images/team/grant.jpg"),
     name: "Grant Blevins",
-    title: "Principal",
+    title: "Partner",
     bio: "Grant has spent his entire career investing exclusively in innovative healthcare companies. Prior to joining Health Velocity Capital, Grant was a healthcare investor with Clayton Associates, Nashville’s oldest venture capital firm, where he co-led deal sourcing. He sourced notable investments in RubiconMD, Shiftwizard (acquired by Health Stream [NASDAQ: HSTM]), and HealthiPASS (acquired by Sphere).",
     linkedin: "grantblevins",
     investments: [
@@ -142,7 +142,7 @@ export const team = [
   {
     src: require("./../assets/images/team/william.jpg"),
     name: "William Tan",
-    title: "Associate",
+    title: "Senior Associate",
     original: true,
     bio: "William has spent his entire career advising innovative technology and healthcare companies. Prior to joining Health Velocity Capital, William was an investment banker at William Blair & Company advising software companies on transformative buy-side and sell-side M&A transactions. Prior to Blair, William worked at JMP Securities advising high growth technology and healthcare companies on numerous M&A and private placement transactions.",
     linkedin: "william-tan-15583497",
@@ -168,10 +168,9 @@ export const team = [
   },
   {
     src: require("./../assets/images/team/morgan.jpg"),
-    name: "Morgan Thompson",
+    name: "Morgan Putty",
     original: true,
-    title: "Chief Administrative Officer, Nashville",
-    bio: "Morgan is a certified executive assistant with five years of experience in the technology and finance industry.  She embraces process coordination, operations and strategy planning, and end-to-end event planning and execution with passion.  Former companies include Capital One, Intuit, and Booz Allen Hamilton.",
+    title: "Executive Assistant",
   },
 ];
 
