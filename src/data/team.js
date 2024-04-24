@@ -128,18 +128,6 @@ export const team = [
     education: ["BBA, Belmont University"],
   },
   {
-    src: require("./../assets/images/team/jordan.jpg"),
-    name: "Jordan Feyko",
-    original: true,
-    title: "Vice President",
-    bio: "Jordan has spent his career investing in healthcare and technology companies as well as advising companies on solving strategic challenges. Prior to joining Health Velocity Capital, Jordan was a Consultant at Bain & Co. and prior to that was an investor at Francisco Partners, where he focused on the Healthcare IT, FinTech, and Application Software sectors. Jordan began his career at Goldman Sachs and is originally from Columbus, OH.",
-    linkedin: "jordan-feyko",
-    education: [
-      "AB, Harvard University",
-      "MBA, Stanford University Graduate School of Business",
-    ],
-  },
-  {
     src: require("./../assets/images/team/william.jpg"),
     name: "William Tan",
     title: "Senior Associate",
