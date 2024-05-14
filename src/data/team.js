@@ -151,7 +151,7 @@ export const team = [
     src: require("./../assets/images/team/julie.jpg"),
     name: "Julie Foster",
     original: true,
-    title: "Chief Administrative Officer, San Francisco",
+    title: "Chief Administrative Officer",
     bio: "Julie is the administrator for Health Velocity Capital and is responsible for making our trains run on time.  She has been working in the venture capital industry since 1999 at firms including Salix Ventures, De Novo Ventures, and HLM Venture Partners.",
   },
   {
