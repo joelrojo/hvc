@@ -309,13 +309,12 @@ export const pastCompanies = [
     exit: "Acquired by 23andMe",
   },
   {
-    url: "https://www.accordant.com/",
-    src: require("./../assets/images/companies/accordant.png"),
-    alt: "Accordant Health Services",
-    caption: "Specialty Biologic Cost Containment & Disease Management",
+    url: "https://www.hospiq.com/",
+    src: require("./../assets/images/companies/hospital_iq.png"),
+    alt: "HospitalIQ",
+    caption: "Operations Management Software for Health Systems",
     description:
-      "Nation's first specialty biologic disease management and cost containment solution.",
-    exit: "Acquired by AdvancePCS",
+      "HospitalIQ is a leading provider of operations management software for health systems that improves the utilization of operating rooms and infusion clinics and also optimizes clinician staffing and patient throughput – helping hospitals to increase revenue and decrease labor costs.",
   },
   {
     url: "https://www.circulation.com/",
@@ -325,6 +324,15 @@ export const pastCompanies = [
     description:
       "On-demand ride ordering solution for clinics and payers to offer rides to medical appointments for patients.",
     exit: "Acquired by Logisticare",
+  },
+  {
+    url: "https://www.accordant.com/",
+    src: require("./../assets/images/companies/accordant.png"),
+    alt: "Accordant Health Services",
+    caption: "Specialty Biologic Cost Containment & Disease Management",
+    description:
+      "Nation's first specialty biologic disease management and cost containment solution.",
+    exit: "Acquired by AdvancePCS",
   },
   {
     url: "https://www.cleardata.com/",
@@ -407,14 +415,6 @@ export const pastCompanies = [
     description:
       "At the time of exit, VeriCare was one of the nation's largest providers of integrated behavioral care services to patients in nursing homes.",
     exit: "Acquired by MedOptions",
-  },
-  {
-    url: "https://www.hospiq.com/",
-    src: require("./../assets/images/companies/hospital_iq.png"),
-    alt: "HospitalIQ",
-    caption: "Operations Management Software for Health Systems",
-    description:
-      "HospitalIQ is a leading provider of operations management software for health systems that improves the utilization of operating rooms and infusion clinics and also optimizes clinician staffing and patient throughput – helping hospitals to increase revenue and decrease labor costs.",
   },
 ];
 
