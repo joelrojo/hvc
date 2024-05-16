@@ -445,7 +445,7 @@ export const currentCompanies = [
   },
   {
     url: "https://www.compass-sp.com/",
-    src: require("./../assets/images/companies/compass.png"),
+    src: require("./../assets/images/companies/compass.jpg"),
     alt: "Compass Surgical Partner",
     caption: "Developer and Operator of Ambulatory Surgical Centers (ASCs)",
     description:
