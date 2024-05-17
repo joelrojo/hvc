@@ -420,9 +420,31 @@ const Different = ({
 
               <div className="feature-split">
                 <div
-                  className="center-content-mobile"
-                  style={{ width: "100%" }}
+                  className="center-content-mobile reveal-scale-up"
+                  data-reveal-container=".feature-split"
+                  data-reveal-delay="200"
                 >
+                  <Carousel autoplay autoplaySpeed={6000}>
+                    <img
+                      className="justImage"
+                      src={require("../../assets/images/testimonials/interns_1.png")}
+                      alt="Health Velocity Capital Tales from the Road"
+                    />
+
+                    <img
+                      className="justImage"
+                      src={require("../../assets/images/testimonials/interns_2.png")}
+                      alt="Health Velocity Capital Tales from the Road"
+                    />
+
+                    <img
+                      className="justImage"
+                      src={require("../../assets/images/testimonials/linkedin.png")}
+                      alt="Health Velocity Capital Tales from the Road"
+                    />
+                  </Carousel>
+                </div>
+                <div className="center-content-mobile">
                   <h2
                     className="mt-0 mb-16 reveal-from-bottom"
                     data-reveal-container=".feature-split"
