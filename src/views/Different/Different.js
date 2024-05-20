@@ -425,18 +425,19 @@ const Different = ({
                   data-reveal-delay="200"
                 >
                   <Carousel autoplay autoplaySpeed={6000}>
-                    <img
-                      className="justImage"
-                      src={require("../../assets/images/testimonials/interns_1.png")}
-                      alt="Health Velocity Capital Tales from the Road"
-                    />
+                    <div>
+                      <img
+                        className="justImage"
+                        src={require("../../assets/images/testimonials/interns_1.png")}
+                        alt="Health Velocity Capital Tales from the Road"
+                      />
 
-                    <img
-                      className="justImage"
-                      src={require("../../assets/images/testimonials/interns_2.png")}
-                      alt="Health Velocity Capital Tales from the Road"
-                    />
-
+                      <img
+                        className="justImage"
+                        src={require("../../assets/images/testimonials/interns_2.png")}
+                        alt="Health Velocity Capital Tales from the Road"
+                      />
+                    </div>
                     <img
                       className="justImage"
                       src={require("../../assets/images/testimonials/linkedin.png")}
@@ -456,30 +457,27 @@ const Different = ({
                     data-reveal-delay="100"
                     data-reveal-container=".feature-split"
                   >
-                    We believe in contributing to a more equitable and vibrant
-                    landscape for innovation and growth. We strive to create
-                    opportunities for underrepresented individuals to access the
-                    experiences, networks, and resources necessary to break into
-                    the healthcare venture capital and healthcare innovation
-                    sectors. We operate the following programs to help open
-                    doors:
+                    We believe in contributing to a more equitable landscape for
+                    innovation. We strive to create opportunities for
+                    underrepresented individuals to access the experiences,
+                    networks, and resources necessary to break into healthcare
+                    venture capital and innovation. We operate the following
+                    programs to help open doors:
                     <ul className="mt-16">
                       <li>
-                        Through the proprietary materials and processes we have
-                        developed for our Fall internship program for
-                        underrepresented groups in venture capital, we have
-                        hosted students from Meharry Medical College, Tennessee
-                        State University, San Jose State, and San Francisco
-                        State University, among others. We have also expanded
-                        this program to other healthcare venture firms to easily
-                        participate alongside. If you represent a firm that
+                        Through proprietary materials and processes developed
+                        for our Fall internship program for underrepresented
+                        groups in venture capital, we have hosted students from
+                        Meharry Medical College, Tennessee State, San Jose
+                        State, and San Francisco State, among others. We have
+                        also expanded this program to include other healthcare
+                        venture firms as well. If you represent a firm that
                         would like to join us, please reach out!
                       </li>
                       <li>
                         Weekly, we protect time on our calendars for students or
                         entrepreneurs from underrepresented groups interested in
-                        breaking into healthcare venture capital or building
-                        companies in this sector.
+                        help or advice.
                       </li>
                       <li>
                         We mentor founders and CEOs affiliated with the
