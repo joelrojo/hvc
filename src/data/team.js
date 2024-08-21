@@ -149,10 +149,11 @@ export const team = [
   },
   {
     src: require("./../assets/images/team/christian.jpg"),
-    name: "Christian",
+    name: "Christian Pierce",
     title: "Senior Associate",
     original: true,
     bio: "Christian has spent his career working at early-stage startups and advising high-growth healthcare services and technology businesses. Prior to joining Health Velocity Capital, Christian was the first hire at HomeCloud, a disruptive, venture-backed Proptech startup. Prior to HomeCloud, Christian was an investment banker at Cain Brothers and Wells Fargo Securities, advising healthcare companies on M&A and capital-raising transactions.",
+    linkedin: "christian-pierce-62ab5896",
   },
   {
     src: require("./../assets/images/team/julie.jpg"),
