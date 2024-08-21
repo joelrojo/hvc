@@ -148,6 +148,13 @@ export const team = [
     linkedin: "kennethggoodhue",
   },
   {
+    src: require("./../assets/images/team/christian.jpg"),
+    name: "Christian",
+    title: "Senior Associate",
+    original: true,
+    bio: "Christian has spent his career working at early-stage startups and advising high-growth healthcare services and technology businesses. Prior to joining Health Velocity Capital, Christian was the first hire at HomeCloud, a disruptive, venture-backed Proptech startup. Prior to HomeCloud, Christian was an investment banker at Cain Brothers and Wells Fargo Securities, advising healthcare companies on M&A and capital-raising transactions.",
+  },
+  {
     src: require("./../assets/images/team/julie.jpg"),
     name: "Julie Foster",
     original: true,
@@ -206,7 +213,7 @@ export const advisors = [
     name: "Karen Murphy, PhD, RN",
     original: true,
     title: "Founding Advisory Board Member",
-    bio: "Dr. Karen Murphy is Executive Vice President, Chief Innovation Officer and Founding Director of the Steele Institute for Health Innovation at Geisinger.  Before joining Geisinger, Dr. Murphy served as Pennsylvania’s Secretary of Health addressing the most significant health issues facing the state, including the opioid epidemic. Prior to her role as Secretary, Dr. Murphy served as director of the State Innovation Models Initiative at the Centers for Medicare and Medicaid Services leading a $990 million CMS investment designed to accelerate health care innovation across the United States. She previously served as President and Chief Executive Officer of the Moses Taylor Health Care System in Scranton, and as Founder and Chief Executive Officer of Physicians Health Alliance, Inc., an integrated medical group practice within Moses Taylor. Dr. Murphy earned her Doctor of Philosophy in business administration from the Temple University Fox School of Business. She holds a Master of Business Administration from Marywood University, a Bachelor of Science in liberal arts from the University of Scranton, and a diploma in nursing from the Scranton State Hospital School of Nursing. She also serves as a clinical faculty member at Geisinger Commonwealth School of Medicine and as an Associate Faculty member in the Department of Health Policy and Management at Johns Hopkins Bloomberg School of Public Health. She also is a member of the Partners Digital Advisory Board and the University of Pennsylvania LDI Advisory Panel.",
+    bio: "Karen currently serves as a lead developing the value-based platform in Risant Health. Dr. Karen Murphy is formerly the Executive Vice President, Chief Innovation and Digital Transformation Officer and Founding Director of the Steele Institute for Health Innovation at Geisinger. Before joining Geisinger, Dr. Murphy served as Pennsylvania’s Secretary of Health addressing the most significant health issues facing the state, including the opioid epidemic. Prior to her role as Secretary, Dr. Murphy served as director of the State Innovation Models Initiative at the Centers for Medicare and Medicaid Services leading a $990 million CMS investment designed to accelerate health care innovation across the United States. She previously served as President and Chief Executive Officer of the Moses Taylor Health Care System in Scranton, and as Founder and Chief Executive Officer of Physicians Health Alliance, Inc., an integrated medical group practice within Moses Taylor. Dr. Murphy earned her Doctor of Philosophy in business administration from the Temple University Fox School of Business. She holds a Master of Business Administration from Marywood University, a Bachelor of Science in liberal arts from the University of Scranton, and a diploma in nursing from the Scranton State Hospital School of Nursing. She also serves as a clinical faculty member at Geisinger Commonwealth School of Medicine and as an Associate Faculty member in the Department of Health Policy and Management at Johns Hopkins Bloomberg School of Public Health. She also is a member of the Partners Digital Advisory Board and the University of Pennsylvania LDI Advisory Panel.",
   },
   {
     src: require("./../assets/images/team/rick.jpg"),
