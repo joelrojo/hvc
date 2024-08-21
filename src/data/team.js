@@ -128,14 +128,6 @@ export const team = [
     education: ["BBA, Belmont University"],
   },
   {
-    src: require("./../assets/images/team/christian.jpg"),
-    name: "Christian Pierce",
-    title: "Senior Associate",
-    original: true,
-    bio: "Christian has spent his career working at early-stage startups and advising high-growth healthcare services and technology businesses. Prior to joining Health Velocity Capital, Christian was the first hire at HomeCloud, a disruptive, venture-backed Proptech startup. Prior to HomeCloud, Christian was an investment banker at Cain Brothers and Wells Fargo Securities, advising healthcare companies on M&A and capital-raising transactions.",
-    linkedin: "christian-pierce-62ab5896",
-  },
-  {
     src: require("./../assets/images/team/william.jpg"),
     name: "William Tan",
     title: "Senior Associate",
@@ -143,6 +135,14 @@ export const team = [
     bio: "William has spent his entire career advising innovative technology and healthcare companies. Prior to joining Health Velocity Capital, William was an investment banker at William Blair & Company advising software companies on transformative buy-side and sell-side M&A transactions. Prior to Blair, William worked at JMP Securities advising high growth technology and healthcare companies on numerous M&A and private placement transactions.",
     linkedin: "william-tan-15583497",
     education: ["BBA, University of Kentucky"],
+  },
+  {
+    src: require("./../assets/images/team/christian.jpg"),
+    name: "Christian Pierce",
+    title: "Senior Associate",
+    original: true,
+    bio: "Christian has spent his career working at early-stage startups and advising high-growth healthcare services and technology businesses. Prior to joining Health Velocity Capital, Christian was the first hire at HomeCloud, a disruptive, venture-backed Proptech startup. Prior to HomeCloud, Christian was an investment banker at Cain Brothers and Wells Fargo Securities, advising healthcare companies on M&A and capital-raising transactions.",
+    linkedin: "christian-pierce-62ab5896",
   },
   {
     src: require("./../assets/images/team/ken.jpg"),
