@@ -222,6 +222,22 @@ export const featuredCompanies = [
 
 export const pastCompanies = [
   {
+    url: "https://zipari.com/",
+    src: require("./../assets/images/companies/zipari.png"),
+    alt: "Zipari",
+    caption: "CRM for Health Plans",
+    description:
+      "Zipari provides a software platform for health plans' member, broker, provider and employer portals as well as their call centers that is powered by a robust, underlying, modern, integrated customer relationship management (CRM) technology – bringing together traditionally siloed data into a single interface for members and customer service representatives, layering in personalized, next-best actions, and facilitating better, more integrated, and intelligent constituent service.",
+  },
+  {
+    url: "https://www.threeoakshospice.com/",
+    src: require("./../assets/images/companies/threeoaks.png"),
+    alt: "Three Oaks Hospice",
+    caption: "Hospice & Palliative Care",
+    description:
+      "Three Oaks Hospice is a Texas-based hospice and palliative care provider.",
+  },
+  {
     url: "http://aspirehealthcare.com/",
     src: require("./../assets/images/companies/aspire.png"),
     alt: "Aspire",
@@ -420,6 +436,15 @@ export const pastCompanies = [
 
 export const currentCompanies = [
   {
+    url: "https://www.iheruc.com/",
+    src: require("./../assets/images/companies/intuitive.png"),
+    alt: "Intuitive Health",
+    caption:
+      "Freestanding, Retail ER and Urgent Care Facilities Developed in Partnership with Health Systems",
+    description:
+      "We bring a globally recognized customer service model to health systems that want to exceed expectations in their communities and grow market share with the only dual model full-service Emergency Room and Urgent Care offering the right care, at the right price, close to home.",
+  },
+  {
     url: "https://fortifiedhealthsecurity.com/",
     src: require("./../assets/images/companies/fortified.png"),
     alt: "Fortified Health Security",
@@ -500,14 +525,6 @@ export const currentCompanies = [
       "Array Behavioral Care is one of the nation's largest providers of tele-psychiatry services to hospital emergency departments and broader tele-behavioral health solutions to community mental health centers, correctional facilities, FQHCs, and primary care clinics and also provides an in-network behavioral health solution to health plans.",
   },
   {
-    url: "https://zipari.com/",
-    src: require("./../assets/images/companies/zipari.png"),
-    alt: "Zipari",
-    caption: "CRM for Health Plans",
-    description:
-      "Zipari provides a software platform for health plans' member, broker, provider and employer portals as well as their call centers that is powered by a robust, underlying, modern, integrated customer relationship management (CRM) technology – bringing together traditionally siloed data into a single interface for members and customer service representatives, layering in personalized, next-best actions, and facilitating better, more integrated, and intelligent constituent service.",
-  },
-  {
     url: "https://www.headspace.com/health",
     src: require("./../assets/images/companies/headspace.png"),
     alt: "Headspace Health",
@@ -538,14 +555,6 @@ export const currentCompanies = [
     caption: "Specialty Biologics Cost Reduction",
     description:
       "IVX Health is a rapidly growing provider of low-cost, consumer-centric infusion centers serving patients on expensive specialty biologics with diseases such as Rheumatoid Arthritis, Psoriasis, Crohn's Disease, Ulcerative Colitis, Multiple Sclerosis, severe Asthma, Lupus, and others. The company's facilities are located in Class A retail settings near where patients live and work, have a medical spa/concierge look and feel, and provide best in class, retail-like administrative services to support patients and referring physicians.",
-  },
-  {
-    url: "https://www.threeoakshospice.com/",
-    src: require("./../assets/images/companies/threeoaks.png"),
-    alt: "Three Oaks Hospice",
-    caption: "Hospice & Palliative Care",
-    description:
-      "Three Oaks Hospice is a Texas-based hospice and palliative care provider.",
   },
   {
     url: "http://sperohealth.com/",
